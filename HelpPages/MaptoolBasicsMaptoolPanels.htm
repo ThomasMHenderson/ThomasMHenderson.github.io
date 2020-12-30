@@ -1,0 +1,197 @@
+<html>
+<head>
+<title>Maptool Basics: Maptool Panels</title>
+<link rel="stylesheet"           type="text/css" href="./Style.css">
+<style>
+div.imgwrap	{width:800px; margin-left:auto; margin-right:auto}
+div.imgwrap2	{width:275px; margin-left:auto; margin-right:auto}
+img		{vertical-align:top}
+h2		{text-align:center; font-size:20pt; font-variant:small-caps; margin:0; margin-bottom:5pt}
+dt		{font-weight:bold; font-size:12pt}
+dd		{margin-left:0; margin-bottom:10pt}
+dl.sublist	{padding-left:20pt; font-size:10pt}
+dl.sublist dt	{font-size:10pt; font-style:italic}
+dl.sublist dd	{font-size:10pt}
+</style>
+</head>
+
+<body>
+<h1>Maptool Basics: Maptool Panels</h1>
+
+There are several panels you should have open as the DM.  You can open a panel by going to the menu bar at the very top, where it says File, Edit, Map, etc.  Pick "Window" and select the panel you want to open.  You can drag panels around to arrange them on your screen as you see fit, and you can dock panels together to make things easier on yourself.
+
+<p style="margin-bottom:0pt">
+Here are the panels I have open:
+<ul style="margin-bottom:0pt">
+	<li>	I have the Initiative panel open, and I use it to run combat.
+	<li>	I have the Map Explorer panel open.  This let me navigate around the map and do various useful things for tokens.
+	<li>	I have the Selection panel open.  This lets me use the buttons on the token I have selected.  You select a token by left-clicking on it on the map.  A red and white box will appear around it.
+	<li>	I have the Campaign panel open.  This lets me use special buttons that only the DM needs.
+</ul>
+I will walk you through using each of these panels here, except for the Selection panel which everyone should already be familiar with.
+
+
+
+
+<hr>
+<h2>Using the Initiative Panel</h2>
+<p>
+When people roll initative, the list on the panel is in order of who rolled first, not in order of who has the highest initative.  The "New Encounter" campaign macro gives you the option of sorting initiatives, but you can also do that by going to the little "Next" button at the top left corner of the panel and clicking on the downward-facing arrow.  It will open a menu and you can select "Sort" to sort the tokens in order of initiative.
+
+
+<p>
+You can press that "Next" button at any time to give initiative to the next person on the list.
+
+<p style="margin-bottom:0">
+If you right click on a token in the panel, it will open a little menu.  You won't need all the things there, but a couple are very handy:
+<ul>
+	<li>	"Make Current" will give that token the initiative.
+	<li>	"Toggle Hold" will move the token from the <i>left</i> side of the panel to the <i>right</i> side of the panel or vice versa.  I always use this if someone delays or readies an action, so I can easily see that they have done so.
+	<li>	"Set Initiative" lets you set the tokens initiative (to, e.g., 16.04).  "Clear Initiative" lets you remove their initiative number.
+	<li>	"Remove Token" removes a token from the initiative panel.
+	<li>	"Move Up" and "Move Down" move a token up or down the list.
+	<li>	"Center on Map" centers the map on the token.
+</ul>
+
+<p>
+I do not use "Move Up" or "Move Down" to move a token on the panel.  Instead, if you left click on a token and hold the mouse button down, you can drag the token up or down the panel to change the order.
+
+<p>
+The following images are clickable and open the thing full sized.  They might help illustrate what I mean.  The left image shows where the Next button is and shows the drop-down menu you get by clicking on the downward-facing arrow next to it.  The middle image shows the menu you get by right-clicking on a token.  The right panel image what happens after I have used "Toggle Hold" on Audr.
+<div class=imgwrap>
+<a href="./InitiativePanel2.jpg" target=_blank><img src="InitiativePanel2.jpg" style="width:185px"></a>
+<a href="./InitiativePanel3.jpg" target=_blank><img src="InitiativePanel3.jpg" style="width:185px; padding-left:20px; padding-right:20px"></a>
+<a href="./InitiativePanel4.jpg" target=_blank><img src="InitiativePanel4.jpg" style="width:185px"></a>
+</div>
+	
+
+
+<hr>
+<h2>Using the Map Explorer</h2>
+The map explorer is super handy.  There are two basic things I use it for: First, if you double click on any token in the map explorer, it will center the map on that token, and second, if you right click on any token in the map explorer, it will open up a little menu which has a boatload of useful features.
+
+<p>
+Let me go through the useful things on the menu you get by right clicking on a token.  <span class=important>Important:</span> You can do all of these same things by right clicking on the token in the map.
+
+<dl>
+	<dt>	Size
+	<dd>	You can use this to change the size of a token.  I would never use this except for one purpose: you can change the size to "Native Size" which makes the image appear the size it actually is rather than having it fit to a certain number of grid squares.
+
+	<dt>	State
+	<dd>	The states are little "yes/no" variables that maptool uses to keep track of what is happening.  <span class=important>Important:</span> changing the state does <i>nothing</i> except add or remove the little pictures on your token that tells you what's going on.  You can turn a state on or off by finding it in the list and left-clicking it.
+
+	<dt>	Halo
+	<dd>	A halo is a little square surrounding the token. You can turn a halo on or off using this menu option.  I use halos to indicate things I want to remember (for example, if a person is on fire, I might give them an orange halo).
+
+	<dt>	Arrange
+	<dd>	If two tokens are in the same space, you can pick arrange to bring the token you currently have selected to the top of the stack or send it to the bottom of the stack.
+
+	<dt>	Change To
+	<dd>	You can use this to move a token to a different layer on the map.  Most things should be on the "Token" layer.  The "Hidden" layer has stuff which is invisible to the PCs.  The "Object" layer I don't use much &ndash; it's where objects you've added to the map (e.g. a bed) should go.  The "Background" layer is where the map's background image should be.
+
+	<dt>	Light Source
+	<dd>	This lets you give a token a light.  If, for example, Hieronymous lights a torch, I go to light source, and under "D20" I will find an entry for a torch.  Left clicking on that will give Hiero a torch.
+
+	<dt>	Snap to Grid
+	<dd>	This lets you move the token without forcing its top left corner to line up in a grid square.  Most tokens should be snapped to the grid.  I remove snap to grid for background images or objects.
+
+	<dt>	Visible to Players
+	<dd>	If you pick this, the players won't be able to see the token.  It's handy for invisible monsters.
+
+	<dt>	Revert Last Move
+	<dd>	This undoes the token's most revent move and puts it back where it started.
+
+	<dt>	Save
+	<dd>	This lets you save the token.
+</dl>
+There are other things on the menu, but this is enough already.
+
+
+<hr>
+<h2>Using the Campaign Panel</h2>
+The campaign panel holds all the macros I (or the person who wrote the framework) wanted to make DM-accessible at all times.  The picture below shows the top part of that list.  The bottom part of the list is stuff I have never, ever used.  I don't even use all the macros I have defined here, but I'll walk you through some of them.  Note that if you mouse over any of the buttons and let the mouse pointer sit there for a second, it will tell you what the button does.
+
+<div class=imgwrap2>
+<img src="./CampaignPanel.png"/>
+</div>
+
+<p>
+Some of these macros take effect on an "impersonated" token.  You can impersonate a token by right-clicking on it and selecting "Impersonate."  It will say you are speaking as that token.
+
+<dl>
+	<dt>	First Four Yellow Buttons
+	<dd>	These all have to do with handouts.  I don't use them that much.  If you want to use handouts, ask me and I will explain.
+
+	<dt>	Next Five Aqua Buttons
+	<dd>	These all have to do with moving tokens.
+		<dl class=sublist style="margin-bottom:-10pt">
+			<dt>	Call Tokens to a Pad
+			<dd>	If you have a token selected, press this button to do a teleport pad effect.  It will pop up a link players can click on to move their tokens <i>near</i> the token you've picked.
+
+			<dt>	Call Tokens to a Spot
+			<dd>	This is much the same, but moves the tokens <i>on top of</i> the token you've picked.
+
+			<dt>	Move Tokens to a Spot
+			<dd>	This forcefully moves the tokens from another map onto the token you've picked (rather than waiting for the players to move their tokens.)
+		</dl>
+		I don't use the other two buttons that much.
+
+	<dt>	New Encounter
+	<dd>	This is the button to start a new encounter
+
+	<dt>	Set Mods, Set States
+	<dd>	Sets Mods finds all the mods which are currently active on all the tokens and gives you the option of turning each of them off.  Set States is the same, but with states instead of mods.  I use these when a fight is over and I want to turn off the various mods the players or the spells have turned on.
+
+	<dt>	Remove Temporary Macros
+	<dd>	Some spells add a button to your token.  This removes those buttons again.
+
+	<dt>	Create Potions, Create Scrolls, Create Wands
+	<dd>	This lets you create potions, scrolls, or wand on the token you've impersonated.  A lot of the time the potion/scroll/wand won't work right, though, because I have to write a macro that tells maptool what the potion/scroll/wand does.  I'll fix this at some point, but don't hold your breath!
+
+	<dt>	Activate Mods
+	<dd>	Impersonate a token and press this buttons to open up a list of mods.  It will first ask you which category the mod is from, then give you a list of which mods that category has and you can pick one.  Useful for people who can't see the OK button when trying to use the Apply Mods macro.
+
+	<dt>	Deactivate Mods
+	<dd>	Impersonate a token and press this button to open up a list of mods active on that token, which you can easily turn off.
+
+	<dt>	Full HP
+	<dd>	Select a bunch of tokens and press this button &ndash; each token you selected will have its HP set back to max.
+
+	<dt>	Rest Party
+	<dd>	This doesn't work right for reasons I never understood.
+
+	<dt>	Next Three Aqua Buttons
+	<dd>	I don't really use these
+
+	<dt>	Secret Attack
+	<dd>	I don't use this either, but you can use it to roll an attack in secret.  Glory!
+
+	<dt>	Negative Level
+	<dd>	This is what you use if a person is energy drained.
+
+	<dt>	Edit Globals
+	<dd>	For the love of God, don't touch this.
+
+	<dt>	Set Start Map
+	<dd>	This lets you pick which map the players will start on when they connect to the server.
+
+	<dt>	Edit Mods
+	<dd>	This lets you create new mods.  Probably shouldn't do that, but ask me if you want to and I will do my best to help.
+
+	<dt>	Update GMs
+	<dd>	Press this one if there are multiple GMs connected to the server.  Don't ask me why; I don't know.
+
+	<dt>	Create New Token, Statblock to Token
+	<dd>	These are covered in <a href="MaptoolBasicsMinis.htm">the token-making tutorial</a>.
+
+	<dt>	Last Four Light Gray Buttons
+	<dd>	You can use these to add a template to your monster.
+</dl>
+
+<p>
+On top of that, I also put all the macros that appear on the PC tokens, just in case, under "PC Macros," and then a bunch of macros that even I have never used under "Unused Macros."
+
+
+
+</body>
+</html>

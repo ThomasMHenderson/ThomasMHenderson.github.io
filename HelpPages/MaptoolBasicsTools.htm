@@ -1,0 +1,256 @@
+<html>
+<head>
+<title>Maptool Basics: Tools</title>
+<link rel="stylesheet"           type="text/css" href="./Style.css">
+<style>
+img		{vertical-align:top; border:2px #8C7054 solid}
+h2		{text-align:center; font-size:20pt; font-variant:small-caps; margin:0; margin-bottom:5pt}
+h3		{text-align:left;   font-size:16pt; font-variant:small-caps; margin:0; margin-top:10pt}
+dl		{margin-left:30px}
+dt		{font-weight:bold; font-size:12pt}
+dd		{margin-left:30px; margin-bottom:20px}
+</style>
+<base target=_blank>
+</head>
+
+<body>
+<h1>Maptool Basics: Tools</h1>
+This is going to go over the tools (the little icons below the menu).  These pictures will not open a new window if you click on them; they're already full size (alas).
+
+<p>
+<span class=important>Important:</span> There are tool tips for all of these along the very bottom of your maptool window.
+
+
+<hr>
+<h2>Interaction Tool</h2>
+This is the left-most one:
+<br>
+<img src="./ImagesTools/InteractionToolsMaster.png"/>
+<br>
+It has two options.
+
+<dl>
+	<dt>	Pointer Tool:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/InteractionToolsPointer.png"/>
+		<br>	You should all know what this does.  A run down:
+			<ul>
+				<li>	Left click: select the clicked token.
+				<li>	Left click and drag: move the selected token.
+				<li>	Right click: open the menu on the token.
+				<li>	Right click and drag: pan across the map.
+				<li>	Mouse wheel: zoom in or out.
+				<li>	Middle click of spacebar: Toggle a waypoint.  Note that if you turn a waypoint on by mistake, you can eliminate it by pressing spacebar again, so long as you haven't moved from that waypoint yet.
+			</ul>
+
+	<dt>	Measurement Tool:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/InteractionToolsMeasure.png"/>
+		<br>	You should all know what this does, too.  A run down:
+			<ul>
+				<li>	Left click and drag: measure distance of the selected path.
+				<li>	Right click and drag: pan across the map.
+				<li>	Mouse wheel: zoom in or out.
+				<li>	Middle click of spacebar: Toggle a waypoint.  Note that if you turn a waypoint on by mistake, you can eliminate it by pressing spacebar again, so long as you haven't moved from that waypoint yet.
+			</ul>
+</dl>
+
+
+<hr>
+<h2>Drawing Tool</h2>
+This is the next one over:
+<br>
+<img src="./ImagesTools/DrawingToolsMaster.png"/>
+<br>
+This is for drawing on the map.  It has all sorts of options.
+
+<p>
+<span class=important>Important:</span> The drawing tool can be pretty finicky.  Sometimes it doesn't look like it's drawn what you told it to draw.  It actually has, though!  To see it properly, you may have to zoom out and back in or something.  It's annoying, and it seems to happen mostly right after you've cleared the drawing.  I forget this a lot myself.
+
+
+
+<dl>
+	<dt>	Free Hand Lines:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/DrawingToolsFreeHand.png"/>
+		<br>	This is for drawing free hand.  Just left click and drag to draw a line.
+
+	<dt>	Straight Lines:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/DrawingToolsStraight.png"/>
+		<br>	This draws straight lines.
+			<ul>
+				<li>	Left click: set the initial point.  Left click again to set the final point.
+				<li>	Right click while drawing: set an intermediate point.  You can use this to turn a corner.
+			</ul>
+
+	<dt>	Rectangles:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/DrawingToolsRectangle.png"/>
+		<br>	This draws rectangles.  Left click to set the initial point, drag, and left click again to set the final point.
+
+	<dt>	Ovals:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/DrawingToolsOval.png"/>
+		<br>	This draws ovals.  Left click to set the initial point, drag, and left click again to set the final point.
+
+	<dt>	Text:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/DrawingToolsText.png"/>
+		<br>	This writes on the map.
+			<ul>
+				<li>	Left click: create a label or select one you've already created.
+				<li>	Left click and drag: move a label you've created
+				<li>	Right click and drag: pan across the map.
+				<li>	Mouse wheel: zoom in or out.
+				<li>	Press delete when you've selected a label to delete it.
+			</ul>
+</dl>
+
+<p>
+On everything but the text option, you will get something like the following in the top right corner of the map:
+<br>
+<img src="./ImagesTools/DrawingToolsExtra.png"/>
+
+<p style="margin-bottom:0">
+A quick run down:
+<ul>
+	<li>	The big box on the left (black here) is the color of the line.  The big box on the right (white here) is the color of the fill.  So if I were drawing a rectangle, it would be white with a black border.
+	<li>	To change the color on the left, I left click in the little grid of colors; to change the color on the right, I right click.  The one that's white with a red slash through it is "empty."  So to draw a blue rectangle with no filling, I would left click on blue and right click on the white with a red slash through it.
+	<li>	If the box button is highlighted (the one next to the eraser) the whole thing will snap to the grid.
+	<li>	If the eraser is highlighted, you are erasing rather than drawing.
+	<li>	The thing next to the paintbrush is the width of the line that is drawn with the color of the left button.
+	<li>	The one below that is the opacity of the drawing.  If affects both the border (in the left color) and the filling (in the right color).
+	<li>	Finally, the list of layers can be used to change which layer I'm drawing on.
+</ul>
+
+
+
+<hr>
+<h2>Template Tool</h2>
+This is the next one over:
+<br>
+<img src="./ImagesTools/TemplateToolsMaster.png"/>
+<br>
+This is for making spell templates on the map.  It has all sorts of options, including things I'm learning now as I write this up!
+
+<p>
+First of all, this uses the same thing in the top right corner of the map as the drawing tool does, and they work the same way, except that templates are always snapped to the grid.
+
+<p>
+Second of all, two of the templates are for 4e and are not used in D&D3.5 or Pathfinder.  These are the burst and the blast templates:
+<br>	<img src="./ImagesTools/TemplateToolsBurstBlast.png"/>
+
+<p>
+Third, the remaining four templates all work kind of the same.  You left click once to set the starting point and then move around the map to set the radius of your explosion or the direction of your line or cone.  Something I just learned: if you hold down Ctrl before you left click again, you can move the starting point!  So if you want to center your fireball, left click, press Ctrl, draw a 20 foot radius and position it appropriately.  Then release control, left click again to finalize, and voila.
+
+<p>
+Anyway, the tools we might use are
+<dl>
+	<dt>	Radius:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/TemplateToolsRadius.png"/>
+		<br>	This one draws roughly circular things.  Left click once to set the start point, a second time to set the radius.
+
+	<dt>	Cone:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/TemplateToolsCone.png"/>
+		<br>	This one draws rougly conical things.  Left click once to set the start point, a second time to set the direction and length.
+
+	<dt>	Line:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/TemplateToolsLine.png"/>
+		<br>	This one draws lines.  Left click once to set the starting point, a second time to set the direction, and a third time to set the length.
+
+	<dt>	Wall:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/TemplateToolsWall.png"/>
+		<br>	This one is for things like wall of fire, where you can draw a shapeable wall.  Left click once to start the wall, draw freely, and left click a second time to finalize it.
+</dl>
+
+
+<hr>
+<h2>Fog of War Tool</h2>
+These are important for setting up or revealing fog of war.  They are here:
+<br>
+<img src="./ImagesTools/FogOfWarToolsMaster.png"/>
+
+<p>
+These all basically work the same.  By default they <i>remove</i> fog.  To <i>add</i> fog, press and hold Shift before left clicking in the map.
+
+<dl>
+	<dt>	Rectangle:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/FogOfWarToolsRectangle.png"/>
+		<br>	Adds or removes fog in a rectangular shape.  Left click once to start adding/removing fog, and a second time to finish.
+
+	<dt>	Oval:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/FogOfWarToolsOval.png"/>
+		<br>	Adds or removes fog in an oval shape.  Left click once to start adding/removing fog, and a second time to finish.
+
+	<dt>	Polygon:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/FogOfWarToolsPolygon.png"/>
+		<br>	Adds or removes fog in a shape with straight sides.  Left click once to start adding/removing fog.  Right click to turn a corner, as many times as you want.  Left click to set the final point.
+
+	<dt>	Freehand:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/FogOfWarToolsFreeHand.png"/>
+		<br>	Adds or removes fog in a free-hand shape.  Left click once to start adding/removing fog.  Right click to turn a corner, as many times as you want.  Left click to set the final point.
+</dl>
+
+
+<hr>
+<h2>Vision Blocking Layer Tool</h2>
+Last, we have the tool we use to make or remove VBL.  I use these a lot.  They are, obviously, here:
+<br />
+<img src="./ImagesTools/VisionBlockingToolsMaster.png"/>
+
+<p>
+These also basically work the same.  By default, they <i>add</i> VBL.  If you are holding down shift before you do your <i>final</i> left click, it removes VBL.  When you are adding VBL, you will see the vision blocking you are adding in red; once added, it is blue.  When you are removing VBL, you will see the vision blocking you are removing in white; once removed, you don't see it because it's not there.  These work like the three images below, where on the left I am adding VBL, in the middle the VBL has been added, and on the right I am removing VBL.
+<br>
+<div>
+<img src="./ImagesTools/VBLBeingAdded.png" style="vertical-align:top"/>
+<img src="./ImagesTools/VBLHasBeenAdded.png" style="vertical-align:top; margin-left:20px; margin-right:20px"/>
+<img src="./ImagesTools/VBLBeingRemoved.png" style="vertical-align:top"/>
+</div>
+
+<p>
+Some of the VBL things you can add are completely filled, and the others are completely hollow.  I recommend using the completely filled ones whenever you can, because if a player accidentally crosses a line of hollow VBL, he'll see through it.
+
+<p>
+The modes you have are
+<dl>
+	<dt>	Solid Rectangle:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/VisionBlockingToolsRectangle.png"/>
+		<br>	This adds or removes a rectangular shape of filled in VBL, as in my example above.  Left click once to start and a second time to finish.  If you click while holding Ctrl, it will snap the corner you picked to the grid.  This is handy.
+
+	<dt>	Hollow Rectangle:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/VisionBlockingToolsHollowRectangle.png"/>
+		<br>	This is just like the solid rectangle, but hollow.
+
+	<dt>	Solid Oval:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/VisionBlockingToolsOval.png"/>
+		<br>	This adds or removes an oval shape of filled in VBL.  Click once to set the <i>center</i> of the VBL.  Click a second time to set the edge.  It won't actually be an oval.  Instead, it will be a 10-sided shape.  I assume this is so that maptool can more easily calculate vision.
+
+	<dt>	Hollow Oval:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/VisionBlockingToolsHollowOval.png"/>
+		<br>	This is just like the solid oval, but hollow.
+
+	<dt>	Solid Polygon:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/VisionBlockingToolsPolygon.png"/>
+		<br>	This one lets you lay down a bunch of points which it connects with straight lines.  Left click once to lay down the first point.  Right click as many times as you want to set intermediate points.  Left click again to set the last point (which it will connect to the first point).  It will fill the shape you've drawn with VBL.
+
+	<dt>	Hollow Polygon:
+	<dd>	This one:
+		<br>	<img src="./ImagesTools/VisionBlockingToolsHollowPolygon.png"/>
+		<br>	This is just like solid polygon, but it doesn't fill in the shape you've drawn with VBL.
+</dl>
+</body>
+</html>

@@ -1,0 +1,242 @@
+<html>
+<head>
+<title>Rules Basics: Reading Statblocks</title>
+<link rel="stylesheet"           type="text/css" href="./Style.css">
+<style>
+h2		{text-align:center; font-size:20pt; font-variant:small-caps; margin:0; margin-bottom:5pt}
+h3		{text-align:left;   font-size:16pt; font-variant:small-caps; margin:0; margin-top:20pt}
+dd		{margin-left:0; margin-bottom:10px}
+dl		{margin-left:40px}
+dt		{color:red}
+dl.nope		{margin-top:0; margin-bottom:0}
+dl.nope dt	{color:black; font-weight:bold}
+</style>
+<base target=_blank>
+</head>
+
+<body>
+<h1>Rules Basics: Reading Statblocks</h1>
+It&rsquo;s occurred to me that some of you may never have had any reason to read through a monster&rsquo;s statblock in Pathfinder, so you may be at something of a loss.  I&rsquo;m going to try to walk you through several examples to help you get a feel for it.  The examples will get more and more complicated.
+
+<p>
+Before we start, it might be useful to read what <a href=http://paizo.com/pathfinderRPG/prd/bestiary/introduction.html>paizo themselves have to say about reading statblocks.</a>
+
+<p style="margin-bottom:0">
+Also, a few things to bookmark so you can look up how various abilities work&hellip;  I wish they were all in one place, but it isn&rsquo;t quite as well organized as all that.
+<dl class=nope>
+	<dt>	<a href=http://paizo.com/pathfinderRPG/prd/coreRulebook/glossary.html>Glossary</a>
+	<dd>	This contains information like:
+		<ul>
+			<li>	The difference between extraordinary abilities (Ex), spell-like abilities (Sp), and supernatural abilities (Su) and how they relate to the AoO rules.
+			<li>	Information about ability damage and ability drain.
+			<li>	Information about curses, diseases, and poisons.
+			<li>	Lots of other stuff (e.g. blind sense, damage reduction, energy immunity and vulnerability, paralysis, and so on).
+			<li>	Importantly, a <a href=http://paizo.com/pathfinderRPG/prd/coreRulebook/glossary.html#conditions>list of conditions</a>.  If you want to know what it means when it says your character is nauseated, you would go here and look that up.
+		</ul>
+
+	<dt>	<a href=http://paizo.com/pathfinderRPG/prd/bestiary/creatureTypes.html>Creature Types</a>
+	<dd>	This contains information about types and subtypes (see below).
+
+	<dt>	<a href=http://paizo.com/pathfinderRPG/prd/bestiary/universalMonsterRules.html>Universal Monster Rules</a>
+	<dd>	This explains how various common abilities monsters might have work.  If a monster has a constrict attack, it will link you to the entry here rather than wasting the space printing out how constrict works for every monster that has it.
+</dl>
+Some things are explained in the universal monster rules and then given complementary (often fuller) explanations in the glossary.
+
+<p>
+Anyway, all that having been said, let&rsquo;s work our way through some examples.  I&rsquo;ll put the entries from its statblock in <span style="color:red">red text</span> so you can pick them out easily.
+
+
+<hr>
+<h2>Owlbear</h2>
+Let&rsquo;s start with something nice and simple: our old friend the <a href=http://paizo.com/pathfinderRPG/prd/bestiary/owlbear.html>owlbear</a>.  I&rsquo;ll go through its statblock line-by-line.  A lot of it, I hope, will be pretty obvious.  
+
+<dl>
+	<dt>	Owlbear CR 4
+	<dd>	You can pretty much ignore this, unless you&rsquo;re <a href="./TipsTricksEncounterCreation.htm">designing your own encounter</a>, and even then, I would look at the next line instead.
+
+	<dt>	XP 1,200
+	<dd>	This is how much XP the monster is worth.  I use this when designing my encounters to help reach the desired point of balance, and it&rsquo;s obviously necessary if you level up based on XP rather than on what is story-appropriate.
+
+	<dt>	N Large magical beast.
+	<dd>	There are three pieces of information here:
+		<ul>
+			<li>	N is the owlbear&rsquo;s <b>alignment</b>.  This matters for some spells.
+			<li>	Large is the owlbear&rsquo;s <b>Size</b>.  This has several mechanical influences, but the stat block here (and the framework in Maptool) handle that for you most of the time.
+			<li>	magical beast is the owlbear&rsquo;s <b>Type</b>.  You can click on the words &ldquo;magical beast&rdquo; to see what properties the magical beast type has.  The framework needs to know this for a few magical effects.
+		</ul>
+
+	<dt>	<b>Init</b> +5; <b>Senses</b> darkvision 60 ft., low-light vision, scent; Perception +12
+	<dd>	Again several pieces of information:
+		<ul>
+			<li>	<b>Init</b> gives the owlbear&rsquo;s <b>Initative modifier</b> (so it rolls 1d20+5 for initiative)
+			<li>	<b>Senses</b> gives any unusual senses the owlbear has.  In this case, it has 60-foot darkvision, plus low-light vision and scent.  You can click on &ldquo;scent&rdquo; to see what it entails.
+			<li>	Perception is the owlbear&rsquo;s Perception skill bonus.
+		</ul>
+
+	<dt>	<b>AC</b> 15, touch 10, flat-footed 14
+	<dd>	I should think this is obvious, but the owlbear has armor class 15.  Its touch AC is 10 (for use against things like shocking grasp), and its flat-footed AC is 14 (for when it is denied Dex to AC; usually this will only matter if you attack the owlbear and it hasn&rsquo;t had a turn yet).
+
+	<dt>	<b>hp</b> 47 (5d10+20)
+	<dd>	This is probably also pretty obvious.  The owlbear has 47 hit points.  It has 5 hit dice (from <span class=important>5</span>d10), which the framework will need to know.
+
+	<dt>	<b>Fort</b> +10, <b>Ref</b> +5, <b>Will</b> +2
+	<dd>	Again, this is probably obvious.  These are the owlbear&rsquo;s saves.
+
+	<dt>	<b>Speed</b> 30 ft
+	<dd>	This just means the owlbear has move 30
+
+	<dt>	<b>Melee</b> 2 claws +8 (1d6+4 plus grab), bite +8 1d6+4
+	<dd>	This is less obvious.  On a full attack, the owlbear rolls three attacks:
+		<ul>
+			<li>	Two claw attacks where it rolls 1d20+8 to hit and does 1d6+4 damage, plus gets grab (which we&rsquo;ll get to in a second). 
+			<li>	One bite attack where it rolls 1d20+8 to hit and does 1d6+4 damage
+		</ul>
+		In all three attacks, it does double damage on a crit and threatens only on a 20.  You can tell because it would tell you if it did anything else.
+
+<p>
+		Now, the owlbear has one special ability: grab.  You can tell what grab does by clicking on the word &ldquo;grab&rdquo; in its statblock.  The short version is that if the owlbear hits you with a claw, it can also attempt to grab onto you.
+
+	<dt>	<b>Space</b> 10 ft; <b>Reach</b> 5 ft.
+	<dd>	This means the owlbear takes up a 10 foot &times; 10 foot square.  It can attack anyone adjacent to it, but not anyone further away.
+
+	<dt>	<b>Str</b> 19, <b>Dex</b> 12, etc
+	<dd>	Obviously these are the owlbear&rsquo;s stats.
+
+	<dt>	<b>Base Atk</b> +5; <b>CMB</b> +10 (+14 grapple); <b>CMD</b> 21 (25 vs trip)
+	<dd>	There are again three useful pieces of information here:
+		<ul>
+			<li>	The owlbear&rsquo;s base attack bonus is +5
+			<li>	His combat maneuver bonus (used when he wants to use a <a href="./RulesBasicsCombat.htm#CombatManeuvers">combat maneuver</a>) is +10, or +14 to grapple.
+			<li>	His combat maneuver defense (used when someone wants to use a combat maneuver on him) is 21, or 25 vs trip.
+		</ul>
+
+	<dt>	<b>Feats</b> Improved Initative, Great Fortitude, Skill Focus (Perception)
+	<dd>	This obviously tells you what feats the owlbear has.  The bonuses will already be built into his stat block.  In Maptool, there is a spot where you can tell Maptool that the monster has Improved Initative, but statblock2token invariably gets that right, in my experience.
+
+	<dt>	<b>Skills</b> Perception +12
+	<dd>	This just tells you any skills the owlbear has that are different from his default values.  He also has a Climb +4, for example, because his Climb bonus is his Strength bonus plus other stuff, and he has a +4 Strength bonus.  The framework will probably get these right.
+
+	<dt>	<b>Environment</b> temperate forests
+	<dd>	I pretty much ignore this line, at least if I&rsquo;m running a canned adventure. It does tell me that an owlbear is unlikely to be encounted in a desert, for example.
+
+	<dt>	<b>Organization</b> solitary, pair, or pack (3-8)
+	<dd>	I also ignore this if I&rsquo;m running a canned adventure.  It tells me that in practice I might want to put a line in my random encounter table "1d8 owlbears."
+
+	<dt>	<b>Treasure</b> incidental
+	<dd>	I check over the treasure line to see what the monster is carrying, if anything interesting.  There are notionally rules to help you figure out what exactly &ldquo;incidental&rdquo; treasure means, but I don&rsquo;t pay them much mind.
+</dl>
+
+<p>
+So you can see: the stat block is not too complicated, and many things you might not understand are hyperlinked to help you out.  I would have followed the links for scent, grab, and magical beast, but the link for magical beast would not have told me anything useful.
+
+
+
+<hr>
+<h2>Orc</h2>
+Now let&rsquo;s look at an <a href="http://paizo.com/pathfinderRPG/prd/bestiary/orc.html">orc</a>.  Very little of that is new, so I&rsquo;ll skip entries we&rsquo;ve already seen.
+
+<dl>
+	<dt>	Orc warrior 1
+	<dd>	Orcs, like humans and elves, are defined by the class levels they take, and this orc has taken 1 level in the <a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/nPCClasses.html#warrior">warrior NPC class</a>.
+
+	<dt>	<b>Defensive Abilities</b> ferocity
+	<dd>	This orc has a special defensive ability called ferocity.  Usually that would be linked in the stat block.  For whatever reason, Paizo has instead linked it at the bottom of the page.
+
+	<dt>	<b>Weaknesses</b> light sensitivity
+	<dd>	The orc also has a special weakness.  This time, the link is right where you&rsquo;d expect it to be.
+
+	<dt>	<b>Melee</b> falchion +5 (2d4+4/18-20)
+	<dd>	We&rsquo;ve already seen the <b>Melee</b> line, but I wanted to point out how here, the orc threatens a critical hit on a roll of 18-20, rather than on the default 20.
+
+	<dt>	<b>Ranged</b> javelin +1 (1d6+3)
+	<dd>	For completeness, the orc&rsquo;s ranged attack is that he can throw a javelin, in which case he rolls 1d20+1 to hit and does 1d6+3 damage.
+
+	<dt>	<b>Languages</b> Common, Orc
+	<dd>	Obviously enough, he speaks common and orc.  Orcs may be very stupid, but they&rsquo;re bilingual!
+
+	<dt>	<b>SQ</b> weapon familiarity
+	<dd>	&ldquo;SQ&rdquo; is somewhat cryptic.  It stands for "Special Qualities."  Usually that would be explained in the stat block, but for some reason Paizo has again explained it at the bottom of the page as well.
+
+	<dt>	<b>Treasure</b> NPC gear
+	<dd>	I see that if you loot the body, the orc will have studded leather armor, a falchion, and 4 javelins.  Since he uses those javelins to make ranged attacks, I also see that he can only make 4 of them.  The orc will have other treasure as well (maybe some cash, a backpack, food, water, a rope, a whetstone, and so on).  In principle, he is a level 1 character with an NPC class (warrior) and NPC gear, so I can look at the table in <a href="TipsTricksEncounterCreation.htm#Humanoids">Tips &amp; Tricks: Encounter Creation</a> and see that he should have 260 gp worth of stuff.  I tend to not give them that much.
+
+<p>
+Incidentally, you can see how that table works here.  It says a level 1 NPC with an NPC class and NPC wealth is worth 135 XP.  The bestiary entry for the orc says it is worth&hellip; 135 XP, exactly like it&rsquo;s supposed to be.
+</dl>
+
+
+<hr>
+<h2>Dretch Demon</h2>
+Next, let&rsquo;s take a look at the <a href=http://paizo.com/pathfinderRPG/prd/bestiary/demon.html#demon-dretch>dretch demon</a>.  His stat block is starting to get a little more complicated.
+
+<dl>
+	<dt>	CE Small outsider (chaotic, demon, evil, extraplanar)
+	<dd>	What&rsquo;s new here is that the dretch has <b>subtypes</b>.  Subtypes modify the monster in some way or another.  For example, the fact that the monster has the &ldquo;chaotic&rdquo; and &ldquo;evil&rdquo; subtypes means it detects more strongly as chaotic and evil, among other things.  You can click on the various subtypes to see what each of them does.
+
+	<dt>	<b>DR</b> 5/cold iron or good; <b>Immune</b> electricity, poison; <b>Resist</b> acid 10, cold 10, fire 10
+	<dd>	Let&rsquo;s unpack this:
+		<ul>
+			<li>	DR 5/cold iron or good means he ignores the first 5 points of physical damage (damage from swords, bows, fists, that sort of thing) unless the attack counts as having been made by a cold iron weapon <i>or</i> counts as having been made by a good weapon (&ldquo;good&rdquo; as opposed to evil).  If this had been DR 5/cold iron and good, it would have been penetrated only by a weapon which was <i>both</i> cold iron and good.
+			<li>	He&rsquo;s immune to poison and electrical damage.
+			<li>	He ignores the first 10 points of acid, cold, or fire damage.  This is taken out <i>after</i> his saving throw is accounted for.  If you hit him for 30 points with a <i>fireball</i> and he makes his save for &frac12; damage, he would take 15 points of fire damage, ignore the first 10, and take a net 5 points.
+		</ul>
+
+	<dt>	<b>Spell-Like Abilities</b> &amp;c
+	<dd>	The dretch has some spell-like abilities.  Basically, you can think of it like it can cast <i>cause fear</i> and <i>stinking cloud</i> once per day each, although unlike with spells it doesn&rsquo;t have to chant or wave its hands or use material components.
+</dl>
+
+<p>
+Everything else about this stat block is pretty basic.  If I want to know what his telepathy means, I would click on the link in his stat block.
+
+
+<hr>
+<h2>Flesh Golem</h2>
+Now let&rsquo;s look at the <a href=http://paizo.com/pathfinderRPG/prd/bestiary/golem.html>flesh golem.</a>  Again, a lot of this we&rsquo;ve seen before.
+
+<dl>
+	<dt>	<b>DR</b> 5/adamantine; <b>Immune</b> construct traits, magic
+	<dd>	We&rsquo;ve already seen DR.  His immune line is a little opaque.  If you click on &ldquo;construct traits&rdquo; you&rsquo;ll see a whole raft of immunities he possesses.  You may think he is completely immune to magic, but this is not the case, because if you look further down in his entry where it describes his Special Abilities, you&rsquo;ll see that it explains exactly what immunity to magic means.
+
+	<dt>	<b>Special Attacks</b> berserk
+	<dd>	Similarly, you can see what this means by looking under <b>Berserk</b> in his Special Abilities section.
+
+	<dt>	<b>Str</b> 20, <b>Dex</b> 9, &amp;c
+	<dd>	Nothing too interesting here, <i>but</i> when you put his Con and Int into Maptool, you&rsquo;ll want to say that they are 10 each.  Having no Con and no Int means he has a +0 bonus in each, which is what having a 10 in that stat means.
+</dl>
+
+
+<hr>
+<h2>Wraith</h2>
+By the time we get to the <a href=paizo.com/pathfinderRPG/prd/bestiary/wraith.html>wraith</a>, the stat block is starting to get pretty darn long!
+
+<dl>
+	<dt>	<b>Aura</b> unnatural aura (30 ft.)
+	<dd>	The monster has an aura of some kind.  We can see what its unnatural aura actually does under Special Abilities
+
+	<dt>	<b>Defensive Abilities</b> channel resistance +2, incorporeal; <b>Immune</b> undead traits
+	<dd>	Like the golem, the wraith has immunities he gets from his type.  Again, you can click on undead traits to find what those are.  He also has other defensive abilities, and again, you can click on them to see what they mean.
+
+	<dt>	<b>Weaknesses</b> sunlight powerlessness
+	<dd>	We&rsquo;ve already seen an example of a creature with a <b>Weaknesses</b> entry, but this time it&rsquo;s explained in his Special Abilities because unlike the orc&rsquo;s light sensitivity, sunlight powerlessness is something basically unique to wraiths so it isn&rsquo;t covered in the universal monster rules.
+
+	<dt>	<b>Melee</b> incorporeal touch +6 (1d6 negative energy plus 1d6 Con drain)
+	<dd>	He rolls 1d20+6 to hit, but he makes touch attacks.  His touch attack counts as incorporeal, which matters because some spells count as AC against incorporeal touch attacks (e.g. <i>mage armor</i> or <i>shield</i>).  His damage is negative energy damage, so it is not subject to DR.  He also does Con drain, which is nasty &ndash; and you can look up what ability drain means by clicking on the word &ldquo;drain&rdquo; but it&rsquo;s also outlined in general terms in his Special Abilities section.
+</dl>
+
+<p>
+There&rsquo;s a lot going on in this stat block, but you can see that you can unpack it with just a bit of persistence.  Because this stat block is so complicated, I would take detailed notes or just keep a copy of his bestiary entry in front of me while I was using him.  I would probably make a note somewhere to look over the wraith in the session before the party encounters it, so I can refresh my memory about it before combat breaks out.
+
+
+<hr>
+<h2>Pit Fiend</h2>
+I&rsquo;m not going to walk you through the <a href=http://paizo.com/pathfinderRPG/prd/bestiary/devil.html#devil-pit-fiend>pit fiend</a> but if you were to click on that link you would see that he doesn&rsquo;t really contain anything new.  It&rsquo;s a hideous stat block to read, but we&rsquo;ve already seen all the building blocks!  
+
+<p style="margin-bottom:0pt">
+There are only two new things here that I can see:
+<ul>
+	<li>	He has <b>SR</b> listed, which means he has spell resistance 31.  Like DR, this isn't linked.  For both, you can find a simple explanation in <a href=http://paizo.com/pathfinderRPG/prd/bestiary/universalMonsterRules.html>the universal monster rules</a> or a more complete explanation in <a href=http://paizo.com/pathfinderRPG/prd/coreRulebook/glossary.html>the glossary</a>.
+	<li>	He has regeneration 5 (good weapons, good spells) which means he heals 5 hit points every round unless he&rsquo;s taken damage from a good-aligned spell or weapon since his last turn.  Again, clicking on &ldquo;regeneration&rdquo; told me how that worked.
+</ul>
+
+</body>
+</html>

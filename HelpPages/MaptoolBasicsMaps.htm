@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Maptool Basics: Making Maps</title>
+<link rel="stylesheet"           type="text/css" href="./Style.css">
+<style>
+img		{vertical-align:top; border:2px #8C7054 solid}
+h2		{text-align:center; font-size:20pt; font-variant:small-caps; margin:0; margin-bottom:5pt}
+h3		{text-align:left;   font-size:16pt; font-variant:small-caps; margin:0; margin-top:10pt}
+dl		{margin-left:30px}
+dt		{font-weight:bold; font-size:12pt}
+dd		{margin-left:30px; margin-bottom:20px}
+</style>
+<base target=_blank>
+</head>
+
+<body>
+<h1>Maptool Basics: Making Maps</h1>
+<span class=important>Note:</span>I am going to assume you have read <a href="MaptoolBasicsMenus.htm">Maptool Basics: Menus</a> and <a href="MaptoolBasicsTools.htm">Maptool Basics: Tools</a> first.  The images in this page are clickable.
+
+<hr>
+<h2>Getting a Map Image</h2>
+The first thing you're going to need is a map image.  There are several ways to get one.
+<ul>
+	<li>	If you have the adventure in pdf, you can try opening it Adobe Reader.  If you right click in the pdf, you'll be able to choose the "select tool."  Do that and left-click on the image.  If the image is extractable (sometimes they're not, particularly if the pdf was scanned), then the picture will be covered in a blue box.  Press Ctrl+C to copy, then open your favorite image viewer and press Ctrl+V to paste.  You should get a copy of the image which you can then save.  If I paste into Paint, I also tell Paint to crop the image ("Crop" on the Home menu in my copy of paint, or Ctrl+Shift+X).  Generally I save the picture as a jpg file, for reasons of size.
+	<li>	An alternative I like is to use Adobe Reader's built in snapshot functionality.  First follow <a href=http://ccm.net/faq/33630-adobe-reader-set-a-fixed-resolution-for-taking-snapshots>these instructions</a> for configuring the snapshot.  I pick a nice large number of dpi &ndash; say, 400 &ndash; so I get a nice large image out.  Then follow <a href=http://ccm.net/faq/33520-adobe-reader-how-to-take-snapshots>these instructions</a> to actually take the snapshot, and again, paste it into your favorite image viewer and save.
+	<li>	If the image isn't in the pdf, or you don't like the one in the pdf, you can try searching the web for it.  For example, I found the maps I'll be using by going to google and searching for <i>"dragon's demand" maps</i>, complete with quotes.
+	<li>	If after poking around a bit you can't find anything, and the maps in the pdf just won't work, then I'll make them.  But please do your diligence first and look.  I don't mind making the maps I <i>have</i> to make, but I don't want to make maps I <i>don't</i> have to make!
+</ul>
+
+
+<hr>
+<h2>Getting the Map into Maptool</h2>
+The next thing you'll need to do is getting the map into maptool.  There's an easy way and a "good" way.  The good way will make everything line up nicely with the grid, but the easy way is&hellip; well, easier.  So I'll be teaching you the easy way.  It's a bit fiddly, but it should only take you a couple of minutes.
+<ul>
+	<li>	Fire up maptool and from the layer menu in the top right corner select "Background."
+		<br>	<a href="./MakingMaps1.png"><img src="./MakingMaps1.png" style="height:150px"></a>
+	<li>	Drag the picture onto the background layer.
+	<li>	Right click on the map, go to "Size" and select "Free Size".  This is probably already done.
+	<li>	Right click on the map and unclick "Snap to Grid"
+		<br>	<a href="./MakingMaps2.png"><img src="./MakingMaps2.png" style="height:150px"></a>
+	<li>	Turn on the grid by going to the "View" menu and selecting "Show Grid".
+	<li>	Now go to the bottom-right corner of the map and drag around until the map is about the right size.
+		<br>	<a href="./MakingMaps3.png"><img src="./MakingMaps3.png" style="height:150px"></a>
+	<li>	Once you've done that, you can fine tune a little through a combination of resizing the image and using "Adjust Grid" (which you'll find under the "Map" menu entry).
+</ul>
+
+
+<hr>
+<h2>Taking Care of Vision</h2>
+Now that I've got the map into Maptool, there's just a couple of steps left.  These are related to vision.
+<ul>
+	<li>	First, I go to "Map" and uncheck "Fog of War."  This is so I can see what I'm doing.
+	<li>	Next, I go to "Map" and then to "Vision."  I set Vision to "Night" unless my map is meant to be an outdoors location in daylight, in which case I pick "Day."
+	<li>	Now I have to add VBL, as I will describe in the next section.
+	<li>	Once the VBL is done, I turn Fog of War back on (go to "Map" and check "Fog of War").
+</ul>
+
+
+<hr>
+<h2>Saving the Map</h2>
+Once I've finished the VBL and turned Fog of War back on, I save the map somewhere so I don't have to keep it in the campaign file.
+<ul>
+	<li>	I save the map (by going to "Map" and then picking "Export Map").  I keep a folder inside Maptool that I call "Maps" and it's where I save all my maps.  
+	<li>	To make sure everything saved right, I go to "Map" and pick "Import Map" and load a copy of the map I've just made.
+	<li>	If the map I've just loaded looks right, I delete both this map and the original copy in maptool (by going to "Map" and then picking "Delete").
+</ul>
+
+
+<hr>
+<h2>Adding VBL</h2>
+This is kind of a pain, but it's not too bad.
+
+<p>
+The first thing I do is pick the eye tool, which means "VBL".
+<br/>
+<img src="./ImagesTools/VisionBlockingToolsMaster.png"/>
+
+<p>
+I select the solid rectangle and make an outline around the entire map.  This is so maptool doesn't waste time calculating what you can see that's past the map's edge.
+<br>
+<a href="OutlinedMap.png"><img src="OutlinedMap.png" style="height:150px"></a>
+
+<p>
+I carefully go around from room to room, surrounding it in VBL.  I make sure to draw a line through doors.
+<br>
+<a href="VBLFinal.png"><img src="VBLFinal.png" style="height:150px"></a>
+
+<p>
+Some people apparently find it easier to first cover the <i>entire</i> map in VBL, then erase what people should be able to see.  To erase rather than draw VBL, I hold down Shift.  Rather than a blue box, I get a white one.
+
+<p>
+You should play with VBL a bit to make sure you know how to draw it and erase it.  It doesn't take much practice, in my experience, to figure it out.
+
+</body>
+</html>

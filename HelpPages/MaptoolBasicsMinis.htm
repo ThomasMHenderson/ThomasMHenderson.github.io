@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>Maptool Basics: Making Minis</title>
+<link rel="stylesheet"           type="text/css" href="./Style.css">
+<style>
+img		{vertical-align:top; border:2px #8C7054 solid}
+h2		{text-align:center; font-size:20pt; font-variant:small-caps; margin:0; margin-bottom:5pt}
+h3		{text-align:left;   font-size:16pt; font-variant:small-caps; margin:0; margin-top:10pt}
+dl		{margin-left:30px}
+dt		{font-weight:bold; font-size:12pt}
+dd		{margin-left:30px; margin-bottom:20px}
+</style>
+<base target=_blank>
+</head>
+
+<body>
+<h1>Maptool Basics: Making Minis</h1>
+Making minis can be kind of a pain but it isn&rsquo;t actually all that bad.  This is a pretty exhaustive guide.  Like in my other guides, clicking on a picture will display the picture at full size in a new tab.
+
+
+<hr>
+<h2>Step 1: Find a Picture</h2>
+For me this is the hardest part.  I use <a href="https://www.google.com/imghp">Google image search</a> or go to <a href="http://www.deviantart.com">deviantart</a> for my picture needs.
+
+
+
+<hr>
+<h2>Step 2: Making the Pogs</h2>
+This is pretty easy.  It&rsquo;s a good idea to keep a second copy of your source image, just in case you screw up.
+
+<ol>
+	<li>	Open TokenTool (download for free <a href="http://download.rptools.net/zip/tokentool-1.0.b28.zip">here</a>).
+	<li>	Pick the token border you want from the little drop-down list on the right, and pick the size of the token.  I always pick the biggest size available because that gives the token with the most detail.  The settings I use are in the picture below.
+		<br>
+		<a href="./TokenToolSettings.png"><img src="./TokenToolSettings.png" style:"height:200px"></a>
+	<li>	Drag your source image from your desktop onto the black area in TokenTool and move it until you get it positioned right.  If you&rsquo;re lucky, this is possible.  Check the preview in the top right corner of TokenTool &ndash; if it looks right, then go to the file menu and save your token.  Make sure you know where you saved it, obviously.
+	<li>	Often the picture isn&rsquo;t a good size for the token.  You can resize your source image using your favorite image viewer and try again.
+		<ul>
+			<li>	MSPaint is on all windows versions that I know of.  You can open the picture and find the "Stretch/Skew" command.  Make sure you keep the horizontal and vertical percentages the same or else the image will be deformed.
+			<li>	I use <a href=http://www.irfanview.com/>IrfanView</a>, which is completely free.  To resample, here&rsquo;s what I do:
+				<ol>
+					<li>	First I open the picture in IrfanView.
+					<li>	I go to the "Image" menu and find "Resize/Resample" (or I press Ctrl+R).
+					<li>	I set the new size.  Use settings like this (obviously, pick your own new size):	<br>
+						<a href="./Resample.png"><img src="./Resample.png" style:"height:200px" /></a>
+					<li>	Save and you&rsquo;re done.
+				</ol>
+			<li>	You can also just google for something like "image resize online" and find webpages that will do this for you.
+		</ul>
+		In any event, once you&rsquo;ve resized the image, save it with a new name (in case you got the size wrong) and try again.
+	<li>	Optional, but encouraged: save a copy of your source image (or a cropped version of it) at 300 pixels tall for use in the mouseover portrait.
+</ol>
+
+
+
+
+<hr>
+<h2>Step 3: Getting the Pog into Maptool</h2>
+This is also easy.  Just open maptool, drag the pog from your desktop onto the map, and you&rsquo;re done.
+
+<p>
+One quick note: if you double click on the pog it will open up a little window.  Go to the right-most tab (Config).  In the top left corner you&rsquo;ll see a picture of the pog.  You can drag a different pog from your desktop onto that picture in the top left corner; this will change the pog the token uses.  Along the bottom of that little window you&rsquo;ll see a row of three areas, the middle of which is marked "Portrait."  Dragging something from your desktop onto that Portrait area will give you the mouseover portrait there.  Examples shown below.
+<br>
+		<a href="./MonsterPortrait.png"  style="padding-right:10px"><img src="./MonsterPortrait.png"  style="height:200px"></a>
+		<a href="./MonsterPortrait2.png" style="padding-left: 10px"><img src="./MonsterPortrait2.png" style="height:200px;"></a>
+
+
+<p>
+I use this ability to change the token image or the token portrait a lot.  What I do is make one good copy of the token, then copy it and just change the picture.  So if I want 6 different skeletons, I do the hard work of making a mini <i>once</i>, and then copy and paste that token until I have five more copies, for each of which I just change the token image and token portrait.
+
+
+
+<hr>
+<h2>Step 4: Making the Token</h2>
+This is the other time-consuming step.  It takes me 5 minutes or so.  The first thing you should do is find the monster&rsquo;s stat block online somewhere.  Good places to look include <a href=http://paizo.com/pathfinderRPG/prd/indices/bestiary.html>the Pathfinder prd</a>, or <a href="http://www.d20pfsrd.com/bestiary/">the d20 pfsrd</a> or <a href="http://www.archivesofnethys.com/Monsters.aspx">archives of nethys</a>.
+
+<p>
+Once you&rsquo;ve got the statblock, push the left mouse button down, go to the name (i.e. "Ogre CR 3") and drag all the way down to the "Ecology" section before letting the left mouse button back up.  Then right click in the area you&rsquo;ve highlighted and pick "Copy."  For an ogre, I would copy all of the text in this image:
+<br>
+<a href="./Ogre.png"><img src="Ogre.png" style="height:200px"></a>
+
+<p>
+Now back to maptool.  Select the token, go to the campaign panel, and locate "Statblock to Token."  Press the button.  A little window will open up.  Go to the window and press Ctrl+V to paste the statblock into the token.  Then press okay.  Maptool will do most of the work to set your token up for you.  This is good.  I&rsquo;ve modified it to create all the macros on the monster, so it will come with all the butons you&rsquo;ll need to use it.
+
+
+<hr>
+<h2>Step 5: Checking the Token</h2>
+<p>
+Unfortunately, this process is error prone and buggy.  First, you should know that it will probably change the name of your token.  Double click on your token, go to "Name" at the top and type in the name you actually want your token to have.  I like to give my tokens names like "Enormous Snake" so people don&rsquo;t know what they&rsquo;re fighting.  You can give the token a GM name which is only visible to you, so <i>you</i> know what the creature is.
+
+<p style="margin-bottom:0">
+Now we have to review the token and fix the problems.  Here&rsquo;s what I do.
+<ol>
+	<li>	First, I apply a mod and then immediately turn the mod back off.  This forces maptool to recalculate all the monster&rsquo;s stats (AC, saves, speed, etc).
+	<li>	Now check the monster&rsquo;s HP, AC, saves, and move, all of which you can see on the stat sheet by mousing over it.  Also check the monster&rsquo;s "Type" and its DR.  Make sure those are right.
+	<li>	Try to damage the monster.  Scott had problems where it wouldn&rsquo;t let him do this.
+	<li>	Last, for each attack the monster has, roll the attack.  If you hover your mouse over the result in the window, you&rsquo;ll have a tool tip which you can use to make sure the monster&rsquo;s getting the right attack bonus and doing the right damage.
+	<li>	I fix any problems I might have, and then <span class=important>save the token</span>.  You can save a token by right clicking on it and picking "Save."
+</ol>
+
+
+
+<hr>
+<h2>Troubleshooting</h2>
+Let me  cover what to do for each thing it gets wrong.  A lot of this will use the "Edit Character" macro, which is in the top part in the selection panel.
+
+
+<h3>HP</h3>
+If the Max HP are wrong, go to the token, use the "Edit Character" macro, and pick the first option ("Core (Level; Stats; BAB; Saves; DR/ER; Race; Feats)").  You&rsquo;ll see its max HP in the area I&rsquo;ve circled in red below.
+<br>
+<a href=EditHP.png><img src="EditHP.png" style="height:200px"></a>
+
+<p>
+<span class=important>Important:</span> for whatever reason, this defines the HP <i>without the Con modifier</i>.  The best thing to do is to figure out how far off you are and figure out a correction.  For example, if the monster is supposed to have 40 hp but has 45, you know you need to change its HP by &minus;5.  You do not want to just type in "45" for its HP.
+
+
+<h3>Saves</h3>
+If one or more of the monster&rsquo;s saves is wrong, figure out how much you need to adjust it by.  Go to "Edit Character", then "Core (Level; Stats; BAB; Saves; DR/ER; Race; Feats)" again.  You&rsquo;ll see its Saves in the area I&rsquo;ve circled in red below.  Increase or decrease the saves to work.
+<br>
+<a href=EditSaves.png><img src="EditSaves.png" style="height:200px"></a>
+
+
+<h3>AC</h3>
+This one is tricky.  If AC comes out wrong, the best thing to do is to send me an email with your token and tell me what AC it&rsquo;s meant to have.  I&rsquo;ll work out how to fix it, make the changes, and tell you what I did.
+
+
+<h3>Speed</h3>
+If this comes out wrong, go to "Edit Character" but pick "Speed/Movement" this time and fill in the speed the token should have.
+
+
+<h3>Type</h3>
+Every monster has a type ("undead" or "dragon" or whatnot).  You can find that at the top of the bestiary entry, after its alignment and size:
+<br>
+<a href=OgreWithType.png><img src="OgreWithType.png" style="height:200px"></a>
+<br>
+If the type is wrong, go to "Edit Character", then to "Core (Level; Stats; BAB; Saves; DR/ER; Race; Feats)", and then to the "Race" tab and fix it there.
+<br>
+<a href=EditRace.png><img src="EditRace.png" style="height:200px"></a>
+
+
+<h3>DR</h3>
+If the monster has DR (damage resistance) or ER (energy resistance) and that came out wrong, go to "Edit Character", then to "Core (Level; Stats; BAB; Saves; DR/ER; Race; Feats)", and then go to the "DR/ER" tab and fix it there.  There are a lot of possibilities, so my example will just show you the tab.
+<br>
+<a href=EditDR.png><img src="EditDR.png" style="height:200px"></a>
+
+
+<h3>Cannot Damage the Token</h3>
+This one is annoying.  Right click on the Damage/Heal macro on the token and pick "Edit."  Go to the Options tab and make sure that "Allow Players to Edit Macro" is not checked.  Once you&rsquo;ve unchecked it, press OK.  You should save the token at this point.  If you still can&rsquo;t damage the token, that&rsquo;s a problem and I&rsquo;ll need to do some tech support.
+
+
+<h3>Attacks are Wrong</h3>
+You should check the tool tip to get this one.  It will tell you several pieces of information on the attack roll part.
+<br>
+<img src=ToolTip.png>
+<ul>
+	<li>	First, you'll see "ATK Rolls" which is the actual 1d20.  Compare that to the number under "HIT" to make sure it works.  In this example, I rolled a 17 with Sonja and got a 21, which matches my expectation that Sonya has a +4 to hit.  If my monster was supposed to use a club and get a +6 to hit, but his ATK Roll is 12 and his HIT number is 15, I know something is wrong somewhere.
+	<li>	Next check the BAB.  Sonya's got BAB 1, which is right.  If the BAB is wrong, you can fix that by "Edit Character", then "Core (Level; Stats; BAB; Saves; DR/ER; Race; Feats)".  BAB is on the first panel, right below Hit Points.
+	<li>	A common screwup is to have a number under "MultiAtk" which is meant for things like fighting with two weapons and so on.  If you see a penalty there, make a note of it.  We'll fix that in the weapon entry.
+</ul>
+
+<p>
+The damage tool tip is pretty boring, but make sure it all works anyway.  Again, DMG Rolls is the actual result of whatever you rolled under "DamageDice", while "DMG" on the chat window is the actual damage done.  In this case Sonya was supposed to do 1d8+0 damage; she rolled a 5 and got 5 damage, so that's right.  If the damage is screwed up, again you'll want to check the weapon entry.  Note that you cannot do 0 damage, so even 0d0 will claim to do 1 point of damage.
+
+<p>
+To fix weapons is kind of a nuisance.  Go to "Edit Character" and pick "Weapons."  It will pop up a radio list with all the weapons defined for the character.  Pick the one you want.  You'll see a screen kind of like this:
+<br>
+<a href=EditWeapons.png><img src="EditWeapons.png" style="height:200px"></a>
+<br>
+I'll walk you through each field.  Settle in!
+
+<dl>
+	<dt>	Name
+	<dd>	This is the weapon name.  This one is pretty easy!  But note that you cannot use commas or semicolons in the name.
+
+	<dt>	Equipped?
+	<dd>	Most of the time the weapon will be "Primary," which means you get your full Strength bonus to damage.  "Secondary" is for weapons that get &frac12; Strength bonus to damage (i.e. off-hand weapons, or what are called secondary natural attacks).
+
+	<dt>	How calculate # attacks?
+	<dd>	Pick "Manufactured" for things like a sword, or a bow, or your fists.  Pick "Natural" for things like claws and bites.
+
+	<dt>	# Natural Attacks:
+	<dd>	If you have 2 claw attacks listed, this would be 2.
+
+	<dt>	Attack Modifier:
+	<dd>	This is any bonuses you get to your attack roll from things like a magic weapon, or weapon focus, or something.  Everything other than your BAB and the bonus from your ability score goes here.
+
+	<dt>	Critical Multiplier:
+	<dd>	This is the extra damage done on a critical hit.  Usually &times;2, but sometimes different.  It will be listed in the bestiary attack entry if it isn't &times;2.
+
+	<dt>	Critical Threat Range:
+	<dd>	This is the number you have to roll to threaten a critical hit.  Usually 20, but sometimes different.  It will listed in the bestiary attack entry if it isn't 20.
+
+	<dt>	Damage:
+	<dd>	This is the damage dice you roll.  If you have a +1 longsword, this would be 1d8+1, for example
+
+	<dt>	Extra Damage:
+	<dd>	This is extra damage from various source.  A sword with 1d6 fire damage and 1d4 acid damage would be 1d6, 1d4 here
+
+	<dt>	Extra Damage Description:
+	<dd>	The sword I've described above would be fire, acid here.
+
+	<dt>	Extra Crit Damage:
+	<dd>	If my sword did an extra 1d10 fire damage on a critical hit, this would be 1d10.
+
+	<dt>	Cap to Str bonus for damage:
+	<dd>	This is just like it sounds.  You don't use your strength for a crossbow's damage, so for a crossbow this is 0, for example.
+
+	<dt>	Strength Bonus Calculation:
+	<dd>	Usually "One-handed" but if you're using a greatsword this would be "Two-handed."  Two-handed just means you use 150% of your Strength bonus to damage.
+
+	<dt>	Finessable:
+	<dd>	Check this if you can use Weapon Finesse to attack with this weapon.
+
+	<dt>	Fighting with Two-Weapons?
+	<dd>	This is where the multiattack penalty thing I mentioned above comes from.  Almost always, you will want "Single Weapon" here.  If you're fighting with two weapons, though, and your off-hand weapon is light (a dagger, say), check "Off-hand Light."  If you're fighting with two weapons and your off-hand weapon is heavy (say, a battleaxe), check "Off-hand Heavy/Monster."  Try to avoid two-weapon fighting, because the macros hate it.
+
+	<dt>	Ranged Attack
+	<dd>	Check this if your weapon is a bow or a thrown dagger or something.
+</dl>
+
+I know that's a lot to take in.  Usually you'll need to check for Damage, Cap to Str bonus for damage, Strength Bonus Calculation, Finessable, Fighting with Two-Weapons, or Ranged Attack.  It doesn't tend to screw up the other stuff, but I've gone over everything, just in case.
+
+</body>
+</html>
+
+
+
+

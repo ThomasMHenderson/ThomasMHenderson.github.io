@@ -1,0 +1,149 @@
+<html>
+<head>
+<title>Maptool Basics: Menus</title>
+<link rel="stylesheet"           type="text/css" href="./Style.css">
+<style>
+div.imgwrap	{width:805px; margin-left:auto; margin-right:auto}
+img		{vertical-align:top; border:2px #8C7054 solid}
+h2		{text-align:center; font-size:20pt; font-variant:small-caps; margin:0; margin-bottom:5pt}
+h3		{text-align:left;   font-size:16pt; font-variant:small-caps; margin:0; margin-top:10pt}
+dt		{font-weight:bold; font-size:12pt}
+dd		{margin-left:0; margin-bottom:10pt}
+dl.sublist	{padding-left:20pt; font-size:10pt}
+dl.sublist dt	{font-size:10pt; font-style:italic}
+dl.sublist dd	{font-size:10pt}
+</style>
+<base target=_blank>
+</head>
+
+<body>
+<h1>Maptool Basics: Menus</h1>
+Here I'm going to go over the menus ("File", "Edit", and so on) and just touch on the stuff you need to know.  I'll have a bunch of pictures here; usually, if you click on them, a larger version will open in another tab so you can see more easily.
+
+<hr>
+<h2>File</h2>
+There are several entries in the file menu you should know about.
+<dl>
+	<dt>	Open Campaign
+	<dd>	This is the first thing you should do after starting a server.  It loads the actual campaign (maps, minis, macros, etc).  But I usually use &ldquo;Recent Campaigns&rdquo; instead.
+
+	<dt>	Save Campaign
+	<dd>	This is the last thing you should do before turning off the server.  It saves the campaign.
+
+	<dt>	Save Campaign As
+	<dd>	This is just like Save Campaign, only you can change the campign's name when you save it.
+
+	<dt>	Save Chat Log History
+	<dd>	This allows you to save the chat log.
+
+	<dt>	Start Server
+	<dd>	This is what you use to start a server.  Hopefully you will never need to do that and either Scott or I will handle it. If you do need it, consult <a href="./MaptoolBasicsStartingServer.htm">Maptool Basics: Starting a Server</a>.
+
+	<dt>	Recent Campaigns
+	<dd>	If you go down here, a menu will open to the right with the recent campaigns you have loaded.  This is what I use instead of open campaign because I am lazy.
+</dl>
+
+<hr>
+<h2>Edit</h2>
+There's not much you really need here.
+<dl>
+	<dt>	Undo Drawing/Redo Drawing
+	<dd>	You can undo or redo a drawing <i>you</i> made.
+
+	<dt>	Clear Drawing
+	<dd>	This removes all drawings on a given map layer (Token, Hidden, Object, or Background).  The layer to be cleared is the one you've selected in the layer list in the top right corner of the map.
+
+	<dt>	Copy/Cut/Paste
+	<dd>	Once you've selected a token or tokens, you can copy/cut/paste them with these.  Ctrl+C/Ctrl+X/Ctrl+V works as normal.
+
+	<dt>	Edit Preferences
+	<dd>	<span class=important>Important:</span> Below are two of the four tabs for preferences.  You want to make sure that all the ones I've circled in red are the same as in the examples below.  It's probably a good idea to make sure the other settings are the same as mine, too, but you <i>must</i> make sure the ones in red are the same.
+</dl>
+
+<div class=imgwrap>
+<a href="./EditPanel1.png"><img src="EditPanel1.png" style="width:390px; padding-right:5px"></a>
+<a href="./EditPanel2.png"><img src="EditPanel2.png" style="width:390px; padding-left:5px"></a>
+</div>
+
+<hr>
+<h2>Map</h2>
+This is a lot of stuff related to the map.  You should make sure you understand this.
+<dl>
+	<dt>	New Map
+	<dd>	This creates a new map.  I've gone over this in <a href="MaptoolBasicsMaps.htm">Making Maps</a>.
+
+	<dt>	Import Map and Export Map
+	<dd>	Export Map saves an entire map (tokens and all) to a file, and Import Map loads one.  After I make a map, I export it, then I import it and make sure it works, and if it does, I delete the map and the imported copy.  This makes the campaign file smaller and more manageable.
+
+	<dt>	Player Visible
+	<dd>	If this is not checked, players cannot switch to this map.
+
+	<dt>	Fog of War
+	<dd>	<span class=important>Important:</span> If this is not checked, the map will not have fog of war.
+
+	<dt>	Vision
+	<dd>	<span class=important>Important:</span> these are the vision settings for the map:
+		<dl class=sublist>
+			<dt>	Off
+			<dd>	Vision is unrestricted.  Everyone can see everything, regardless of VBL.  This is bad.
+
+			<dt>	Day
+			<dd>	Vision is restricted by VBL, but everywhere on the map has light.  Use this for outside during the day.
+
+			<dt>	Night
+			<dd>	Vision is restricted by VBL, and there is no atmospheric light, so tokens can only see things if they have darkvision or a light source.  Use this for underground or indoors, or outside at night.
+		</dl>
+
+	<dt>	Edit Map
+	<dd>	You can use this to change the map in various ways.  It does exactly the same thing as New Map, only it changes the current map rather than making a new one.
+
+	<dt>	Adjust Grid
+	<dd>	This opens a little thing in the top right corner of the map which you can use to change the size of the grid, or offset it in relation to tokens <i>which are not snapped to the grid</i>, or to change the color of the grid lines if you care about that sort of thing.
+
+	<dt>	Adjust Map Board
+	<dd>	I never use this, but if you do maps the way I do, you can adjust the position of the map background image.  I'm not totally sure how this works, to be honest.
+
+	<dt>	Rename, Copy Map, Delete
+	<dd>	These all seem obvious to me: rename a map, create a copy of the map, or delete the map.
+</dl>
+
+
+<hr>
+<h2>View</h2>
+I basically ignore this entirely.  Still, a few useful bits and pieces:
+<dl>
+	<dt>	Show as Player
+	<dd>	If you click this and then select a token, you can see what that token sees.  Sometimes useful.  I mostly use it for testing VBL as I make it.
+
+	<dt>	Zoom
+	<dd>	Zooming in or out is super helpful, particularly as a GM.  I use my mouse wheel, but you can use this, too.
+
+	<dt>	Show Movement Distances
+	<dd>	I always have this checked, and so should you.  When a token is moved, you can see how far.
+
+	<dt>	Show Grid
+	<dd>	If you want to see the grid, check this.
+</dl>
+
+
+<hr>
+<h2>Tool</h2>
+A few useful bits and pieces here, too.
+<dl>
+	<dt>	Center Players on Current View
+	<dd>	This moves the players' view to the <i>coordinates</i> you're looking at.  If people can't find their minis, it is sometimes helpful for you to find them and then center on them.
+
+	<dt>	Enforce Player to Current Map
+	<dd>	This brings the players' view to the <i>map</i> you're looking at.
+
+	<dt>	Center Players on Current View (Continuous)
+	<dd>	Please make sure not to check this.
+</dl>
+
+
+<hr>
+<h2>Window</h2>
+This is how you open a panel you might not already have open.  I describe the panels I use in <a href="MaptoolBasicsMaptoolPanels.htm">Maptool Basics: Maptool Panels.</a>
+
+</body>
+</html>
