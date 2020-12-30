@@ -1,0 +1,36 @@
+@import "Main.css";
+
+.BaseInfo	{height:95pt;}
+img		{float:left; margin-right:5pt; height:90pt; border:1px black solid;}
+
+
+td,th		{vertical-align:top; text-align:left; padding-right:5pt;}
+th		{white-space:nowrap; padding-bottom:5pt;}
+td.line		{border-top-style:solid; border-top-width:2pt;}
+
+
+hr		{text-align:left; margin:0 auto 0 0; width:60%; border:0; height:1px}
+hr.big		{width:80%; height:2px; margin:5px auto 5px 0;}
+
+
+h1 		{padding-top:30pt;}
+h2		{padding-top:15pt;}
+.top		{padding-top:0;}
+
+
+dl		{padding:0 auto; margin:0 auto; padding-left:10pt}
+dt		{font-size:12pt; font-weight:bold;}
+dd		{padding-bottom:10pt; margin-left:0pt;}
+dd.end		{padding-bottom:0pt;}
+dl.spells	{padding-left:0pt}
+dl.spells dt	{display:inline; float:left; padding:0; margin:0; clear:left; font-size:10pt; font-weight:normal;}
+dl.spells dd	{display:inline; float:left; padding:0; margin:0; padding-left:5pt;}
+dl.options	{margin-left:15pt}
+dl.options dt	{font-size:10pt; font-style:italic}
+dl.options dd:last-child	{padding-bottom:0}
+
+
+table.Options th	{border:0; border-bottom:1px solid; padding-bottom:0}
+table.Options td	{border:0}
+table.Options		{border-style:solid none; margin-left:20px; margin-top:5px; border-collapse:collapse}
+table.Options caption	{font-weight:bold; text-align:left}

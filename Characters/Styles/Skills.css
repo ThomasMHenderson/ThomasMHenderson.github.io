@@ -1,0 +1,10 @@
+@import "Main.css";
+
+table		{margin:0pt auto}
+th, td		{border-width:0.5pt; border-style:solid; vertical-align:bottom;}
+th		{text-align:left; padding:5pt; white-space:nowrap; padding-bottom:0pt}
+td		{text-align:center; padding: auto 3pt;}
+thead th	{border-bottom-width:2pt; text-align:center; font-size:12pt; padding: 0pt 10pt}
+h1 		{text-align:center}
+th.left		{padding-left:5pt}
+td.left		{padding-left:5pt}

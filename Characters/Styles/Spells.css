@@ -1,0 +1,23 @@
+@import "Main.css";
+
+table			{border-style:none;}
+td			{padding-left:10pt;}
+
+
+/* Stuff for spell list */
+.spelllist		{margin:0pt auto;}
+.spell			{vertical-align:top; font-style:italic; width:auto}
+.describe		{padding-right:20pt}
+.source			{padding-left:0pt; text-align:center; font-size:8pt}
+.note			{padding-left:10pt; text-align:left; font-size:8pt}
+
+
+/* Stuff for headers */
+.which			{font-weight:bold; font-variant:small-caps; padding-left:0pt;}
+.class			{font-size:20pt; text-align:right; border-style:solid; border-width:0pt 0pt 1.5pt 0pt}
+.level			{font-size:16pt;}
+.makespace td		{padding-top:20pt; margin-top:20pt}
+.makebigspace td	{padding-top:30pt; margin-top:30pt}
+
+
+.sourcekey		{margin-top:40pt; font-size:8pt;}

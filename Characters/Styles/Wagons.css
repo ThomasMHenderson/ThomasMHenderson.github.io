@@ -1,0 +1,36 @@
+@import "Main.css";
+
+td,th		{vertical-align:top; text-align:left; padding-right:5pt;}
+th		{white-space:nowrap; padding-bottom:5pt;}
+td.line		{border-top-style:solid; border-top-width:2pt;}
+caption		{text-align:center; font-size:150%; font-weight:bold; padding-top:20pt}
+
+
+
+h1 		{padding-top:30pt;}
+h2		{padding-top:15pt;}
+.top		{padding-top:0;}
+
+
+
+hr		{text-align:left; margin:5px auto 5px 0; width:60%; border:0;}
+hr.big		{width:80%; height:2pt;}
+
+
+
+dl		{padding:0 auto; margin:0 auto; padding-left:10pt}
+dt		{font-size:12pt; font-weight:bold;}
+dd		{padding-bottom:10pt; margin-left:0pt;}
+dd.end		{padding-bottom:0pt;}
+
+
+
+table.wagons thead th	{vertical-align:bottom; font-size:75%; border-bottom-style:solid; border-bottom-width:1pt; padding-bottom:0pt}
+table.wagons thead td	{vertical-align:bottom; font-size:75%; border-bottom-style:solid; border-bottom-width:1pt; padding-bottom:0pt}
+table.wagons tfoot th	{border-top-style:solid; border-top-width:1pt; vertical-align:bottom; padding-bottom:0pt}
+table.wagons tfoot td	{border-top-style:solid; border-top-width:1pt; vertical-align:bottom; padding-bottom:0pt}
+table.wagons th.c	{text-align:center}
+table.wagons td.c	{text-align:center}
+table.wagons th		{padding-left:5pt; padding-right:5pt}
+table.wagons td		{padding-left:5pt; padding-right:5pt}
+

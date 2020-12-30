@@ -1,0 +1,14 @@
+@import "Main.css";
+
+table 		{border-style:none;}
+td, th		{vertical-align:bottom}
+th		{text-align:left; padding-right:5pt; white-space:nowrap; font-size:12pt; padding-bottom:0pt}
+td		{text-align:center;}
+
+thead th	{font-size:14pt; text-align:center;}
+.space		{padding:0pt 15pt;}
+.top		{vertical-align:top;  border-width:2pt 0pt 0pt 0pt; border-style:solid}
+.basic td	{text-align:left}
+h1 		{padding-bottom:20pt; text-align:center}
+h4		{margin-top:30pt; font-variant:small-caps}
+

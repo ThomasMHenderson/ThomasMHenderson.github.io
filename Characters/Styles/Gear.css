@@ -1,0 +1,17 @@
+@import "Main.css";
+
+
+/* Header rows */
+thead th	{text-align:center; font-size:12pt}
+
+td,th		{padding:0pt 5pt; height:20pt; text-align:left; border-style:solid; border-width:0.5pt; white-space:nowrap}
+th		{border-bottom-width:2pt}
+h1		{padding-bottom:10pt; text-align:center;}
+
+.item		{width:160pt;}
+.weight		{width:40pt;}
+.itemin		{padding-left:15pt;}
+.itemin2	{padding-left:25pt;}
+.burden		{font-weight:bold;}
+.magic		{font-style:italic;}
+td.weight	{text-align:center;}
