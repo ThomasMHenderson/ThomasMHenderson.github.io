@@ -3,11 +3,14 @@
 <link rel="stylesheet"           type="text/css" href="./Styles/PCSheet.css">
 <link rel="stylesheet"           type="text/css" href="./Styles/Brown.css" title="Brown">
 <link rel="alternate stylesheet" type="text/css" href="./Styles/Black.css" title="Black">
+<style>
+.alert	{color:red; font-weight:bold}
+</style>
 </head>
 <body>
 
 <h1 class=top>Ragnar Knope</h1>
-<h3>Chaotic Good Savage Elven Male Sanctified Rogue 10</h3>
+<h3>Chaotic Good Elven Male Inspired Blade Swashbuckler 1 / Questioner Investigator 10</h3>
 <h4>Ragnar is 5&rsquo;11&rdquo; tall and weighs 125 pounds.  He has silver hair, cropped short, and silver-green eyes.</h4>
 
 <table>
@@ -16,41 +19,41 @@
 		<td>	Medium Humanoid (Elf)
 	<tr>
 		<th>	Initiative:
-		<td>	+4
+		<td>	+5
 	<tr>
 		<th>	Senses:
-		<td>	Perception +9; <a href=#LowLightVision>low-light vision</a>; 60&rsquo; <a href=#Darkvision>darkvision</a>		<br>
-			+5 to locate traps				<br>
-			+3 to avoid being surprised by a foe
+		<td>	Perception +15; low-light vision; 60&rsquo; darkvision<br>
+			+5 to locate traps
 	<tr>
 		<th>	Languages:
-		<td>	Common (Taldane), Draconic, Elven, Goblin
+		<td>	Common (Taldane), Draconic, Elven, Goblin, <span class=alert>+2</span>
 	<tr>
 		<td colspan=2 class=line>
 	<tr>
 		<th>	Hit Points:
-		<td>	78	<!-- Took the average -->
+		<td>	84
 	<tr>
 		<th>	Armor Class:
-		<td>	21 (+6 armor, +2 shield, +2 Dex, +1 dodge), touch 13, flat-footed 18	<br>
-			You receive a +3 dodge bonus against attacks made by traps
+		<td>	27 (+7 armor, +3 shield, +5 Dex, +1 natural, +1 deflection), touch 16, flat-footed 22
+			<br>You receive a +3 dodge bonus against attacks made by traps
 	<tr>
 		<th>	Combat Maneuver Defense:
-		<td>	23 (+7 BAB, +3 Str, +2 Dex, +1 dodge)
+		<td>	25 (+8 BAB, +1 Str, +5 Dex, +1 deflection)
 	<tr>
 		<th>	<a href=RagnarBasic.htm target=_blank>Saving Throws:</a>
-		<td>	Fort +6, Ref +9, Will +5	<br>
-			You receive a +3 bonus on Reflex saves to avoid traps.	<br/>
+		<td>	Fort +7, Ref +16, Will +10	<br>
+			You receive a +6 bonus on all saving throws against poison.	<br>
+			You receive a +3 bonus on Reflex saves to avoid traps.	<br>
 			You receive a +2 racial bonus against enchantment spells and effects. 
 	<tr>
 		<th>	Automatic Defenses:
-		<td>	<a href=#Evasion>Evasion</a>
-			<br/>
-			You are immune to magic sleep effects. 
+		<td>	You are immune to magic sleep effects. 
 	<tr>
 		<th>	Activated Defenses:
 		<td style="width:100%">
-			<a href=#Resiliency>	Resiliency	</a>
+			<a href=#DodgingPanache>Dodging Panache</a>, 
+			<a href=#Inspiration>Inspiration</a>, 
+			<a href=#ParryRiposte>Opportune Parry and Riposte</a>
 	<tr>
 		<td colspan=2 class=line>
 	<tr>
@@ -58,219 +61,155 @@
 		<td>	30 ft. (6 squares)
 	<tr>
 		<th>	Base Attack Bonus:
-		<td>	+7
+		<td>	+8
 	<tr>
 		<th>	Combat Maneuver Bonus:
-		<td>	+10 (+7 BAB, +3 Str)
+		<td>	+9 (+8 BAB, +1 Str)
 	<tr>
 		<th>	Standard Attack:
-		<td>	Short Sword +12 melee (1d6+4/19-20 +2d6 holy)
+		<td>	Rapier +17 melee (1d6+8/15-20)
 	<tr>
 		<th>	Full Attack:
-		<td>	Short Sword +12/+7 melee (1d6+4/19-20 +2d6 holy)
+		<td>	Rapier +17/+12 melee (1d6+8/15-20)
 	<tr>
 		<th>	Other Weapons:
-		<td>	Hand Crossbow +9 ranged (1d4/19-20),				<br>
-			Shortbow +9 ranged (1d6/&times;3),				<br>
-			Silver Dagger +11 melee/+10 ranged (1d4+2/19-20),		<br>
-			Unarmed +10 melee (1d3+3)
+		<td>	Hand Crossbow +13 ranged (1d4/19-20),			<br>
+			Dagger +13 melee/+13 ranged (1d4+1/19-20),		<br>
+			Unarmed +13 melee (1d3+1)
+	<tr>
+		<th>	Swift Action Options:
+		<td>	<a href=#ArcaneArmorTraining>Arcane Armor Training</a>,
+			<a href=#StudiedCombat>Studied Combat</a>
 	<tr>
 		<th>	Attack Options:
-		<td>	<a href=#SpringAttack>		Spring Attack	</a>
+		<td>	
 	<tr>
 		<th>	Special Abilities:
-		<td>	<a href=#DebilitatingInjury>	Debilitating Injury,	</a>
-			<a href=#EternalGrudge>		Eternal Grudge,		</a>
-			<a href=#Opportunist>		Opportunist,		</a>
-			<a href=#SneakAttack>		Sneak Attack		</a> +5d6
-<tr>
+		<td>	<a href=#StudiedStrike>Studied Strike</a> +4d6
+	<tr>
+		<td colspan=2 class=line>
+	<tr>
+		<th>	Spellcasting:
+		<td>	Can spontaeously cast arcane spells (save DC: 14 + spell level).
+	<tr>
+		<th>	Caster Level:
+		<td>	10
+	<tr>
+		<th>	Concentration:
+		<td>	+14 (+16 to cast spells defensively)
+	<tr>
+		<th>	<a href="RagnarSpells.htm#Investigator" target="_blank">Spells Known:</a>
+		<td>	<dl class=spells>
+				<dt>	<a href="RagnarSpells.htm#Investigator0" target="_blank">Level 0:</a>		<dd>	Detect Magic, Know Direction, Light, Mage Hand, Open/Close, Prestidigitation
+				<dt>	<a href="RagnarSpells.htm#Investigator1" target="_blank">Level 1:</a>		<dd>	Charm Person, Comprehend Languages, Cure Light Wounds, Disguise Self, Identify
+				<dt>	<a href="RagnarSpells.htm#Investigator2" target="_blank">Level 2:</a>		<dd>	Alter Self, Detect Thoughts, Heroism, Mirror Image, Tongues
+				<dt>	<a href="RagnarSpells.htm#Investigator3" target="_blank">Level 3:</a>		<dd>	Displacement, Haste, Invisibility Sphere, Phantom Steed
+				<dt>	<a href="RagnarSpells.htm#Investigator4" target="_blank">Level 4:</a>		<dd>	Cure Critical Wounds, Dimension Door
+			</dl>
+	<tr>
+		<th>	Spells per Day:
+		<td>	<dl class=spells>
+				<dt>	Level 0:	<dd>	Unlimited
+				<dt>	Level 1:	<dd>	6
+				<dt>	Level 2:	<dd>	5
+				<dt>	Level 3:	<dd>	4
+				<dt>	Level 4:	<dd>	2
+			</dl>
+	<tr>
 		<td colspan=2 class=line>
 	<tr>
 		<th>	<a href=RagnarBasic.htm target=_blank>Abilities:</a>
-		<td>	Str 16, Dex 14, Con 14, Int 14, Wis 12, Cha 8
+		<td>	Str 13, Dex 20, Con 12, Int 18, Wis 12, Cha 8
 	<tr>
 		<th>	Other Abilities:
-		<td>	<a href=#DangerSense>		Danger Sense,		</a>
-			<a href=#DivineEpiphany>	Divine Epiphany,	</a>
-			<a href=#DivinePurpose>		Divine Purpose,		</a>
-			<a href=#ElvenImmunities>	Elven Immunities,	</a>
-			<a href=#FinesseTraining>	Finesse Training	</a> (Dagger),
-			<a href=#RogueTalent>		Rogue Talents		</a> 
-				(<a href=#LedgeWalker>		Ledge Walker, 		</a>
-				<a href=#Opportunist>		Opportunist,		</a>
-				<a href=#Resiliency>		Resiliency,		</a>
-				<a href=#Survivalist>		Survivalist,		</a>
-				<a href=#WeaponTraining>	Weapon Training:	</a> Short Sword),
-			<a href=#RogueEdge>		Rogue&rsquo;s Edge,	</a>
-			<a href=#Trapfinding>		Trapfinding,		</a>
-			<a href=#WeaponFamiliarity>	Weapon Familiarity	</a>
+		<td>	<a href=#ArcaneFocus>Arcane Focus</a>,
+			<a href=#BlendedView>Blended View</a>,
+			<a href=#Derring-Do>Derring-Do</a>, 
+			<a href=#ElvenImmunities>Elven Immunities</a>,
+			<a href=#ElvenMagic>Elven Magic</a>,
+			<a href=#Inspiration>Inspiration</a>,
+			<a href=#InspiredFinesse>Inspired Finesse</a>,
+			<a href=#InspiredPanache>Inspired Panache</a>,
+			<a href=#KeenRecollection>Keen Recollection</a>, 
+			<a href=#KnowItAll>Know-It-All</a>,
+			Poison Resistance +6,
+			<a href=#Trapfinding>Trapfinding</a>,
+			<a href=#TrapSense>Trap Sense</a> +3
 	<tr>
 		<th>	Feats:
-		<td>	<a href=#WeaponFinesse>		Weapon Finesse,		</a>
-			<a href=#Dodge>			Dodge, 			</a>
-			<a href=#Mobility>		Mobility, 		</a>
-			<a href=#SpringAttack>		Spring Attack, 		</a>
-			<a href=#ExtraRogueTalent>	Extra Rogue Talent 	</a> (Ledge Walker), 
-			<a href=#NimbleMoves>		Nimble Moves, 		</a>
-			<a href=#WeaponFocus>		Weapon Focus		</a> (Short Sword)
+		<td>	Weapon Focus (Rapier), <a href=#FencingGrace>Fencing Grace</a>, Toughness, Power Attack, Weapon Finesse, Arcane Armor Training, Improved Critical (Rapier)
 	<tr>
 		<th>	Traits:
-		<td>	<a href=#MagicalTalent>Magical Talent</a> (<i>Unwitting Ally</i>), <a href=#Reactionary>Reactionary</a>
+		<td>	Forlorn, Pragmatic Activation
+	<tr>
+		<th>	Investigator Talents:
+		<td>	Underworld Inspiration, <a href=#EideticRecollection>Eidetic Recollection</a>, Quick Study, Expanded Inspiration, Combat Inspiration
 	<tr>
 		<th>	Proficiencies:
-		<td>	All simple weapons, hand crossbow, longbow, longsword, rapier, sap, short sword, shortbow; light armor.
+		<td>	All simple and martial weapons, hand crossbow; light armor, buckler.
 	<tr>
 		<th>	<a href=RagnarSkills.htm target=_blank>Skills:</a>
-		<td>	Acrobatics&nbsp;12,
-			Appraise&nbsp;7,
-			Bluff&nbsp;10,
-			Climb<sup>&dagger;</sup>&nbsp;13,
-			Diplomacy&nbsp;5,
-			Disable&nbsp;Device<sup>&dagger;</sup>&nbsp;15,
-			Escape&nbsp;Artist&nbsp;8,
-			Heal<sup>&dagger;</sup>&nbsp;16,
-			Intimidate&nbsp;5,
-			Knowledge&nbsp;(Dungeoneering)&nbsp;6,
-			Knowledge&nbsp;(Religion)&nbsp;3,
-			Perception<sup>&Dagger;</sup>&nbsp;9,
-			Profession&nbsp;(Cook)&nbsp;5,
-			Ride&nbsp;3,
-			Sense&nbsp;Motive&nbsp;14,
-			Sleight&nbsp;of&nbsp;Hand&nbsp;13,
-			Spellcraft&nbsp;3,
-			Stealth&nbsp;14,
-			Survival&nbsp;9,
-			Swim&nbsp;11,
-			Use&nbsp;Magic&nbsp;Device&nbsp;12
+		<td>	Acrobatics&nbsp;13,
+			Appraise&nbsp;12,
+			Bluff<sup>&ast;</sup>&nbsp;10,
+			Climb&nbsp;9,
+			Diplomacy<sup>&ast;</sup>&nbsp;10,
+			Disable&nbsp;Device<sup>&dagger;&ast;</sup>&nbsp;20,
+			Disguise<sup>&ast;</sup>&nbsp;10,
+			Escape&nbsp;Artist&nbsp;13,
+			Heal<sup>&dagger;&ast;</sup>&nbsp;11,
+			Intimidate<sup>&ast;</sup>&nbsp;10,
+			Knowledge&nbsp;(Arcana)<sup>&ast;</sup>&nbsp;11,
+			Knowledge&nbsp;(Dungeoneering)<sup>&ast;</sup>&nbsp;11,
+			Knowledge&nbsp;(Engineering)<sup>&ast;</sup>&nbsp;11,
+			Knowledge&nbsp;(Geography)<sup>&ast;</sup>&nbsp;11,
+			Knowledge&nbsp;(History)<sup>&ast;</sup>&nbsp;11,
+			Knowledge&nbsp;(Local)<sup>&ast;</sup>&nbsp;11,
+			Knowledge&nbsp;(Nature)<sup>&ast;</sup>&nbsp;11,
+			Knowledge&nbsp;(Nobility)<sup>&ast;</sup>&nbsp;11,
+			Knowledge&nbsp;(Planes)<sup>&ast;</sup>&nbsp;11,
+			Knowledge&nbsp;(Religion)<sup>&ast;</sup>&nbsp;11,
+			Linguistics<sup>&ast;</sup>&nbsp;8,
+			Perception<sup>&Dagger;&ast;</sup>&nbsp;15,
+			Profession&nbsp;(Cook)<sup>&ast;</sup>&nbsp;5,
+			Sense&nbsp;Motive<sup>&ast;</sup>&nbsp;9,
+			Sleight&nbsp;of&nbsp;Hand<sup>&ast;</sup>&nbsp;13,
+			Spellcraft&nbsp;12,
+			Stealth<sup>&ast;</sup>&nbsp;13,
+			Swim&nbsp;9,
+			Use&nbsp;Magic&nbsp;Device&nbsp;18
 	<tr>
 		<th>	<a href=RagnarGear.htm target=_blank>Equipment:</a>
-		<td>	<i>Mithral Chain Shirt +2</i>, <i>Buckler +1</i>, <a href=#Sword><i>Holy Transformative Silversheen Short Sword +1</i></a>, Masterwork Alchemical Silver Dagger, Shortbow, Hand Crossbow and 60 Bolts,
-			<br>
-			10 Potions of <i>Cure Light Wounds</i>, Wands (<i>Alter Self</i>, <i>Charm Person</i>, <i>Comprehend Languages</i>, <i>Cure Light Wounds</i>, <i>Detect Magic</i>, <i>Disguise Self</i>, <i>Identify</i>, <i>Know Direction</i>, <i>Light</i>, and <i>Sanctuary</i>), 
-			<br>
-			3 Pots of <a href=#AlchemicalGrease>Alchemical Grease</a>, 
-			2 Vials of <a href=#Antitoxin>Antitoxin</a>, 
-			12 Vials of <a href=#DrowPoison>Drow Poison</a>, 
-			11 Flasks of <a href=#HolyWater>Holy Water</a>, 
-			2 Packets of <a href=#InsomniaPowder>Insomnia Powder</a>,
-			2 Packets of <a href=#ItchingPowder>Itching Powder</a>,
-			5 Flasks of <a href=#Oil>Oil</a>, 
-			2 Flasks of <a href=#SmellingSalts>Smelling Salts</a>, 
-			2 <a href=#Smokestick>Smokesticks</a>, 
-			3 Packets of <a href=#SneezingPowder>Sneezing Powder</a>, 
-			2 <a href=#SpiderSac>Spider Sacs</a>, 
-			7 <a href=#Tindertwig>Tindertwigs</a>, 
-
-			<br>
-			<a href=#BagOfHolding><i>Bag of Holding (Type II)</i></a>, <i>Ring of Feather Falling</i>, <a href=#Figurine><i>Toy Horse</i></a>, 
-			<br>
-			Climber&rsquo;s Kit, Dungeoneering Kit (Deluxe), Healer&rsquo;s Kit, Survival Kit (Masterwork), Thieves&rsquo;s Tools (Masterwork), 
-			<br>
-			2 Bags of Caltrops, 2 Earplugs, 2 Grappling Hooks, Hammer, Mirror, 300&rsquo; of Silk Rope, Silver Holy Symbol, 
-			Candle Lamp and 20 Candles, <a href=#CelestialLamp>Celestial Lamp</a>, Holy Symbol Tattoo, <i>&amp;c</i>
+		<td>	<i>Mithral Chain Shirt +3</i>, <i>Mithral Buckler +2</i>, <i>Rapier +3</i>, Dagger, Hand Crossbow, 60 Bolts,
+			<i>Amulet of Natural Armor +1</i>, <i>Belt of Incredible Dexterity +2</i>, <a href=#CircletOfPersuasion><i>Circlet of Persuasion</i></a>, <a href=#Headband><i>Headband of Vast Intelligence +2</i></a>, <a href=#RagnarsCloak><i>Ragnar&rsquo;s Cloak</i></a>, <i>Ring of Feather Falling</i>, <i>Ring of Protection +1</i>, 
+			<a href=#BagOfHolding><i>Bag of Holding (Type I)</i></a>, 2 Vials of <a href=#Antitoxin>Antitoxin</a>, 5 Flasks of Oil, <a href=#CelestialLamp><i>Celestial Lamp</i></a>, Healer&rsquo;s Kit, Thieves&rsquo; Tools (Masterwork)
 	<tr>
 		<th>	Wealth:
-		<td>	837.88 gp
+		<td>	40.34 gp
 	<tr>
 		<th>	Experience:
 		<td>	120000
 	<tr>
 		<th>	Favored Class:
-		<td>	Rogue
+		<td>	Investigator
 </table>
 <sup>&dagger;</sup> This includes the +2 bonus from your masterwork tool.	<br/>
-<sup>&Dagger;</sup> You have a +4 bonus to locate traps and a +3 bonus to avoid being surprised by a foe.
+<sup>&Dagger;</sup> You have a +5 bonus to locate traps.			<br/>
+<sup>&ast;</sup> You can use inspiration to add +1d6 to this skill for free.	<br/>
+<sup>&sect;</sup> You have a +2 bonus to identify the properties of magic items.
 
 
 
 <h1>Special Abilities</h1>
 <hr class=big>
-<h2 class=top>Attack Options</h2>
+<h2 class=top>Swift Actions</h2>
 <hr>
 <dl>
-	<dt id=SpringAttack>		Spring Attack
-	<dd>				As a full round action, you can move up to your speed and make a single melee attack without provoking any attacks of opportunity from the target of your attack. You can move both before and after the attack, but you must move at least 10 feet before the attack and the total distance that you move cannot be greater than your speed. You cannot use this ability to attack a foe that is adjacent to you at the start of your turn.
-</dl>
+	<dt id=ArcaneArmorTraining>	Arcane Armor Training
+	<dd>				As a swift action, you can reduce the arcane spell failure chance due to the armor you are wearing by 10% for any spells you cast this round.
 
-
-<h2>Passive Abilities</h2>
-<hr>
-<dl>
-	<dt id=BlendedView>		Blended View
-	<dd>				You gain darkvision to a distance of 60 feet.
-
-	<dt id=DangerSense>		Danger Sense (Ex)
-	<dd>				You gain a +1 bonus on Reflex saves to avoid traps, a +1 dodge bonus to AC against attacks made by traps, and a +1 bonus on Perception checks to avoid being surprised by a foe. These bonuses increase by 1 every 3 rogue levels thereafter (to a maximum of +6 at 18th level).
-
-	<dt id=Darkvision>		Darkvision
-	<dd>				You can see in total darkness, out to a range of 60 feet.  Within this range, you can see as clearly as a sighted creature could see in an area of bright light. Darkvision is black and white only but otherwise like normal sight.  It does not allow you to see anything that youcould not see otherwise&mdash;invisible objects are still invisible, and illusions are still visible as what they seem to be. Likewise, darkvision subjects you to gaze attacks normally. The presence of light does not spoil darkvision.
-
-	<dt id=DivinePurpose>		Divine Purpose (Su)
-	<dd>				You gain a +1 sacred bonus on Fortitude and Will saving throws.
-
-	<dt id=Dodge>			Dodge
-	<dd>				You gain a +1 dodge bonus to your AC. A condition that makes you lose your Dex bonus to AC also makes you lose the benefits of this feat.
-
-	<dt id=ElvenImmunities>		Elven Immunities
-	<dd>				You are immune to magic sleep effects and get a +2 racial bonus on saving throws against enchantment spells and effects.
-
-	<dt id=EternalGrudge>		Eternal Grudge
-	<dd>				You receive a +1 bonus on attack rolls against humanoids of the dwarf and orc subtypes.
-
-	<dt id=Evasion>			Evasion (Ex)
-	<dd>				If you succeed at a Reflex saving throw against an attack that normally deals half damage on a successful save, you instead take no damage. Evasion can be used only if you are wearing light armor or no armor.  You do not gain the benefit of evasion while you are helpless.
-
-	<dt id=LedgeWalker>		Ledge Walker (Ex)
-	<dd>				You can move along narrow, uneven, or slippery surfaces (such as ice) at full speed using the Acrobatics skill without penalty. In addition, you are not flat-footed when using Acrobatics to move along such surfaces, and retain your Dexterity bonus to AC.
-
-	<dt id=LowLightVision>		Low-Light Vision
-	<dd>				You can see twice as far as normal in dim light and can see outdoors on a moonlit night as well as you can during the day.  Low-light vision is color vision. 
-
-	<dt id=Mobility>		Mobility
-	<dd>				You get a +4 dodge bonus to Armor Class against attacks of opportunity caused when you move out of or within a threatened area. A condition that makes you lose your Dexterity bonus to Armor Class (if any) also makes you lose dodge bonuses.
-
-	<dt id=NimbleMoves>		Nimble Moves
-	<dd>				Whenever you move, you may move through 5 feet of difficult terrain each round as if it were normal terrain. This feat allows you to take a 5-foot step into difficult terrain.
-
-	<dt id=Reactionary>		Reactionary
-	<dd>				You gain a +2 trait bonus on Initiative checks.
-
-	<dt id=Survivalist>		Survivalist
-	<dd>				You add Heal and Survival to your list of class skills.
-
-	<dt id=Trapfinding>		Trapfinding (Ex)
-	<dd>				Add &frac12; your rogue level (round down) to Perception checks to locate traps and to Disable Device skill checks. You can use Disable Device to disarm magic traps. The bonus to Disable Device is already included above.
-
-	<dt id=WeaponFamiliarity>	Weapon Familiarity
-	<dd>				You are proficient with longbows (including composite longbows), longswords, rapiers, and shortbows (including composite shortbows), and treat any weapon with the word &ldquo;elven&rdquo; in its name as a martial weapon.
-
-	<dt id=WeaponFinesse>		Weapon Finesse
-	<dd>				With a light weapon, rapier, whip, or spiked chain made for a creature of your size category, you may use your Dexterity modifier instead of your Strength modifier on attack rolls. If you carry a shield, its armor check penalty applies to your attack rolls.
-
-	<dt id=WeaponFocus>		Weapon Focus (Short Sword)
-	<dd>				You gain a +1 bonus on all attack rolls you make using a short sword.
-
-	<dt id=WeaponTraining>		Weapon Training
-	<dd>				You gain <a href=#WeaponFocus>Weapon Focus</a> as a bonus feat.
-</dl>
-
-
-<h2>Immediate Actions</h2>
-<hr>
-<dl>
-	<dt id=Resiliency>		Resiliency (Ex)
-	<dd>				Once per day, you can gain a number of temporary hit points equal to twice your rogue level. Activating this ability is an immediate action that can be performed only when you are brought to below 0 hit points. This ability can be used to prevent you from dying. These temporary hit points last for 1 minute. If your hit points drop below 0 due to the loss of these temporary hit points, you fall unconscious and is dying as normal.
-</dl>
-
-
-<h2>Standard Actions</h2>
-<hr>
-<dl>
-	<dt id=DivineEpiphany>		Divine Epiphany (Su)
-	<dd>				Once per day, you can peer into the immediate future and predict the results of a specific action as if you had cast an <a href="Spellbook.htm#Augury" target=_blank><i>augury</i></a> spell.  The caster level of this spell is equal to your sanctified rogue class level. 
-
-	<dt id=MagicalTalent>		Magical Talent (Sp)
-	<dd>				You may cast <a href="Spellbook.htm#Unwitting Ally" target=_blank><i>unwitting ally</i></a> once per day as a spell-like ability. This spell-like ability is cast at your highest caster level gained; if you have no caster level, it functions at CL 1st. The spell-like ability&rsquo;s save DC is Charisma-based.
+	<dt id=StudiedCombat>		Studied Combat (Ex)
+	<dd>				You can use a move action or a swift action to study a single enemy that you can see. Upon doing so, you add &frac12; your investigator level as an insight bonus on melee attack rolls and as a bonus on damage rolls against the creature. This effect lasts for a number of rounds equal to your Intelligence modifier (minimum 1) or until you deal damage with a <a href=#StudiedStrike>studied strike</a>, whichever comes first. The bonus on damage rolls is precision damage, and is not multiplied on a critical hit.  You can only have one target of studied combat at a time, and once a creature has become the target of your studied combat, it cannot become the target of your studied combat again for 24 hours unless you expend one use of <a href=#Inspiration>inspiration</a> when taking the action to use this ability.
 </dl>
 
 
@@ -278,94 +217,78 @@
 <h1>Other Abilities</h1>
 <hr class="big">
 <dl>
-	<dt id=DebilitatingInjury>	Debilitating Injury (Ex)
-	<dd>				Whenever you deal <a href=#SneakAttack>sneak attack</a> damage to a foe, you can also debilitate the target of your attack, causing it to take a penalty for 1 round (in addition to any penalty caused by a rogue talent or other special ability). You can choose to apply any one of the following penalties when the damage is dealt.
+	<dt id=ArcaneFocus>		Arcane Focus
+	<dd>				You gain a +2 bonus on concentration checks made to cast arcane spells defensively.
 
-<dl class=options style="margin-bottom:0">
-	<dt>	Bewildered
-	<dd>	The target becomes bewildered, taking a &minus;2 penalty to AC and an additional &minus;2 penalty to AC against all attacks made by you.  At 10th level and 16th level, the penalty to AC against your attacks made by the rogue increases by &minus;2 (to a total maximum of &minus;8).
+	<dt id=BlendedView>		Blended View
+	<dd>				You have low-light vision and also gain darkvision to a distance of 60 feet.
 
-	<dt>	Disoriented
-	<dd>	The target takes a &minus;2 penalty on attack rolls, and an additional &minus;2 penalty on all attack rolls it makes against you. At 10th level and 16th level, the penalty on attack rolls made against you increases by &minus;2 (to a total maximum of &minus;8).
+	<dt id=Deeds>			Deeds
+	<dd>				You can spend <a href=#InspiredPanache>panache</a> points to accomplish deeds. Most deeds grant you a momentary bonus or effect, but some provide longer-lasting effects. Some deeds remain in effect while you at least 1 panache point, but do not require expending panache to be maintained. You can only perform deeds of your level or lower. Unless otherwise noted, a deed can be performed multiple successive times, as long as you have or spend the required number of panache points to perform the deed.
 
-	<dt>	Hampered
-	<dd>	All of the target&rsquo;s speeds are reduced by half (to a minimum of 5 feet). In addition, the target cannot take a 5-foot step.
+<p style="margin-bottom:0">
+Available deeds include:
+		<dl class=options>
+			<dt id=Derring-Do>		Derring-Do (Ex)
+			<dd>				You can spend 1 panache point when you make an Acrobatics, Climb, Escape Artist, Fly, Ride, or Swim check to roll 1d6 and add the result to the check.  You can do this after you make the check but before the result is revealed.  If the result of the d6 roll is a natural 6, you can roll another 1d6 and add it to the check, and can continue to do this as long as you roll natural 6s, up to a number of times equal to your Dexterity modifier.
+
+			<dt id=DodgingPanache>		Dodging Panache (Ex)
+			<dd>				When an opponent attempts a melee attack against you, can spend 1 panache point to move 5 feet as an immediate action, granting you a dodge bonus to AC equal to your Charisma modifier against the triggering attack.  The movement does not negate the attack, which is resolved as if you had not moved from the original square.  This movement is not a 5-foot step; it provokes attacks of opportunity from creatures other than the one who triggered this deed.  You can only perform this deed while wearing light or no armor, and while carrying no heavier than a light load.
+
+			<dt id=ParryRiposte>		Opportune Parry and Riposte (Ex)
+			<dd>				When an opponent makes a melee attack against you, you can spend 1 panache point and expend a use of an attack of opportunity to attempt to parry that attack.  You make an attack roll as if making an attack of opportunity; for each size category the attack creature is larger than you, you take a &minus;2 penalty on this roll.  If your result is greater than the attacking creature&rsquo;s result, the creature&rsquo;s attack automatically misses.  You must declare the use of this ability after the creature&rsquo;s attack is announced but before its attack roll is made.  Upon performing a successful parry, you can as an immediate action make an attack against the creature whose attack you parried, provided that creature is within your reach and that you have at least 1 panache point.
+		</dl>
+
+	<dt id=EideticRecollection>	Eidetic Recollection (Su)
+	<dd>				You can always choose to take 10 on any of your Knowledge checks, even if your&rsquo;e in immediate danger or distracted. You may expend one use of inspiration to take 20 on a Knowledge skill check even if you&rsquo;re in immediate danger or distracted.
+
+	<dt id=ElvenImmunities>		Elven Immunities
+	<dd>				You are immune to magic sleep effects and get a +2 racial bonus on saving throws against enchantment spells and effects.
+
+	<dt id=ElvenMagic>		Elven Magic
+	<dd>				You receive a +2 racial bonus on caster level checks made to overcome spell resistance and a +2 racial bonus on Spellcraft checks made to identify the properties of magic items.
+
+	<dt id=FencingGrace>		Fencing Grace
+	<dd>				When wielding a rapier one-handed, you can add your Dexterity modifier instead of your Strength modifier to that weapon&rsquo;s damage. The rapier must be one appropriate for your size. You do not gain this benefit while fighting with two weapons or using flurry of blows, or anytime another hand is otherwise occupied.  In addition, you gain a +2 bonus to your CMD against attempts to disarm you of your rapier while you have at least 1 panache point.
+
+	<dt id=Inspiration>		Inspiration (Ex)
+	<dd>				You have an inspiration pool equal to &frac12; you investigator level + your Intelligence modifier (minimum 1) which refreshes each day, typically after you get a restful night&rsquo;s sleep.  As a free action, you can expend one use of inspiration from your pool to add 1d6 to the result of an ability check or skill check, including any on which you take 10 or 20. This choice is made after the check is rolled and before the results are revealed. You can only use inspiration once per check or roll. You can use inspiration on any Bluff, Diplomacy, Disable Device, Disguise, Heal, Intimidate, Knowledge, Linguistics, Perception, Profession, Sense Motive, Sleight of Hand, or Stealth skill checks without expending a use of inspiration.  Inspiration can also be used on attack rolls and saving throws. In the case of saving throws, using inspiration is an immediate action rather than a free action.
+
+	<dt id=InspiredFinesse>		Inspired Finesse (Ex)
+	<dd>				You gain the benefits of Weapon Finesse with the rapier (this ability counts as having the Weapon Finesse feat for the purpose of meeting feat prerequisits) and gain Weapon Focus (rapier) as a bonus feat.
+
+	<dt id=InspiredPanache>		Inspired Panache (Ex)
+	<dd>				At the start of each day, you gain a number of panache points equal to your Charisma modifier (minimum 1) plus your Intelligence modifier (minimum 1) which you can spend to accomplish <a href=#Deeds>deeds</a>.  You regain panache whenever you score a critical hit with a rapier, although your panache cannot go higher than its starting value.
+
+	<dt id=KeenRecollection>	Keen Recollection
+	<dd>				You can attempt all Knowledge skill checks untrained.
+
+	<dt id=KnowItAll>		Know-It-All (Ex)
+	<dd>				You receive a +1 bonus on skill checks for all Knowledge skills in which you are trained. This bonus increases by 1 at 5th level and every 3 investigator levels thereafter, to a maximum of +6 at 17th level.
+
+	<dt id=StudiedStrike>		Studied Strike (Ex)
+	<dd>				You can make a studied strike against the target of your <a href=#StudiedCombat>studied combat</a> as a free action, upon successfully hitting your studied target with a melee attack, to deal additional damage. The damage is 1d6 at 4th level, and increases by 1d6 for every 2 levels thereafter (to a maximum of 9d6 at 20th level). The damage of studied strike is precision damage and is not multiplied on a critical hit; creatures that are immune to sneak attacks are also immune to studied strike.  If your attack used a weapon that deals nonlethal damage (like a sap, whip, or an unarmed strike), you may choose to have the additional damage from studied strike be nonlethal damage instead of lethal damage. If you chose to make an attack with a lethal weapon instead deal nonlethal damage (with the usual &minus;44 penalty), the studied strike damage may also deal nonlethal damage.  You must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. You cannot use studied strike against a creature with concealment.
+
+	<dt id=Trapfinding>		Trapfinding (Ex)
+	<dd>				Add &frac12; your investigator level (round down) to Perception checks to locate traps and to Disable Device skill checks. You can use Disable Device to disarm magic traps. The bonus to Disable Device is already included above.
+
+	<dt id=TrapSense>		Trap Sense (Ex)
+	<dd>				You gain a +1 bonus on Reflex saves to avoid traps and a +1 dodge bonus to AC against attacks made by traps.  These bonuses increase by 1 at 6th level and every 3 investigator levels thereafter (to a maximum of +6 at 18th level).
+
 </dl>
-These penalties do not stack with themselves, but additional attacks that deal sneak attack damage extend the duration by 1 round. A creature cannot suffer from more than one penalty from this ability at a time. If a new penalty is applied, the old penalty immediately ends. Any form of healing applied to a target suffering from one of these penalties also removes the penalty.
-
-	<dt id=ExtraRogueTalent>	Extra Rogue Talent
-	<dd>				You gain one additional rogue talent. You must meet all of the prerequisites for this rogue talent.
-					<br><b>Special:</b> You can gain Extra Rogue Talent multiple times.
-
-	<dt id=FinesseTraining>		Finesse Training (Ex)
-	<dd>				You gain <a href=#WeaponFinesse>Weapon Finesse</a> as a bonus feat.
-					In addition, you can select any one type of weapon that can be used with Weapon Finesse (such as rapiers or daggers).
-					Once this choice is made, it cannot be changed.
-					Whenever you make a successful melee attack with the selected weapon, you add your Dexterity modifier instead of your Strength modifier to the damage roll.
-					If any effect would prevent you from adding your Strength modifier to the damage roll, you do not add your Dexterity modifier.
-					You can select a second weapon at 11th level and a third at 19th level.
-
-	<dt id=Opportunist>		Opportunist (Ex)
-	<dd>				You can make an attack of opportunity against an opponent who has just been struck for damage in melee by another character. This attack counts as an attack of opportunity for that round and can&rsquo;t be used more than once per round.
-
-	<dt id=RogueTalent>		Rogue Talent
-	<dd>				Starting at 2nd level, you gain one rogue talent.  You gain an additional rogue talent for every 2 levels of rogue attained after 2nd level.  You cannot select an individual talent more than once.
-
-	<dt id=RogueEdge>		Rogue&rsquo;s Edge (Ex)
-	<dd>				You gain the skill unlock powers for a skill as appropriate for your number of ranks in that skill.  At 10th, 15th, and 20th level, you choose an additional skill and gain skill unlock powers for that skill as well.  You have chosen <a href=#SenseMotive>Sense Motive</a> and <a href=#Heal>Heal</a>.
-
-	<dt id=SneakAttack>		Sneak Attack
-	<dd>				Whenever you flank your target or it would be denied a Dexterity bonus to AC, you do extra damage. If you score a critical hit with a sneak attack, the extra damage is not multiplied. Ranged attacks can count as sneak attacks only if the target is within 30 feet. You must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. You cannot sneak attack while striking a creature with concealment. With a weapon that deals nonlethal damage, you can make a sneak attack that deals nonlethal damage instead of lethal damage; you cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack. 
-</dl>
 
 
-<h1>Skill Unlocks</h1>
-<hr class=big>
-<dl>
-	<dt id=Heal>			Heal
-	<dd>				With sufficient ranks in Heal, you earn the following:
-<dl class=options>
-	<dt>	5 Ranks
-	<dd>	When you treat deadly wounds, the target recovers hit points and ability damage as if it had rested for a full day.
 
-	<dt>	10 Ranks
-	<dd>	When you treat deadly wounds, the target recovers hit points as if it had rested for a full day with long-term care.
 
-	<dt>	15 Ranks
-	<dd>	When you treat deadly wounds, the creature recovers hit point and ability damage as if it had rested for 3 days.
-
-	<dt>	2 Ranks
-	<dd>	When you treat deadly wounds, the target recovers hit point and ability damage as if it had rested for 3 days with long-term care.
-</dl>
-
-	<dt id=SenseMotive>		Sense Motive
-	<dd>				With sufficient ranks in Sense Motive, you earn the following:			
-<dl class=options>
-	<dt>	5 Ranks
-	<dd>	If you were aware of an opponent before rolling initiative (such as when you ambush an enemy or negotiations break down into combat, but not when both sides happen upon each other or you are surprised), you can attempt a Sense Motive check as part of your initiative check (DC = 11 + the highest Bluff modifier among your opponents or DC 15, whichever is higher). If you succeed, you gain a +1 bonus on the initiative check, plus an additional +1 for every 5 by which you exceeded the DC.
-
-	<dt>	10 Ranks
-	<dd>	After 1 minute of conversation, you can read a creature&rsquo;s surface thoughts (as <a href="Spellbook.htm#Detect Thoughts" target=_blank><i>detect thoughts</i></a>) by attempting a Sense Motive check at a &minus;20 penalty opposed by the creature’s Bluff check.
-
-	<dt>	15 Ranks
-	<dd>	You can read surface thoughts as above after 1 round. In addition, when attacked, you can attempt a Sense Motive check as an immediate action opposed by your target&rsquo;s attack roll. A successful check grants a +2 insight bonus to your AC against attacks from that specific opponent for 1 minute.
-
-	<dt>	20 Ranks
-	<dd>	You can read surface thoughts as above as a standard action. A successful check to gain an insight bonus to your AC also negates the attack that triggered it.
-</dl>
-</dl>
 
 <h1>Equipment</h1>
 <hr class=big>
 <dl>
-	<dt id=AlchemicalGrease>	Alchemical Grease
-	<dd>				Each pot of this slick black goo has sufficient contents to cover one Medium creature or two Small ones. If you coat yourself in alchemical grease, you gain a +5 alchemical bonus on Escape Artist checks, on combat maneuver checks made to escape a grapple, and to your CMD to avoid being grappled; this lasts 4 hours or until you wash it off.
-
 	<dt id=Antitoxin>		Antitoxin
 	<dd>				If you drink a vial of antitoxin, you gain a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.
 
-	<dt id=BagOfHolding>		<i>Bag of Holding (Type II)</i>
-	<dd>				This appears to be a common cloth sack about 2 feet by 4 feet in size. The <i>bag of holding</i> opens into a nondimensional space which can contain 70 cubic feet.  Regardless of what is put into the bag, up to a maximum weight of 500 pounds, the bag weighs 25 pounds.
+	<dt id=BagOfHolding>		<i>Bag of Holding (Type I)</i>
+	<dd>				This appears to be a common cloth sack about 2 feet by 4 feet in size. The <i>bag of holding</i> opens into a nondimensional space which can contain 30 cubic feet.  Regardless of what is put into the bag, up to a maximum weight of 250 pounds, the bag weighs 15 pounds.
 	
 <p>
 If a <i>bag of holding</i> is overloaded, or if sharp objects pierce it (from inside or outside), the bag immediately ruptures and is ruined, and all contents are lost forever. If a <i>bag of holding</i> is turned inside out, all of its contents spill out, unharmed, but the bag must be put right before it can be used again. If living creatures are placed within the bag, they can survive for up to 10 minutes, after which time they suffocate. Retrieving a specific item from a <i>bag of holding</i> is a move action, unless the bag contains more than an ordinary backpack would hold,in which case retrieving a specific item is a full-round action.
@@ -374,81 +297,85 @@ If a <i>bag of holding</i> is overloaded, or if sharp objects pierce it (from in
 Magic items placed inside the bag do not offer any benefit to the character carrying the bag.
 
 <p style="margin-bottom:0">
-If a <i>bag of holdingi</i> is placed within a <i>portable hole</i>, a rift to the Astral Plane is torn in the space: bag and hole alike are sucked into the void and forever lost. If a <i>portable hole</i> is placed within a <i>bag of holding</i>, it opens a gate to the Astral Plane: the hole, the bag, and any creatures within a 10-foot radius are drawn there, destroying the <i>portable hole</i> and <i>bag of holding</i> in the process.
+If a <i>bag of holding</i> is placed within a <i>portable hole</i>, a rift to the Astral Plane is torn in the space: bag and hole alike are sucked into the void and forever lost. If a <i>portable hole</i> is placed within a <i>bag of holding</i>, it opens a gate to the Astral Plane: the hole, the bag, and any creatures within a 10-foot radius are drawn there, destroying the <i>portable hole</i> and <i>bag of holding</i> in the process.
 
-	<dt id=CelestialLamp>		Celestial Lamp
+	<dt id=CelestialLamp>		<i>Celestial Lamp</i>
 	<dd>				This polished lantern contains a <a href="Spellbook.htm#Continual Flame" target=_blank><i>continual flame</i></a> and sheds light as a common lamp. If its font of consecrated crystal and metalwork is filled with holy water, the lamp&rsquo;s light is sanctified for 24 hours, adding a +1 bonus to the save DC of channeled positive energy or energy channeled to harm evil outsiders within a 30-foot radius.
-
-	<dt id=DrowPoison>		Drow Poison
-	<dd>				This is an injury poison.  When injured, a victim must succeed on a DC 13 Fortitude save; failure means that the victim is unconscious for one minute and must save again after the minute is up; if the victim fails this second save as well, he or she is unconscious for 2d4 hours.
-
-	<dt id=Sword>			<i>Holy Transformative Silversheen Short Sword +1</i>
-	<dd>				This <i>+1 short sword </i> is made of silversheen.  As such, it is immune to rust, including that of rust monsters, the <i>rusting grasp</i> spell, and so on, and bypasses damage resistance as if it were alchemical silver.  The weapon is good-aligned and thus bypasses the corresponding damage reduction. It deals an extra 2d6 points of damage against all creatures of evil alignment. It bestows one permanent negative level on any evil creature attempting to wield it. The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including by restoration spells) while the weapon is wielded.
-
-<p style="margin-bottom:0">
-Upon its wielder&rsquo;s command, as a standard action, the sword alters its shape, becoming any other light melee weapon.  It can also become a one-handed Small melee weapon or a two-handed Tiny melee weapon, both usable by a Medium creature without the &minus;2 penalty for using a weapon of the wrong size.  The weapon retains all of its abilities, including enhancement bonuses and weapon special abilities, except those prohibited by its shape.  When unattended, the sword reverts to its true shape.
-
-	<dt id=HolyWater>		Holy Water
-	<dd>				Holy water damages undead creatures and evil outsiders almost as if it were acid. A flask of holy water can be thrown as a splash weapon.  Treat this attack as a ranged touch attack with a range increment of 10 feet. A flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, you must open the flask and pour the holy water out onto the target. Thus, you can douse an incorporeal creature with holy water only if you are adjacent to it. Doing so is a ranged touch attack that does not provoke attacks of opportunity.  A direct hit by a flask of holy water deals 2d4 points of damage to an undead creature or an evil outsider. Each such creature within 5 feet of the point where the flask hits takes 1 point of damage from the splash.
-
-	<dt id=InsomniaPowder>		Insomnia Powder
-	<dd>				This is a powerful stimulant that affects the nervous systems of any creatures that inhale or ingest it, preventing them from sleeping for 24 hours. A packet of insomnia powder can be thrown as a splash weapon with a range increment of 10 feet. A creature struck by a direct hit must succeed at a DC 12 Fortitude save to avoid the effect, while those in the splash radius must succeed at DC 8 Fortitude saves. This is a poison effect.  Although it causes no severe damage, insomnia can cause a creature to be more prone to fatigue or exhaustion. Though it prevents sleep (and thus prevents wizards and some other spellcasters from regaining their spells), insomnia powder does not prevent a creature from meditating or praying. The effects of insomnia powder can be countered by <i>sleep</i>, <i>neutralize poison</i>, or similar effects.
-
-	<dt id=ItchingPowder>		Itching Powder
-	<dd>				This splash weapon causes targets to suffer from uncontrollable itching until they spend at least 1 round washing it off. Throwing a packet of itching powder is a splash attack with a range increment of 10 feet. Anyone standing on the square of impact must succeed at a DC 12 Fortitude save to resist the powder, while those in adjacent squares must make a DC 8 Fortitude save. Creatures that fail the save take a &minus;2 penalty on attack rolls, saving throws, skill checks, and ability checks until they wash the powder off. This is a poison effect. 
-
-	<dt id=Oil>			Oil
-	<dd>				A 1-pint flask of oil burns for 6 hours in a lantern or lamp.
 	
-<p>
-You can also use a flask of oil as a splash weapon.  Preparing a flask with a fuse is a full round action.  Once it is thrown, there is a 50% chance of the flask igniting successfully.  Throwing the flask is a ranged touch attack with a range increment of 10 feet.  A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the flames before taking this additional damage. Extinguishing the flames requires a DC 15 Reflex save. Rolling on the ground provides the target a +2 bonus on the save. Leaping into a large body of water or magically extinguishing the flames automatically smothers the fire. 
+	<dt id=CircletOfPersuasion>	<i>Circlet of Persuasion</i>
+	<dd>				This delicately engraved silver headband grants its wearer a +3 competence bonus on Charisma-based checks.
 
-<p style="margin-bottom:0">
-You can pour a pint of oil on the ground to cover an area 5 feet square, provided that the surface is smooth. If lit, the oil burns for 2 rounds and deals 1d3 points of fire damage to each creature in the area.
+	<dt id=Headband>		<i>Headband of Vast Intelligence +2</i>
+	<dd>				This intricate gold headband is decorated with several small blue and deep purple gemstones. The headband grants the wearer a +2 enhancement bonus to Intelligence and grants a number of skill ranks in Use Magic Device equal to the wearer&rsquo;s total Hit Dice. These ranks do not stack with the ranks a creature already possesses.
 
-	<dt id=SmellingSalts>		Smelling Salts
-	<dd>				Smelling salts grant you a new saving throw to resist any spell or effect that has already rendered you unconscious or staggered. If exposed to smelling salts while dying, you immediately become conscious and staggered, but must still make stabilization checks each round; if you perform any standard action (or any other strenuous action), you take 1 point of damage after completing the act and fall unconscious again. A container of smelling salts has dozens of uses if stoppered after each use, but depletes in a matter of hours if left open.
-	
-	<dt id=Smokestick>		Smokestick
-	<dd>				This alchemically treated wooden stick instantly creates thick, opaque smoke when burned. The smoke fills a 10-foot cube (treat the effect as a <a href="Spellbook.htm#Fog Cloud" target=_blank><i>fog cloud</i></a> spell, except that a moderate or stronger wind dissipates the smoke in 1 round). The stick is consumed after 1 round, and the smoke dissipates naturally after 1 minute.
-
-	<dt id=SneezingPowder>		Sneezing Powder
-	<dd>				This splash weapon that causes uncontrollable sneezing for 1d4+1 rounds. Anyone standing in the square of impact must succeed at a DC 12 Fortitude save to resist the powder, while those in adjacent squares must make DC 8 Fortitude saves. Creatures affected by sneezing powder must make a DC 10 Fortitude save every round for the duration or be staggered until their next turn. This is a poison effect.
-
-	<dt id=SpiderSac>		Spider Sac
-	<dd>				When squeezed, a spider sac&rsquo;s adhesive shoots out to a maximum range of 10 feet and sticks to whatever it strikes, whereupon the strand dries instantly into a durable fibrous rope. For the purposes of climbing, treat a spider sac as a grappling hook except that all surfaces are AC 5. A spider sac can also be used as a lasso except with AC 10, 4 hit points, and a DC 24 Strength check to burst. A spider sac is a single-use item.
-
-	<dt id=Tindertwig>		Tindertwig
-	<dd>				The alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a flint and steel or magnifying glass. Lighting a torch with a tindertwig is a standard action rather than a full-round action, and lighting any other fire with one is at least a standard action. A tindertwig burns for 1d2 rounds and sheds light as a candle. Tindertwigs are waterproof, but must be dried before you can strike them.
-
-	<dt id=Figurine>		<i>Toy Horse</i>
-	<dd>				This toy wooden horse can be transformed into a riding horse, complete with gear, as if casting the <a href="Spellbook.htm#Mount" target=_blank><i>mount</i></a> spell at caster level 1.
+	<dt id=RagnarsCloak>		Ragnar&rsquo;s Cloak
+	<dd>				This cloak combines the effects of a <i>cloak of resistance +2</i> and <i>muleback cords</i>.  As such, it provides a +2 resistance bonus on all saving throws, makes the wearer&rsquos muscles appear larger, and let the wearer treat his Strength score as 8 higher than normal when determining his carrying capacity.
 </dl>
 
 
 <h1>Notes</h1>
 <hr class=big>
-This sheet is a little overcomplete from what I usually do, but since what you gave me had everything, I put it all here.  If it were me, I would leave off the rules text for things like
-<ul style="margin:auto 0pt">
-	<li>	Darkvision
-	<li>	Dodge
-	<li>	Elven Immunities
-	<li>	Mobility
-	<li>	Reactionary
-	<li>	Survivalist
-	<li>	Weapon Finesse
-	<li>	Weapon Focus
-	<li>	Weapon Training
-	<li>	Extra Rogue Talent
-	<li>	Fleet-Footed
-	<li>	Rogue Talent
-	<li>	Rogue&rsquo;s Edge
+<p span style="margin-bottom:0">
+Okay, this is the investigator version of Ragnar.  Hopefully you&rsquo;re as happy with this as I think you will be!  Just as a reminder, what he's good at:
+</p>
+<ul style="margin-top:0">
+	<li>	<b>In combat</b>:
+		<ul>
+			<li>	Your attack and damage aren&rsquo;t great overall&hellip;
+			<li>	&hellip;but you can spend a swift action to study an opponent and get a +5 to hit/damage against them for 4 rounds.  I would pair this with Power Attack, which nets you +2 to hit/+11 to damage.
+			<li>	On the last round in which you have studied combat or when an opponent is close to dropping, you might as well use studied strike for +4d6 damage.  Note you choose to use studied strike <i>after</i> you know whether the attack hit, but <i>before</i> you know whether it dropped the opponent.
+		</ul>
+	<li>	<b>Inspiration</b>:
+		<ul>
+			<li>	You have 9 points/day.
+			<li>	Add 1d6 to an ability check or skill check, which you can do after the check is rolled.  Many skill checks do not require you to spend a point of inspiration.
+			<li>	Add 1d6 to a save, which you can do after the save is rolled.
+			<li>	Add 1d6 to an attack roll, which you can do after the attack is rolled.
+			<li>	Study a previously studied target.
+		</ul>
+	<li>	<b>Panache</b>:
+		<ul>
+			<li>	You have 5 points/day.  You can recover a point by critting with a rapier.
+			<li>	Add 1d6 to an Acrobatics/Climb/Escape Artist/Fly/Ride/Swim check, which you can do after the check is rolled.  If you get a 6 you can roll again.
+			<li>	Move 5&rsquo; away from an attacker; this does not eliminate the first attack but if an attacker 5&rsquo; steps up to you, you can avoid follow-up attacks.
+			<li>	Try to parry an opponent&rsquo;s attack and, if you succeed, try to hit them back.
+		</ul>
+	<li>	<b>Spellcasting</b>:
+		<ul>
+			<li>	Obviously, you have a variety of useful spells.  I aimed largely for utility and healing spells, since that seems like what you might want.
+			<li>	<i>Alter Self</i> is quite useful.  In addition to disguising yourself, you can get a +2 Str or +2 Dex, can add scent or a swim speed, and can get natural attacks.  In practice, it&rsquo;s the +2 Dex, scent, or swim speed you really care about:
+				<ul>
+					<li>	Go small for +2 Dex; this translates to +2 to hit with your rapier and no penalty to damage.  Halfling is good here.
+					<li>	Bugbear (ugh) gives you +2 Str and scent (useful vs invisible creatures).
+					<li>	Lizardfolk would give you +2 Str and a 15&rsquo; swim speed.
+				</ul>
+			<li>	<i>Haste</i> is of course almost always good.
+			<li>	<i>Heroism</i> should be up basically all the time; it&rsquo;s +2 to all attack rolls, saves, and skill checks for 100 minutes!
+			<li>	<i>Mirror image</i> and <i>displacement</i> are both solid defensive spells.
+		</ul>
 </ul>
-The resulting sheet would be a lot more manageable!
 
-<p>
-<b>NB:</b> Gear does <i>not</i> list everything you have, just the things I think are most notable.  The gear sheet is complete.
 
+<p span style="margin-bottom:0">
+A couple of notes:
+</p>
+<ul style="margin-top:0">
+	<li>	You have a couple of languages to pick.  In theme as a Lantern Bearer might be Undercommon and Drow Sign Language, both of which you can use to communicate with Sabrae.  On the topic of Lantern Bearers, Ragnar might reveal himself as one after this adventure and explain that he&rsquo;s been sent to see if Sabrae is the heroic type she claims to be.  In universe, the Lantern Bearers have moved away from contain/exterminate the drow and toward redeeming them, so it would make some sense.  Sabrae had an unfortunate run-in with them before the game started, but Ragnar could offer some sort of official apology or something and that would be that.  Or, of course, you could just ditch the Lantern Bearer idea entirely!
+	<li>	You have some shopping to do for miscellaneous stuff. Get some acid, some holy water, your holy symbol tattoo, a <i>Traveler&rsquo;s Any-Tool</i>, maybe a <i>Robe of Infinite Twine</i>, maybe some potions.  Also look at any other mundane gear you think you&rsquo;re missing and really want. I had to be pretty merciless because money was tight (cf the 40 gp in loose change you have!).
+	<li>	Your ranged combat capabilities are virtually non-existent.  A few ways you could patch that up:
+			<ul>
+				<li>	Spend 3375 gp on a <i>+1 Adaptive Composite Shortbow</i> and get the arrows to go with it.  Less classy than your hand crossbow, but more effective.  Still only attacking at +14/+9 for 1d6+2/&times;3 damage, but better than nothing!
+				<li>	Spend 1000 gp on a <i>Page of Spell Knowledge (Ear-Piercing Scream).</i>  Lets you cast <i>ear-piercing scream</i> as if you knew it; the spell would do 5d6 damage to a single target at a range of 50&rsquo; with a Fort save for &frac12; damage.  Those who fail the Fort save also lose a turn.
+				<li>	Spend 6750 gp on a <i>wand of magic missile</i> (CL 9) which you can UMD to do 5d4+5 at a range of 190&rsquo;, but has limited charges.
+				<li>	Spend 7100 gp to combine your <i>ring of feather falling</i> with a <i>ring of spell knowledge (type 2)</i> into which you could have Caivre cast <i>magic missile</i>.  This would let you cast <i>magic missile</i> using your second-level spell slots.
+			</ul>
+	<li>	Things I would look at in the future:
+			<ul>
+				<li>	<b>Feats:</b> Extra Inspiration, Extra Investigator Talent, Great Fortitude
+				<li>	<b>Investigator Talents:</b> Amazing Inspiration, Greater Combat Inspiration, Rogue Talent (Resilience), Studied Defense
+				<li>	<b>Gear:</b> add inspired to your rapier.
+			</ul>
+</ul>
 
 </body>
 </html>
