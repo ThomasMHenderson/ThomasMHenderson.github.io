@@ -10,7 +10,7 @@
 <body>
 
 <h1 class=top>Ragnar Knope</h1>
-<h3>Chaotic Good Elven Male Inspired Blade Swashbuckler 1 / Questioner Investigator 11</h3>
+<h3>Chaotic Good Elven Male Inspired Blade Swashbuckler 1 / Questioner Investigator 13</h3>
 <h4>Ragnar is 5&rsquo;11&rdquo; tall and weighs 125 pounds.  He has silver hair, cropped short, and silver-green eyes.</h4>
 
 <table>
@@ -22,7 +22,7 @@
 		<td>	+6
 	<tr>
 		<th>	Senses:
-		<td>	Perception +17; low-light vision; 60&rsquo; darkvision<br>
+		<td>	Perception +18; low-light vision; 60&rsquo; darkvision<br>
 			+6 to locate traps
 	<tr>
 		<th>	Languages:
@@ -31,10 +31,10 @@
 		<td colspan=2 class=line>
 	<tr>
 		<th>	Hit Points:
-		<td>	97
+		<td>	104	<!-- Took average -->
 	<tr>
 		<th>	Armor Class:
-		<td>	29 (+7 armor, +3 shield, +6 Dex, +1 natural, +2 deflection), touch 18, flat-footed 23
+		<td>	30 (+7 armor, +3 shield, +6 Dex, +2 natural, +2 deflection), touch 18, flat-footed 24
 			<br>You receive a +3 dodge bonus against attacks made by traps
 	<tr>
 		<th>	Combat Maneuver Defense:
@@ -47,7 +47,7 @@
 			You receive a +2 racial bonus against enchantment spells and effects. 
 	<tr>
 		<th>	Automatic Defenses:
-		<td>	You are immune to magic sleep effects and to poison.
+		<td>	You are immune to magic sleep effects and to poison.<br><a href="#Evasion">Evasion</a>
 	<tr>
 		<th>	Activated Defenses:
 		<td style="width:100%">
@@ -82,7 +82,7 @@
 			<a href=#StudiedCombat>Studied Combat</a>
 	<tr>
 		<th>	Attack Options:
-		<td>	
+		<td>	<a href="#PowerAttack">Power Attack</a>
 	<tr>
 		<th>	Special Abilities:
 		<td>	<a href=#DominoEffect>Domino Effect</a>, 
@@ -94,18 +94,19 @@
 		<td>	Can spontaeously cast arcane spells (save DC: 14 + spell level).
 	<tr>
 		<th>	Caster Level:
-		<td>	12
+		<td>	13
 	<tr>
 		<th>	Concentration:
-		<td>	+16 (+20 to cast spells defensively)
+		<td>	+17 (+21 to cast spells defensively)
 	<tr>
 		<th>	<a href="RagnarSpells.htm#Investigator" target="_blank">Spells Known:</a>
 		<td>	<dl class=spells>
-				<dt>	<a href="RagnarSpells.htm#Investigator0" target="_blank">Level 0:</a>		<dd>	Detect Magic, Know Direction, Light, Mage Hand, Prestidigitation, Spark
-				<dt>	<a href="RagnarSpells.htm#Investigator1" target="_blank">Level 1:</a>		<dd>	Comprehend Languages, Cure Light Wounds, Expeditious Retreat, False Face, Identify, Touch of Gracelessness
-				<dt>	<a href="RagnarSpells.htm#Investigator2" target="_blank">Level 2:</a>		<dd>	Heroism, Mirror Image, Silence, Swipe, Tongues
-				<dt>	<a href="RagnarSpells.htm#Investigator3" target="_blank">Level 3:</a>		<dd>	Displacement, Haste, Sculpt Sound, Shifting Shadows
-				<dt>	<a href="RagnarSpells.htm#Investigator4" target="_blank">Level 4:</a>		<dd>	Cure Critical Wounds, Dimension Door, Greater Invisibility, Shadow Dragon Aspect
+				<dt>	<a href="RagnarSpells.htm#Investigator0" target="_blank">Level 0:</a>		<dd>	Detect Magic, Light, Mage Hand, Prestidigitation, Read Magic, Spark
+				<dt>	<a href="RagnarSpells.htm#Investigator1" target="_blank">Level 1:</a>		<dd>	Comprehend Languages, Cure Light Wounds, Detect Secret Doors, Expeditious Retreat, Identify, Touch of Gracelessness
+				<dt>	<a href="RagnarSpells.htm#Investigator2" target="_blank">Level 2:</a>		<dd>	Calm Emotions, Heroism, Mirror Image, Sense vitals, Silence, Tongues
+				<dt>	<a href="RagnarSpells.htm#Investigator3" target="_blank">Level 3:</a>		<dd>	Conjure Carriage, Displacement, Haste, Shifting Shadows, Spectral Scout
+				<dt>	<a href="RagnarSpells.htm#Investigator4" target="_blank">Level 4:</a>		<dd>	Contingent Scroll, Cure Critical Wounds, Dimension Door, Greater Invisibility
+				<dt>	<a href="RagnarSpells.htm#Investigator5" target="_blank">Level 5:</a>		<dd>	Shadow Endurance, Shadow Evocation
 			</dl>
 	<tr>
 		<th>	Spells per Day:
@@ -115,6 +116,7 @@
 				<dt>	Level 2:	<dd>	6
 				<dt>	Level 3:	<dd>	5
 				<dt>	Level 4:	<dd>	4
+				<dt>	Level 5:	<dd>	1
 			</dl>
 	<tr>
 		<td colspan=2 class=line>
@@ -144,7 +146,7 @@
 		<td>	Forlorn, Pragmatic Activation
 	<tr>
 		<th>	Investigator Talents:
-		<td>	Underworld Inspiration, <a href=#EideticRecollection>Eidetic Recollection</a>, Quick Study, Expanded Inspiration, Combat Inspiration, Domino Effect, Amazing Inspiration
+		<td>	Underworld Inspiration, <a href=#EideticRecollection>Eidetic Recollection</a>, Quick Study, Expanded Inspiration, Combat Inspiration, Domino Effect, Amazing Inspiration, Tenacious Inspiration
 	<tr>
 		<th>	Proficiencies:
 		<td>	All simple and martial weapons, hand crossbow; light armor, buckler.
@@ -155,9 +157,11 @@
 			Bluff<sup>&ast;</sup>&nbsp;10,
 			Climb&nbsp;9,
 			Diplomacy<sup>&ast;</sup>&nbsp;10,
-			Disable&nbsp;Device<sup>&dagger;&ast;</sup>&nbsp;30,
+			Disable&nbsp;Device<sup>&dagger;&ast;</sup>&nbsp;31,
 			Disguise<sup>&ast;</sup>&nbsp;10,
 			Escape&nbsp;Artist&nbsp;14,
+			Fly&nbsp;8,
+			Handle&nbsp;Animal&nbsp;1,
 			Heal<sup>&dagger;&ast;</sup>&nbsp;11,
 			Intimidate<sup>&ast;</sup>&nbsp;10,
 			Knowledge&nbsp;(Arcana)<sup>&ast;</sup>&nbsp;13,
@@ -171,14 +175,14 @@
 			Knowledge&nbsp;(Planes)<sup>&ast;</sup>&nbsp;12,
 			Knowledge&nbsp;(Religion)<sup>&ast;</sup>&nbsp;12,
 			Linguistics<sup>&ast;</sup>&nbsp;8,
-			Perception<sup>&Dagger;&ast;</sup>&nbsp;17,
+			Perception<sup>&Dagger;&ast;</sup>&nbsp;18,
 			Profession&nbsp;(Cook)<sup>&ast;</sup>&nbsp;5,
 			Sense&nbsp;Motive<sup>&ast;</sup>&nbsp;10,
 			Sleight&nbsp;of&nbsp;Hand<sup>&ast;</sup>&nbsp;14,
 			Spellcraft&nbsp;14,
-			Stealth<sup>&ast;</sup>&nbsp;19,
+			Stealth<sup>&ast;</sup>&nbsp;23,
 			Swim&nbsp;9,
-			Use&nbsp;Magic&nbsp;Device&nbsp;19
+			Use&nbsp;Magic&nbsp;Device&nbsp;20
 	<tr>
 		<th>	<a href=RagnarGear.htm target=_blank>Equipment:</a>
 		<td>	<i>Mithral Chain Shirt +3</i>,
@@ -187,7 +191,7 @@
 			<a href=#AdaptiveBow><i>Adaptive +2 Composite Longbow</i></a>, 
 			20 Durable Arrows,
 			Dagger,
-			<i>Amulet of Natural Armor +1</i>,
+			<i>Amulet of Natural Armor +2</i>,
 			<i>Belt of Incredible Dexterity +4</i>,
 			<a href=#CircletOfPersuasion><i>Circlet of Persuasion</i></a>,
 			<a href=#Headband><i>Headband of Vast Intelligence +2</i></a>,
@@ -196,6 +200,7 @@
 			<a href=#RagnarsRing><i>Ragnar&rsquo;s Ring</i></a>,
 			<i>Ring of Protection +2</i>, 
 			<a href=#PageSpellKnowledge><i>Page of Spell Knowledge (Touch of Gracelessness)</i></a>,
+			<a href=#PageSpellKnowledge><i>Page of Spell Knowledge (Sense Vitals)</i></a>,
 			<a href=#SpellGuardBracers><i>Spellguard Bracers</i></a>, 
 			<a href=#BagOfHolding><i>Bag of Holding (Type I)</i></a>,
 			2 Vials of <a href=#Antitoxin>Antitoxin</a>,
@@ -207,10 +212,10 @@
 			<i>Wand of Cure Light Wounds</i>
 	<tr>
 		<th>	Wealth:
-		<td>	8703.79 gp
+		<td>	35173.79 gp
 	<tr>
 		<th>	Experience:
-		<td>	319220
+		<td>	447220
 	<tr>
 		<th>	Favored Class:
 		<td>	Investigator
@@ -240,6 +245,14 @@
 
 	<dt id=StudiedCombat>		Studied Combat (Ex)
 	<dd>				You can use a move action or a swift action to study a single enemy that you can see. Upon doing so, you add &frac12; your investigator level as an insight bonus on melee attack rolls and as a bonus on damage rolls against the creature. This effect lasts for a number of rounds equal to your Intelligence modifier (minimum 1) or until you deal damage with a <a href=#StudiedStrike>studied strike</a>, whichever comes first. The bonus on damage rolls is precision damage, and is not multiplied on a critical hit.  You can only have one target of studied combat at a time, and once a creature has become the target of your studied combat, it cannot become the target of your studied combat again for 24 hours unless you expend one use of <a href=#Inspiration>inspiration</a> when taking the action to use this ability.
+</dl>
+
+
+<h2>Attack Options</h2>
+<hr>
+<dl>
+	<dt id=PowerAttack>	Power Attack
+	<dd>			You can take a &minus;3 penalty on all melee attack rolls and combat maneuver checks to gain a +6 bonus on all melee damage rolls. This bonus to damage is increased to +9 if you are attacking with a two-handed weapon or a one-handed weapon using two hands, and is halved to +3 if you are making an attack with an off-hand weapon or secondary natural weapon.  You must choose to use this feat before making an attack roll, and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage.
 </dl>
 
 
@@ -278,11 +291,14 @@ Available deeds include:
 	<dt id=ElvenMagic>		Elven Magic
 	<dd>				You receive a +2 racial bonus on caster level checks made to overcome spell resistance and a +2 racial bonus on Spellcraft checks made to identify the properties of magic items.
 
+	<dt id=Evasion>			Evasion (Ex)
+	<dd>				Whenever you make a Reflex saving throw to determine whether you take half damage, a successful save results in no damage.
+	
 	<dt id=FencingGrace>		Fencing Grace
 	<dd>				When wielding a rapier one-handed, you can add your Dexterity modifier instead of your Strength modifier to that weapon&rsquo;s damage. The rapier must be one appropriate for your size. You do not gain this benefit while fighting with two weapons or using flurry of blows, or anytime another hand is otherwise occupied.  In addition, you gain a +2 bonus to your CMD against attempts to disarm you of your rapier while you have at least 1 panache point.
 
 	<dt id=Inspiration>		Inspiration (Ex)
-	<dd>				You have an inspiration pool equal to &frac12; you investigator level + your Intelligence modifier (minimum 1) which refreshes each day, typically after you get a restful night&rsquo;s sleep.  As a free action, you can expend one use of inspiration from your pool to add 1d8 to the result of an ability check or skill check, including any on which you take 10 or 20. This choice is made after the check is rolled and before the results are revealed. You can only use inspiration once per check or roll. You can use inspiration on any Bluff, Diplomacy, Disable Device, Disguise, Heal, Intimidate, Knowledge, Linguistics, Perception, Profession, Sense Motive, Sleight of Hand, or Stealth skill checks without expending a use of inspiration.  Inspiration can also be used on attack rolls and saving throws. In the case of saving throws, using inspiration is an immediate action rather than a free action.
+	<dd>				You have an inspiration pool equal to &frac12; you investigator level + your Intelligence modifier (minimum 1) which refreshes each day, typically after you get a restful night&rsquo;s sleep.  As a free action, you can expend one use of inspiration from your pool to add your inspiration die to the result of an ability check or skill check, including any on which you take 10 or 20. This choice is made after the check is rolled and before the results are revealed. You can only use inspiration once per check or roll. You can use inspiration on any Bluff, Diplomacy, Disable Device, Disguise, Heal, Intimidate, Knowledge, Linguistics, Perception, Profession, Sense Motive, Sleight of Hand, or Stealth skill checks without expending a use of inspiration.  Inspiration can also be used on attack rolls and saving throws. In the case of saving throws, using inspiration is an immediate action rather than a free action.  Your inspiration die is 1d8, but when you roll it, you can roll twice and take the higher result.
 
 	<dt id=InspiredFinesse>		Inspired Finesse (Ex)
 	<dd>				You gain the benefits of Weapon Finesse with the rapier (this ability counts as having the Weapon Finesse feat for the purpose of meeting feat prerequisits) and gain Weapon Focus (rapier) as a bonus feat.
@@ -347,12 +363,7 @@ If a <i>bag of holding</i> is placed within a <i>portable hole</i>, a rift to th
 	<dd>				This cloak combines the effects of a <i>cloak of resistance +3</i> and <i>muleback cords</i>.  As such, it provides a +3 resistance bonus on all saving throws, makes the wearer&rsquo;s muscles appear larger, and let the wearer treat his Strength score as 8 higher than normal when determining his carrying capacity.
 
 	<dt id=RagnarsRing>		<i>Ragnar&rsquo;s Ring</i>
-	<dd>				This ring combines the effects of a <i>ring of feather falling</i> and a <i>ring of spell knowledge (type 1)</i>.  If the wearer falls more than 5 feet, it activates immediately and acts exactly like a <a href="Spellbook.htm#Feather Fall" target=_blank><i>feather fall</i></a> effect.  Additionally, a spontaneous arcane spellcaster gains the knowledge of a single 1st- or 2nd-level spell.  The wearer must still encounter a written, active, or cast version of the spell and succeed at a DC 20 Spellcraft check to teach the spell to the ring. Thereafter, the wearer may cast the spell as though he knew the spell and it appeared on his class spell list.  Arcane spells that do not appear on the wearer&rsquo;s class list are treated as one level higher for all purposes (storage and casting).  Currently, the ring stores <i>magic missile.</i>
-
-<!--
-	<dt id=SpellstoringRapier>	Spell Storing Rapier
-	<dd>				This weapon allows a spellcaster to store a single targeted spell of up to 3rd level in the weapon. (The spell must have a casting time of 1 standard action.) Anytime the weapon strikes a creature and the creature takes damage from it, the weapon can immediately cast the spell on that creature as a free action if the wielder desires. (This special ability is an exception to the general rule that casting a spell from an item takes at least as long as casting that spell normally.) Once the spell has been cast from the weapon, a spellcaster can cast any other targeted spell of up to 3rd level into it. The weapon magically imparts to the wielder the name of the spell currently stored within it.  A <i>spell storing</i> weapon emits a strong aura of the evocation school, plus the aura of the spell currently stored.
--->
+	<dd>				This ring combines the effects of a <i>ring of feather falling</i>, a <i>ring of evasion</i>, and a <i>ring of spell knowledge (type 2)</i>.  If the wearer falls more than 5 feet, it activates immediately and acts exactly like a <a href="Spellbook.htm#Feather Fall" target=_blank><i>feather fall</i></a> effect.  Additionally, a spontaneous arcane spellcaster gains the knowledge of a single 1st- or 2nd-level spell.  The wearer must still encounter a written, active, or cast version of the spell and succeed at a DC 20 Spellcraft check to teach the spell to the ring. Thereafter, the wearer may cast the spell as though he knew the spell and it appeared on his class spell list.  Arcane spells that do not appear on the wearer&rsquo;s class list are treated as one level higher for all purposes (storage and casting).  Currently, the ring stores <i>magic missile.</i>  Finally, the ring grants the ability to avoid damage as if she had evasion. Whenever she makes a Reflex saving throw to determine whether she takes half damage, a successful save results in no damage.
 
 	<dt id=SpellguardBracers>	Spellguard Bracers
 	<dd>				These bracers grant the wearer a +2 bonus on concentration checks made to cast defensively. Three times per day, the wearer can choose to roll a concentration check to cast defensively twice and take the better result. 
@@ -372,6 +383,7 @@ Things I would look at in the future:
 	<li>	<b>Investigator Talents:</b> Amazing Inspiration, Greater Combat Inspiration, Rogue Talent (Resilience), Studied Defense
 	<li>	<b>Gear:</b> add inspired to your rapier.
 </ul>
+Caivre owes you 7500 gp.
 
 </body>
 </html>

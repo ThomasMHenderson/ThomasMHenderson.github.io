@@ -7,7 +7,7 @@
 <body>
 
 <h1 class=top>Sonya Valorian</h1>
-<h3>Neutral Good Human Female Slayer 13</h3>
+<h3>Neutral Good Human Female Slayer 143</h3>
 <h4>Sonya is 5&rsquo;4&rdquo; tall and weighs 130 pounds.  She has long white hair and blue eyes.</h4>
 
 <table>
@@ -16,10 +16,10 @@
 		<td>	Medium Humanoid (Human)
 	<tr>
 		<th>	Initiative:
-		<td>	+8
+		<td>	+9
 	<tr>
 		<th>	Senses:
-		<td>	Perception +18
+		<td>	Perception +19; 60&rsquo; darkvision<br>
 			<br>
 			+6 to locate traps
 	<tr>
@@ -29,17 +29,17 @@
 		<td colspan=2 class=line>
 	<tr>
 		<th>	Hit Points:
-		<td>	104
+		<td>	112	<!-- Took average -->
 	<tr>
 		<th>	Armor Class:
 		<td>	29 (+9 armor, +7 Dex, +2 deflection, +1 natural), touch 19, flat-footed 22		<br>
 			You receive a +4 dodge bonus against attacks made by traps
 	<tr>
 		<th>	Combat Maneuver Defense:
-		<td>	35 (+13 BAB, +3 Str, +7 Dex, +2 deflection)
+		<td>	36 (+14 BAB, +3 Str, +7 Dex, +2 deflection)
 	<tr>
 		<th>	<a href=SonyaBasic.htm target=_blank>Saving Throws:</a>
-		<td>	Fort +14, Ref +19, Will +13		<br>
+		<td>	Fort +16, Ref +21, Will +14		<br>
 			You receive a +1 bonus against fear effects.	<br>
 			You receive a +4 bonus on Reflex saves to avoid traps.
 	<tr>
@@ -52,21 +52,21 @@
 		<td>	30 ft. (6 squares)
 	<tr>
 		<th>	Base Attack Bonus:
-		<td>	+13
+		<td>	+14
 	<tr>
 		<th>	Combat Maneuver Bonus:
-		<td>	+16 (+13 BAB, +3 Str)
+		<td>	+17 (+14 BAB, +3 Str)
 	<tr>
 		<th>	Standard Attack:
-		<td>	Longbow +26 missile (1d8+8/&times;3)
+		<td>	Longbow +27 missile (1d8+8/&times;3 +2d6 holy)
 	<tr>
 		<th>	Full Attack:
-		<td>	Longbow +26/+21/+16 missile (1d88/&times;3)
+		<td>	Longbow +27/+22/+17 missile (1d8+8/&times;3 +2d6 holy)
 	<tr>
 		<th>	Other Weapons:
-		<td>	Longsword +17 melee (1d8+4/19-20),				<br>
-			Mithral Dagger +17 melee/+21 missile (1d4+3/19-20), 		<br>
-			Unarmed +16 melee (1d3+3 nonlethal)
+		<td>	Longsword +19 melee (1d8+5/19-20),				<br>
+			Mithral Dagger +18 melee/+22 missile (1d4+3/19-20), 		<br>
+			Unarmed +17 melee (1d3+3 nonlethal)
 	<tr>
 		<th>	Swift Action Options:
 		<td>	
@@ -81,6 +81,7 @@
 		<td>	<a href=#ImprovedPreciseShot>Improved Precise Shot</a>,
 			<a href=#PointBlankMaster>Point-Blank Master</a>,
 			<a href=#PreciseShot>Precise Shot</a>,
+			<a href="#Quarry">Quarry</a>,
 			<a href="#SlayersAdvance">Slayer&rsquo;s Advance</a>, 
 			<a href=#SnapShot>Snap Shot</a>,
 			<a href=#SneakAttack>Sneak Attack</a> 4d6,
@@ -111,11 +112,11 @@
 		<td>	All simple and martial weapons, light armor, medium armor, and shields (but not tower shields)
 	<tr>
 		<th>	<a href=SonyaSkills.htm target=_blank>Skills:</a>
-		<td>	Acrobatics<sup>&star;</sup>&nbsp;21,
+		<td>	Acrobatics<sup>&star;</sup>&nbsp;22,
 			Appraise&nbsp;2,
-			Bluff&nbsp;16,
-			Climb<sup>&star;</sup>&nbsp;18,
-			Disable&nbsp;Device<sup>&star;&sect;</sup>&nbsp;29,
+			Bluff&nbsp;17,
+			Climb<sup>&star;</sup>&nbsp;19,
+			Disable&nbsp;Device<sup>&star;&sect;</sup>&nbsp;31,
 			Disguise&nbsp;4,
 			Escape&nbsp;Artist<sup>&star;</sup>&nbsp;6,
 			Fly<sup>&star;</sup>5;
@@ -126,12 +127,12 @@
 			Knowledge&nbsp;(Local)&nbsp;5,
 			Knowledge&nbsp;(Nature)&nbsp;2,
 			Linguistics&nbsp;2,
-			Perception<sup>&dagger;</sup>&nbsp;18,
+			Perception<sup>&dagger;</sup>&nbsp;19,
 			Ride<sup>&star;</sup>&nbsp;9,
-			Sense&nbsp;Motive&nbsp;15,
+			Sense&nbsp;Motive&nbsp;17,
 			Sleight&nbsp;of&nbsp;Hand<sup>&star;</sup>&nbsp;6,
-			Stealth<sup>&star;</sup>&nbsp;21,
-			Survival<sup>&Dagger;</sup>&nbsp;18,
+			Stealth<sup>&star;</sup>&nbsp;22,
+			Survival<sup>&Dagger;</sup>&nbsp;19,
 			Swim<sup>&star;</sup>&nbsp;6,
 			Use&nbsp;Magic&nbsp;Device&nbsp;1
 	<tr>
@@ -140,8 +141,8 @@
 			<i>Amulet of Natural Armor +1</i>,
 			<i>Cloak of Resistance +4</i>,
 			<i>Ring of Protection +2</i>,
-			<a href=#SonyasBow><i>Adaptive Composite Longbow +5</i></a>,
-			<i>Longsword +1</i>,
+			<a href="#SonyasBow"><i>Sonya&rsquo;s Bow</i></a>,
+			<a href="#Luckblade"><i>Luckblade</i></a>,
 			Mithral Dagger, 
 			40 Durable Arrows, 
 			20 Durable Blunt Arrows, 
@@ -152,6 +153,7 @@
 			<i>Belt of Physical Perfection (Str +2, Dex +4, Con +2)</i>,
 			<i>Headband of Inspired Wisdom +2</i>,
 			<a href=#Bracers><i>Lesser Bracers of Archery</i></a>,
+			<a href="#Goggles"><i>Goggles of Night</i></a>,
 			<a href=#HandyHaversack><i>Handy Haversack</i></a>,
 			<a href=#IounTorch><i>Ioun Torch</i></a>,
 			<a href=#SilverRaven><i>Silver Raven Figurine of Wondrous Power</i></a>,
@@ -160,16 +162,16 @@
 			2 Potions of <i>Cure Light Wounds</i>
 	<tr>
 		<th>	Wealth:
-		<td>	8611.69 gp
+		<td>	51.69 gp
 	<tr>
 		<th>	Experience:
-		<td>	319220
+		<td>	447220
 	<tr>
 		<th>	Favored Class:
 		<td>	Slayer
 </table>
-<sup>&dagger;</sup> You have a +6 bonus to locate traps.	<br>
-<sup>&Dagger;</sup> You have a +6 bonus to follow tracks.	<br>
+<sup>&dagger;</sup> You have a +7 bonus to locate traps.	<br>
+<sup>&Dagger;</sup> You have a +7 bonus to follow tracks.	<br>
 <sup>&sect;</sup> This includes the +2 circumstance bonus from your masterwork tool. 	<br>
 <sup>&star;</sup> This includes the &minus;2 armor check penalty from your armor.
 
@@ -206,6 +208,13 @@ At 5th, 10th, 15th, and 20th levels, the bonuses granted by studied target incre
 	<dt id=SlayersAdvance>		Slayer&rsquo;s Advance (Ex)
 	<dd>				You can move up to twice your base speed once per day as a move action. You can use Stealth as part of this movement, but take a &minus;10 penalty on his check for doing so. At 17th level, you can use this ability twice per day.</dd>
 </dl>
+
+
+<h2>Standard Action Options</h2>
+<hr>
+<dl>
+	<dt id="Quarry">		Quarry (Ex)
+	<dd>				You can denote one target within your line of sight as your quarry.  When you are following the tracks of your quarty, you can take 10 on Survival skill checks while moving at normal speed, without penalty. In addition, you gain a +2 insight bonus on attack rolls made against your quarry, and all critical threats against your quarry are automatically confirmed. You can have no more than one quarry at a time, and the target must be selected as a studied target. You can dismiss this effect at any time as a free action, but cannot select a new quarry target for 24 hours. If you see proof that your quarry is dead, you can select a new quarry target after 1 hour.</dd>
 
 
 <h2>Attack Options</h2>
@@ -250,7 +259,7 @@ At 5th, 10th, 15th, and 20th levels, the bonuses granted by studied target incre
 	<dt id=Trapfinding>		Trapfinding (Ex)
 	<dd>				Add &frac12; your slayer level (round down) to Perception checks to locate traps and to Disable Device skill checks. You can use Disable Device to disarm magic traps. The bonus to Disable Device is already included above. 
 
-	<dt id=TrapSpotter>		Trap Spotter (Ex):
+	<dt id=TrapSpotter>		Trap Spotter (Ex)
 	<dd>				Whenever you come within 10 feet of a trap, you receive an immediate Perception skill check to notice the trap. This check should be made in secret by the GM.
 </dl>
 
@@ -259,34 +268,39 @@ At 5th, 10th, 15th, and 20th levels, the bonuses granted by studied target incre
 <h1>Equipment</h1>
 <hr class=big>
 <dl>
-
-	<dt id=SonyasBow>		<i>Adaptive Composite Longbow +5</i>
-	<dd>				<!-- Upon command, this bow becomes slick with acid and deals an extra 1d6 points of acid damage on a successful hit.  The acid does not harm the wielder, and remains until another command is given.  Additionally, --> This bow responds to the strength of its wielder, acting as a bow with a strength rating equal to its wielder&rsquo;s Strength bonus. The wielder can fire it with a lesser Strength bonus (and cause less damage) if desired.
-
-	<dt id=CelestialArmor>		Celestial Armor
+	<dt id=CelestialArmor>		<i>Celestial Armor</i>
 	<dd>				This <i>+3 chainmail</i> is so fine and light that it can be worn under normal clothing without betraying its presence. It has a maximum Dexterity bonus of +8, an armor check penalty of &minus;2, and an arcane spell failure chance of 15%. It is considered light armor and allows the wearer to use <a href="Spellbook.htm#Fly" target=_blank><i>fly</i></a> on command once per day.
 
 	<dt id=CovenantRing>		Covenant Ring
 	<dd>				When Sabrae and Sonya each wear one of these silver rings, each gains a +1 bonus on saving throws against fear effects.  This bonus ends if their emotional bond is severed, or if one of them is not wearing the ring.
+	
+	<dt id="Goggles">		<i>Goggles of Night</i>
+	<dd>				These goggles have opaque dark crystal lenses.  When worn, they grant the wearer 60&rsquo; darkvision.
 
 	<dt id=HandyHaversack>		<i>Handy Haversack</i>
 	<dd>				A backpack of this sort appears to be well made, well used, and quite ordinary. It has two side pouches, each of which appears large enough to hold about a quart of material. In fact, each is like a <i>bag of holding</i> and can actually hold material of as much as 2 cubic feet in volume or 20 pounds in weight. The large central portion of the pack can contain up to 8 cubic feet or 80 pounds of material. Even when so filled, the backpack always weighs only 5 pounds.  While such storage is useful enough, the pack has an even greater power. When the wearer reaches into it for a specific item, that item is always on top. Thus, no digging around and fumbling is ever necessary to find what a haversack contains. Retrieving any specific item from a haversack is a move action, but it does not provoke the attacks of opportunity that retrieving a stored item usually does. 
 
-	<dt id=Bracers>			<i>Lesser Bracers of Archery</i>
-	<dd>				These bracers look like normal protective wear. They empower the wearer to use any bow (not including crossbows) as if she were proficient in its use. If she already has proficiency with any type of bow, she gains a +1 competence bonus on attack rolls whenever using that type of bow. Both bracers must be worn for the magic to be effective. 
-
 	<dt id=IounTorch>		<i>Ioun Torch</i>
 	<dd>				This item is merely a burned out, dull gray sphere <i>ioun stone</i> with a <i>continual flame</i> spell cast upon it. It retains the ability to float and orbit, and allows Sonya to carry light and still have her hands free.
 
+	<dt id=Bracers>			<i>Lesser Bracers of Archery</i>
+	<dd>				These bracers look like normal protective wear. They empower the wearer to use any bow (not including crossbows) as if she were proficient in its use. If she already has proficiency with any type of bow, she gains a +1 competence bonus on attack rolls whenever using that type of bow. Both bracers must be worn for the magic to be effective. 
+
+	<dt id=Luckblade>		<i>Luckblade</i>
+	<dd>				This <i>+2 long sword</i> gives its possessor a +1 luck bonus on all saving throws. Its possessor also gains the power of good fortune, usable once per day. This extraordinary ability allows its possessor to reroll one roll that she just made, before the results are revealed. She must take the result of the reroll, even if it&rsquo;s worse than the original roll. 
+
 	<dt id=SilverRaven>		<i>Silver Raven Figurine of Wondrous Power</i>
 	<dd>				This silver figurine turns into a raven on command (but it retains its metallic consistency, which gives it hardness 10). Another command sends it off into the air, bearing a message just like a creature affected by an <a href="Spellbook.htm#Animal Messenger"><i>animal messenger</i></a> spell. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special powers or telepathic abilities.  It can maintain its nonfigurine status for only 24 hours per week, but the duration need not be continuous.
+
+	<dt id=SonyasBow>		<i>Sonya&rsquo;s Bow</i>
+	<dd>				This composite longbow has a +5 enhancement bonus.  It is good-aligned and thus bypasses the corresponding damage reduction. It deals an extra 2d6 points of damage against all creatures of evil alignment. It bestows one permanent negative level on any evil creature attempting to wield it. The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including by restoration spells) while the weapon is wielded.  Additionally, the bow responds to the strength of its wielder, acting as a bow with a strength rating equal to its wielder&rsquo;s Strength bonus. The wielder can fire it with a lesser Strength bonus (and cause less damage) if desired.  Finally, three times per day the wielder of the bow can use it to cast <a href="Spellbook.htm#Gravity Bow" target="_blank"><i>gravity bow</i></a> at CL 3.
 </dl>
 
 
 
 <h1>Notes</h1>
 <hr class=big>
-
+You owe Gilbert 4500 gp.
 
 </body>
 </html>
