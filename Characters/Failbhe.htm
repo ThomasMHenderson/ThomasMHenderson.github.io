@@ -7,7 +7,7 @@
 <body>
 
 <h1 class="top">Failbhe Finni</h1>
-<h3>Neutral Half-Elven Male Restorer Druid 2/Diviner 2/Mystic Theurge 10</h3>
+<h3>Neutral Good Half-Elven Male Restorer Druid 2/Diviner 2/Mystic Theurge 10/Stargazer 1</h3>
 <h4 class="note">description</h4>
 
 <table>
@@ -16,10 +16,11 @@
 		<td>	Medium Humanoid (Elf, Human)</td></tr>
 	<tr>
 		<th>	Initiative:</th>
-		<td>	+13</td></tr>
+		<td>	+17</td></tr>
 	<tr>
 		<th>	Senses:</th>
-		<td>	Perception +25; <a href="./Spellbook.htm#Detect Magic" target="_blank"><i>detect magic</i></a></td></tr>
+		<td>	Perception +25; <a href="./Spellbook.htm#Detect Magic" target="_blank"><i>detect magic</i></a>	<br>
+			While your familiar is within arm&rsquo;s reach, you gain a +2 bonus to Perception.</td></tr>
 	<tr>
 		<th>	Languages:</th>
 		<td>	Common (Taldane), Druidic, Elven, Draconic, Sylvan, Terran, Celestial, Abyssal, Infernal</td></tr>
@@ -27,7 +28,7 @@
 		<td colspan=2 class="line"></td></tr>
 	<tr>
 		<th>	Hit Points:</th>
-		<td>	78</td></tr>
+		<td>	80 <span style="color:red"> + 1d6</span></td></tr>
 	<tr>
 		<th>	Armor Class:</th>
 		<td>	12 (+2 Dex), touch 12, flat-footed 10</td></tr>
@@ -36,7 +37,7 @@
 		<td>	18 (+7 BAB, &minus;1 Str, +2 Dex)</td></tr>
 	<tr>
 		<th>	<a href="FailbheBasic.htm" target="_blank">Saving Throws:</a>
-		<td>	Fort +13, Ref +8, Will +24	<br>
+		<td>	Fort +13, Ref +9, Will +25	<br>
 			You receive a +2 racial bonus against enchantment spells and effects.</td></tr>
 	<tr>
 		<th>	Automatic Defenses:</th>
@@ -80,13 +81,16 @@
 			You can spontaneously lose any prepared spell to cast a cure spell of the same level or lower.</td></tr>
 	<tr>
 		<th>	Caster Level:</th>
-		<td>	14</td></tr>
+		<td>	16</td></tr>
 	<tr>
 		<th>	Concentration:</th>
-		<td>	+22</td></tr>
+		<td>	+24</td></tr>
 	<tr>
 		<th>	Domain:</th>
 		<td>	Water (Flowing)</td></tr>
+	<tr>
+		<th>	<a href="FailbheFamiliar.htm" target="_blank">Familiar:</a>
+		<td>	Hare</td></tr>
 	<tr>
 		<th>	<a href="FailbheSpells.htm#Druid" target="_blank">Spells/Day:</a></th>
 		<td>	<dl class=spells>
@@ -99,11 +103,13 @@
 				<dt>	<a href="FailbheSpells.htm#Druid3" target="_blank">Level 3:</a></dt>
 				<dd>	6+1</dd>
 				<dt>	<a href="FailbheSpells.htm#Druid4" target="_blank">Level 4:</a></dt>
-				<dd>	5+1</dd>
+				<dd>	6+1</dd>
 				<dt>	<a href="FailbheSpells.htm#Druid5" target="_blank">Level 5:</a></dt>
 				<dd>	4+1</dd>
 				<dt>	<a href="FailbheSpells.htm#Druid6" target="_blank">Level 6:</a></dt>
 				<dd>	3+1</dd>
+				<dt>	<a href="FailbheSpells.htm#Druid7" target="_blank">Level 7:</a></dt>
+				<dd>	2+1</dd>
 			</dl></td></tr>
 	<tr>
 		<td colspan=2 class="line"></td></tr>
@@ -113,10 +119,10 @@
 			You have an <a href="#ArcaneBond">arcane bond</a> with a ring.</td></tr>
 	<tr>
 		<th>	Caster Level:</th>
-		<td>	14</td></tr>
+		<td>	15</td></tr>
 	<tr>
 		<th>	Concentration:</th>
-		<td>	+20</td></tr>
+		<td>	+21</td></tr>
 	<tr>
 		<th>	Arcane School:</th>
 		<td>	Divination (Foresight)</td></tr>
@@ -156,6 +162,7 @@
 			<a href="#ElvenImmunities">Elven Immunities</a>,
 			<a href="Fey-Sighted">Fey-Sighted</a>,
 			<a href="#Forewarned">Forewarned</a>,
+			<a href="GuidingLight">Guiding Light</a>,
 			<a href="#HealingTouch">Healing Touch</a>,
 			<a href="#Mismatched">Mismatched</a>,
 			<a href="#Multidisciplined">Multidisciplined</a>,
@@ -168,6 +175,7 @@
 		<th>	Feats:</th>
 		<td>	Combat Casting,
 			Elven Spirit, 
+			Extra Spell Synthesis, 
 			Greater Spell Focus (Conjuration, Transmutation),
 			Improved Initiative,
 			Scribe Scroll,
@@ -177,37 +185,43 @@
 		<th>	Traits:</th>
 		<td>	Bifurcated Magic, Reactionary</td></tr>
 	<tr>
+		<th>	Hexes:</td>
+		<td>	<a href="#Murksight">Murksight</a></td></tr>
+	<tr>
 		<th>	Proficiencies:</th>
 		<td>	Club, Dagger, Dart, Heavy Crossbow, Light Crossbow, Quarterstaff, Scimitar, Scythe, Sickle, Shortspear, Sling, and Spear; Light Armor, Medium Armor, Shields</td></tr>
 	<tr>
 		<th>	<a href="FailbheSkills.htm" target="_blank">Skills:</a></th>
 		<td>	Acrobatics&nbsp;5,
-			Fly&nbsp;19,
-			Heal<sup>&dagger;</sup>&nbsp;27,
-			Knowledge&nbsp;(Arcana)&nbsp;23,
+			Fly&nbsp;20,
+			Heal<sup>&dagger;</sup>&nbsp;28,
+			Knowledge&nbsp;(Arcana)&nbsp;22,
 			Knowledge&nbsp;(Dungeoneering)&nbsp;10,
+			Knowledge&nbsp;(Geography)&nbsp;13.
 			Knowledge&nbsp;(Local)&nbsp;10,
-			Knowledge&nbsp;(Nature)&nbsp;21,
+			Knowledge&nbsp;(Nature)&nbsp;20,
 			Knowledge&nbsp;(Nobility)&nbsp;10,
-			Knowledge&nbsp;(Religion)&nbsp;23,
-			Perception&nbsp;25,
+			Knowledge&nbsp;(Planes)&nbsp;13.
+			Knowledge&nbsp;(Religion)&nbsp;24,
+			Perception<sup>&Dagger;</sup>&nbsp;25,
+			Sense&nbsp;Motive<sup>&Dagger;</sup>&nbsp;8,
 			Spellcraft&nbsp;29,
-			Survival&nbsp;25</td></tr>
+			Survival&nbsp;24</td></tr>
 	<tr>
 		<th>	<a href="FailbheGear.htm" target="_blank">Equipment:</a></tg>
-		<td>	Masterwork Quarterstaff, <i>Belt of Physical Might (Dex/Con) +4</i>, <i>Cloak of Resistance +5</i>, <a href="#Headband"><i>Headband of Mental Prowess (Int/Wis) +6</i></a>, <a href="#RingOfFreedomOfMovement"><i>Ring of Freedom of Movement</i></a>, <a href="#BlessedBook"><i>Blessed Book</i></a>, <a href="#EvergreenSeedPouch"><i>Evergreen Seed Pouch</i></a>, 2 sunrods</td></tr>
+		<td>	Masterwork Quarterstaff, <i>Belt of Physical Might (Dex/Con) +4</i>, <i>Cloak of Resistance +5</i>, <a href="#Headband"><i>Headband of Mental Prowess (Int/Wis) +6</i></a>, <a href="#RingOfFreedomOfMovement"><i>Ring of Freedom of Movement</i></a>, <a href="#AnnihilationSpectacles"><i>Annihilation Spectacles</i></a>, <a href="#BlessedBook"><i>Blessed Book</i></a>, <a href="#EvergreenSeedPouch"><i>Evergreen Seed Pouch</i></a>, <a href="#IounStone"><i>Orange Prism Ioun Stone</i></a>, <a href="#ShirtOfSpite"><i>Shirt of Spite</i></a>, 2 sunrods</td></tr>
 	<tr>
 		<th>	Wealth:</th>
-		<td>	1539 gp</td></tr>
+		<td>	59 gp</td></tr>
 	<tr>
 		<th>	Experience:</th>
-		<td>	447220</td></tr>
+		<td>	675000</td></tr>
 	<tr>
 		<th>	Favored Class:</td>
 		<td>	Druid</td></tr>
 </table>
-<sup>&dagger;</sup> You have an extra +1 bonus when using heal to provide first aid.
-
+<sup>&dagger;</sup> You have an extra +1 bonus when using heal to provide first aid.<br/>
+<sup>&Dagger;</sup> While your familiar is within arm&rsquo;s reach, you gain a +2 bonus.
 
 
 <h1>Special Abilities</h1>
@@ -256,6 +270,9 @@
 	<dt id="Forewarned">		Forewarned (Su)</dt>
 	<dd>				You can always act in the surprise round even if you fail to make a Perception roll to notice a foe, but you are still considered flat-footed until you take an action. In addition, you receive a bonus on initiative checks equal to &frac12; your wizard level (minimum +1).</dd>
 
+	<dt id="GuidingLight">		Guiding Light (Su)</dt>
+	<dd>				You gain a familiar, treating your stargazer level as your wizard level.</dd>
+
 	<dt id="HealingTouch">		Healing Touch (Ex)</dt>
 	<dd>				You gain a +2 bonus on Heal checks. When using Heal to provide first aid, the bonus increases to +3.</dd>
 
@@ -265,6 +282,9 @@
 	<dt id="Multidisciplined">	Multidisciplined</dt>
 	<dd>				The effects of spells you casts from all your classes are calculated as though your caster level were 1 level higher, to a maximum of your character level.</dd>
 
+	<dt id="Murksight">		Murksight (Su)
+	<dd>				You can see through natural fog, mist, and rain without penalty, ignoring any concealment bonuses gained from such effects. If the effect is created by magic, you can see up to 15 feet without penalty, with normal penalties and effects applying beyond that distance. This ability functions underwater as well, allowing you to see in murky water as though it were clear. This does not allow you to see anything you could not see otherwise, such as an invisible creature.</dd>
+
 	<dt id="NaturalMedic">		Natural Medic</dt>
 	<dd>				You can &ldquo;lose&rdquo; any prepared druid spell in order to cast any cure spell you can cast of the same spell level or lower (a cure spell is any spell with &ldquo;cure&rdquo; in its name).</dd>
 
@@ -272,7 +292,7 @@
 	<dd>				You have access to the Water (Flowing) cleric domain.  When determining the powers and bonus spells granted by this domain, your effective cleric level is equal to your druid level. You also receives additional domain spell slots, just like a cleric. You must prepare the spell from your domain in this slot and this spell cannot be used to cast a spell spontaneously.</dd>
 
 	<dt id="SpellSynthesis">	Spell Synthesis (Su)</dt>
-	<dd>				Once per day, you can cast two spells (one from each of your spellcasting classes), using one action.  Both spells must have the same casting time.  You can make any decisions concerning the spells independently. Any target affected by both spells takes a &minus;2 penalty on saves made against each spell. You receive a +2 bonus on caster level checks made to overcome spell resistance with these two spells.</dd>
+	<dd>				Twice per day, you can cast two spells (one from each of your spellcasting classes), using one action.  Both spells must have the same casting time.  You can make any decisions concerning the spells independently. Any target affected by both spells takes a &minus;2 penalty on saves made against each spell. You receive a +2 bonus on caster level checks made to overcome spell resistance with these two spells.</dd>
 
 	<dt id="WildEmpathy">		Wild Empathy (Ex)</dt>
 	<dd>				You can improve the attitude of an animal. This ability functions just like a Diplomacy check made to improve the attitude of a person. You roll 1d20 and add your druid level and your Charisma modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.  To use wild empathy, you and the animal must be within 30 feet of one another under normal conditions. Generally, influencing an animal in this way takes 1 minute but, as with influencing people, it might take more or less time.  You can also use this ability to influence a magical beast with an Intelligence score of 1 or 2, but you take a &minus;4 penalty on the check.</dd>
@@ -286,6 +306,9 @@
 <h1>Equipment</h1>
 <hr class=big>
 <dl>
+	<dt id="AnnihilationSpectacles">	<i>Annihilation Spectacles</i></dt>
+	<dd>					Creatures viewed through these darkly tinted glasses sometimes seem to flicker briefly in and out of existence. You can use these spectacles to spontaneously convert any prepared wizard transmutation spell into any other wizard transmutation spell you know; the desired spell must be of the same level or lower than the prepared spell. Once per day, you may use the spectacles to spontaneously cast <a href="Spellbook.htm#Disintegrate"><i>disintegrate</i></a> in place of one of your prepared transmutation wizard spells of 6th level or higher, even if you don&rsquo;t know that spell.</dd>
+	
 	<dt id="BlessedBook">			<i>Blessed Book</i></dt>
 	<dd>					You can fill the 1,000 pages of this book with spells without paying the material cost.</dd>
 
@@ -295,16 +318,20 @@
 	<dt id="Headband">			<i>Headband of Mental Prowess</i></dt>
 	<dd>					This headband grants the wearer a +6 enhancement bonus to Intelligence and Wisdom.  If also grants a number of skill ranks in three skills (Fly, Heal, and Knowledge [religion]) equal to the wearer&rsquo;s total Hit Dice and permits the wearer to speak Abyssal, Celestial, and Infernal.</dd>
 
+	<dt id="IounStone">			<i>Orange Prism Ioun Stone</i></dt>
+	<dd>					While this stone is circling your head, you gain +1 caster level.</dd>
+
 	<dt id="RingOfFreedomOfMovement">	<i>Ring of Freedom of Movement</i></dt>
 	<dd>					This is your bonded ring, and you have crafted it to be a <i>ring of freedom of movement</i>.  It allows the wearer to act as if continually under the effect of a<a href="./Spellbook.htm#Freedom of Movement" target="_blank"><i>freedom of movement</i></a> spell.</dd>
+
+	<dt id="ShirtOfSpite">			<i>Shirt of Spite</i></dt>
+	<dd>					This shirt allows you to cast <a href="Spellbook.htm#Spite" target="_blank"><i>spite</i></a> once/day at CL 7.</dd>
 </dl>
 
 
 <h1>Notes</h1>
 <hr class=big>
-<ul class="note">
-	<li>	Just for the sake of it, you should pick some clothes and should probably buy some food etc.  We don't track these, but coming equipped with stuff is considered polite.</li>
-</ul>
+<span class="note">You owe Sabrae 200 gp, since I paid for your <i>legend lore</i> focus.</span>
 
 </body>
 </html>
