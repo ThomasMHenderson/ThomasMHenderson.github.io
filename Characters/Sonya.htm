@@ -7,7 +7,7 @@
 <body>
 
 <h1 class="top">Sonya Valorian</h1>
-<h3>Neutral Good Human Female Slayer 15</h3>
+<h3>Neutral Good Human Female Slayer 16</h3>
 <h4>Sonya is 5&rsquo;4&rdquo; tall and weighs 130 pounds.  She has long white hair and blue eyes.</h4>
 
 <table>
@@ -20,7 +20,6 @@
 	<tr>
 		<th>	Senses:</th>
 		<td>	Perception +20; 60&rsquo; darkvision<br>
-			<br>
 			+7 to locate traps</td></tr>
 	<tr>
 		<th>	Languages:</th>
@@ -29,19 +28,22 @@
 		<td colspan=2 class="line"></td></tr>
 	<tr>
 		<th>	Hit Points:</th>
-		<td>	119</td></tr>
+		<td>	144		<!-- Took the average --></td></tr>
 	<tr>
 		<th>	Armor Class:</th>
-		<td>	32 (+9 armor, +7 Dex, +4 deflection, +2 natural), touch 21, flat-footed 25		<br>
+		<td>	33 (+9 armor, +8 Dex, +4 deflection, +2 natural), touch 22, flat-footed 25		<br>
 			You receive a +4 dodge bonus against attacks made by traps</td></tr>
 	<tr>
 		<th>	Combat Maneuver Defense:</th>
-		<td>	39 (+15 BAB, +3 Str, +7 Dex, +4 deflection)</td></tr>
+		<td>	42 (+16 BAB, +4 Str, +8 Dex, +4 deflection)</td></tr>
 	<tr>
 		<th>	<a href="SonyaBasic.htm" target="_blank">Saving Throws:</a></th>
-		<td>	Fort +17, Ref +22, Will +16		<br>
+		<td>	Fort +19, Ref +24, Will +16		<br>
 			You receive a +1 bonus against fear effects.	<br>
 			You receive a +4 bonus on Reflex saves to avoid traps.</td></tr>
+	<tr>
+		<th>	Automatic Defenses:</th>
+		<td>	<a href="#Evasion">Evasion</a></td></tr>
 	<tr>
 		<th>	Activated Defenses:</th>
 		<td style="width:100%"></td></tr>
@@ -52,21 +54,21 @@
 		<td>	30 ft. (6 squares)</td></tr>
 	<tr>
 		<th>	Base Attack Bonus:</th>
-		<td>	+15</td></tr>
+		<td>	+16</td></tr>
 	<tr>
 		<th>	Combat Maneuver Bonus:</th>
-		<td>	+18 (+15 BAB, +3 Str)</td></tr>
+		<td>	+20 (+16 BAB, +4 Str)</td></tr>
 	<tr>
 		<th>	Standard Attack:</th>
-		<td>	Longbow +28 missile (1d8+8/&times;3 +2d6 holy)</td></tr>
+		<td>	Longbow +30 missile (1d8+9/&times;3 +2d6 holy)</td></tr>
 	<tr>
 		<th>	Full Attack:</th>
-		<td>	Longbow +28/+23/+28 missile (1d8+8/&times;3 +2d6 holy)</td></tr>
+		<td>	Longbow +30/+25/+23/+18 missile (1d8+9/&times;3 +2d6 holy)</td></tr>
 	<tr>
 		<th>	Other Weapons:</th>
-		<td>	Longsword +24 melee (1d8+5/19-20),				<br>
-			Mithral Dagger +23 melee/+23 missile (1d4+3/19-20), 		<br>
-			Unarmed +22 melee (1d3+3 nonlethal)</td></tr>
+		<td>	Longsword +26 melee (1d8+6/19-20),				<br>
+			Mithral Dagger +25 melee/+25 missile (1d4+4/19-20), 		<br>
+			Unarmed +24 melee (1d3+4 nonlethal)</td></tr>
 	<tr>
 		<th>	Swift Action Options:</th>
 		<td>	</td></tr>
@@ -75,7 +77,9 @@
 		<td>	<a href="#DeadlyAim">Deadly Aim</a>,
 			<a href="#ManyShot">Many Shot</a>,
 			<a href="#PointBlankShot">Point-Blank Shot</a>,
-			<a href="#RapidShot">Rapid Shot</a></td></tr>
+			<a href="#RapidShot">Rapid Shot</a>,
+			<a href="#VitalStrike">Vital Strike</a></td></tr>
+			
 	<tr>
 		<th>	Special Abilities:</th>
 		<td>	<a href="#ImprovedPreciseShot">Improved Precise Shot</a>,
@@ -83,14 +87,13 @@
 			<a href="#PreciseShot">Precise Shot</a>,
 			<a href="#Quarry">Quarry</a>,
 			<a href="#SlayersAdvance">Slayer&rsquo;s Advance</a>, 
-			<a href="#SnapShot">Snap Shot</a>,
 			<a href="#SneakAttack">Sneak Attack</a> 5d6,
 			<a href="#StudiedTarget">Studied Target</a></td></tr>
 <tr>
 		<td colspan=2 class="line"></td></tr>
 	<tr>
 		<th>	<a href="SonyaBasic.htm" target="_blank">Abilities:</a></th>
-		<td>	Str 16, Dex 24, Con 14, Int 12, Wis 14, Cha 10</td></tr>
+		<td>	Str 28, Dex 27, Con 16, Int 12, Wis 14, Cha 10</td></tr>
 	<tr>
 		<th>	Other Abilities:</th>
 		<td>	<a href="#Stalker">Stalker</a>,
@@ -100,26 +103,26 @@
 			<a href="#TrapSpotter">Trap Spotter</a></td></tr>
 	<tr>
 		<th>	Feats:</th>
-		<td>	Point-Blank Shot, Precise Shot, Rapid Shot, Extra Slayer Talent (Trapfinding), Weapon Focus (Longbow), Deadly Aim, Improved Precise Shot, Many Shot, Snap Shot, Point-Blank Master, Improved Snap Shot, Combat Reflexes, Iron Will, Weapon Finesse</td></tr>
+		<td>	Point-Blank Shot, Precise Shot, Rapid Shot, Extra Slayer Talent (Trapfinding), Weapon Focus (Longbow), Deadly Aim, Improved Precise Shot, Many Shot, Vital Strike, Point-Blank Master, Improved Vital Strike, Iron Will, Weapon Finesse, Greater Vital Strike</td></tr>
 	<tr>
 		<th>	Traits:</th>
 		<td>	Reactionary, Indomitable Faith</td></tr>
 	<tr>
 		<th>	Slayer Talents:</th>
-		<td>	Ranger Combat Style (Archery: Rapid Shot), Trapfinding, Weapon Training (Longbow), Ranger Combat Style (Archery: Manyshot), Trap Spotter, Ranger Combat Style (Archery: Point-Blank Master), Combat Trick (Combat Reflexes)</td></tr>
+		<td>	Ranger Combat Style (Archery: Rapid Shot), Trapfinding, Weapon Training (Longbow), Ranger Combat Style (Archery: Manyshot), Trap Spotter, Ranger Combat Style (Archery: Point-Blank Master), Rogue Talent (Evasion), Combat Trick (Greater Vital Strike)</td></tr>
 	<tr>
 		<th>	Proficiencies:</th>
 		<td>	All simple and martial weapons, light armor, medium armor, and shields (but not tower shields)</td></tr>
 	<tr>
 		<th>	<a href="SonyaSkills.htm" target="_blank">Skills:</a></th>
-		<td>	Acrobatics<sup>&star;</sup>&nbsp;23,
+		<td>	Acrobatics<sup>&star;</sup>&nbsp;25,
 			Appraise&nbsp;2,
-			Bluff&nbsp;18,
-			Climb<sup>&star;</sup>&nbsp;20,
-			Disable&nbsp;Device<sup>&star;&sect;</sup>&nbsp;32,
+			Bluff&nbsp;19,
+			Climb<sup>&star;</sup>&nbsp;22,
+			Disable&nbsp;Device<sup>&star;&sect;</sup>&nbsp;35,
 			Disguise&nbsp;4,
-			Escape&nbsp;Artist<sup>&star;</sup>&nbsp;6,
-			Fly<sup>&star;</sup>5;
+			Escape&nbsp;Artist<sup>&star;</sup>&nbsp;7,
+			Fly<sup>&star;</sup>6;
 			Heal&nbsp;6,
 			Intimidate&nbsp;4,
 			Knowledge&nbsp;(Dungeoneering)&nbsp;5,
@@ -127,13 +130,13 @@
 			Knowledge&nbsp;(Local)&nbsp;5,
 			Knowledge&nbsp;(Nature)&nbsp;2,
 			Linguistics&nbsp;2,
-			Perception<sup>&dagger;</sup>&nbsp;20,
-			Ride<sup>&star;</sup>&nbsp;9,
-			Sense&nbsp;Motive&nbsp;19,
-			Sleight&nbsp;of&nbsp;Hand<sup>&star;</sup>&nbsp;6,
-			Stealth<sup>&star;</sup>&nbsp;23,
-			Survival<sup>&Dagger;</sup>&nbsp;20,
-			Swim<sup>&star;</sup>&nbsp;6,
+			Perception<sup>&dagger;</sup>&nbsp;21,
+			Ride<sup>&star;</sup>&nbsp;10,
+			Sense&nbsp;Motive&nbsp;20,
+			Sleight&nbsp;of&nbsp;Hand<sup>&star;</sup>&nbsp;7,
+			Stealth<sup>&star;</sup>&nbsp;25,
+			Survival<sup>&Dagger;</sup>&nbsp;21,
+			Swim<sup>&star;</sup>&nbsp;7,
 			Use&nbsp;Magic&nbsp;Device&nbsp;1</td></tr>
 	<tr>
 		<th>	<a href="SonyaGear.htm" target="_blank">Equipment:</a></th>
@@ -150,28 +153,27 @@
 			20 Durable Alchemical Silver Arrows, 
 			10 Durable Adamantine Arrows, 
 			10 Durable Adamantine Blunt Arrows,
-			<i>Belt of Physical Perfection (Str +2, Dex +4, Con +2)</i>,
+			<i>Belt of Physical Perfection (Str +4, Dex +6, Con +4)</i>,
 			<i>Headband of Inspired Wisdom +2</i>,
 			<a href="#Bracers"><i>Lesser Bracers of Archery</i></a>,
 			<a href="#Goggles"><i>Goggles of Night</i></a>,
 			<a href="#HandyHaversack"><i>Handy Haversack</i></a>,
-			<a href="#IounTorch"><i>Ioun Torch</i></a>,
 			<a href="#SilverRaven"><i>Silver Raven Figurine of Wondrous Power</i></a>,
 			Masterwork Thieves&rsquo; Tools,
 			<a href="#CovenantRing">Covenant Ring</a>,
 			2 Potions of <i>Cure Light Wounds</i></td></tr>
 	<tr>
 		<th>	Wealth:</th>
-		<td>	681.69 gp</td></tr>
+		<td>	2481.69 gp</td></tr>
 	<tr>
 		<th>	Experience:</th>
-		<td>	675000</td></tr>
+		<td>	1,110,000</td></tr>
 	<tr>
 		<th>	Favored Class:</th>
 		<td>	Slayer</td></tr>
 </table>
-<sup>&dagger;</sup> You have a +7 bonus to locate traps.	<br>
-<sup>&Dagger;</sup> You have a +7 bonus to follow tracks.	<br>
+<sup>&dagger;</sup> You have a +8 bonus to locate traps.	<br>
+<sup>&Dagger;</sup> You have a +8 bonus to follow tracks.	<br>
 <sup>&sect;</sup> This includes the +2 circumstance bonus from your masterwork tool. 	<br>
 <sup>&star;</sup> This includes the &minus;2 armor check penalty from your armor.
 
@@ -187,7 +189,7 @@
 
 	<dt id="PreciseShot">		Precise Shot</dt>
 	<dd>				You can shoot or throw ranged weapons at an opponent engaged in melee without taking the standard &minus;4 penalty on your attack roll.</dd>
-/dl>
+</dl>
 
 
 <h2>Swift Action Options</h2>
@@ -214,6 +216,7 @@ At 5th, 10th, 15th, and 20th levels, the bonuses granted by studied target incre
 <dl>
 	<dt id="Quarry">		Quarry (Ex)</dt>
 	<dd>				You can denote one target within your line of sight as your quarry.  When you are following the tracks of your quarty, you can take 10 on Survival skill checks while moving at normal speed, without penalty. In addition, you gain a +2 insight bonus on attack rolls made against your quarry, and all critical threats against your quarry are automatically confirmed. You can have no more than one quarry at a time, and the target must be selected as a studied target. You can dismiss this effect at any time as a free action, but cannot select a new quarry target for 24 hours. If you see proof that your quarry is dead, you can select a new quarry target after 1 hour.</dd>
+</dl>
 
 
 <h2>Attack Options</h2>
@@ -230,6 +233,9 @@ At 5th, 10th, 15th, and 20th levels, the bonuses granted by studied target incre
 
 	<dt id="RapidShot">		Rapid Shot</dt>
 	<dd>				You can make one extra attack per round with a missile weapon at your highest attack bonus, but all attacks made in this round suffer a &minus;2 penalty.  You must use a full attack to use this option.</dd>
+
+	<dt id="VitalStrike">		Vital Strike</dt>
+	<dd>				When you use the attack action, you can make one attack at your highest base attack bonus that deals additional damage. Roll the weapon&rsquo;s damage dice for the attack four times and add the results together before adding bonuses from Strength, weapon abilities (such as <i>flaming</i>), precision based damage, and other damage bonuses. These extra weapon damage dice are not multiplied on a critical hit, but are added to the total.</dd>
 </dl>
 
 
@@ -237,11 +243,11 @@ At 5th, 10th, 15th, and 20th levels, the bonuses granted by studied target incre
 <h1>Other Abilities</h1>
 <hr class="big">
 <dl>
+	<dt id="Evasion">		Evasion</dt>
+	<dd>				If you make a successful Reflex saving throw against an attack that normally deals half damage on a successful save, you instead takes no damage. Evasion can be used only if you are wearing light armor or no armor.  You do not gain the benefit of evasion if you are helpless.</dd>
+
 	<dt id="PointBlankMaster">	Point-Blank Master</dt>
 	<dd>				You do not provoke attacks of opportunity when firing a longbow while threatened.</dd>
-
-	<dt id="SnapShot">		Snap Shot</dt>
-	<dd>				While wielding a ranged weapon with which you have Weapon Focus, you threaten squares within 10 feet of you. You can make attacks of opportunity with that ranged weapon. You do not provoke attacks of opportunity when making a ranged attack as an attack of opportunity.</dd>
 
 	<dt id="SneakAttack">		Sneak Attack</dt>
 	<dd>				Whenever you flank your target or it would be denied a Dexterity bonus to AC, you do extra damage.  If you score a critical hit with a sneak attack, the extra damage is not multiplied.  Ranged attacks can count as sneak attacks only if the target is within 30 feet.  You must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. You cannot sneak attack while striking a creature with concealment. With a weapon that deals nonlethal damage, you can make a sneak attack that deals nonlethal damage instead of lethal damage; you cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack.</dd>
@@ -292,9 +298,6 @@ At 5th, 10th, 15th, and 20th levels, the bonuses granted by studied target incre
 This sword&rsquo;s grip has been wrapped with <i>effortless lace</i>, reducing the attack roll penalty incurred by a wielder who is smaller than the weapon&rsquo;s intended wielder by 2 (to a minimum penalty of 0).  If the weapon is wielded by a creature whose size matches that of the weapon&rsquo;s intended wielder, the weapon is treated as a light melee weapon when determining whether it can be used with Weapon Finesse, as well as with any feat, spell, or special weapon ability that can be used in conjunction with light weapons. Once an effortless lace&rsquo;s abilities have been conveyed to a weapon, the ribbon must remain attached to the weapon or its effects end immediately, its magic is permanently lost, and it is reduced to worthless cloth. Effects that would dispel the magic of the weapon or cause the weapon to gain the broken condition (such as sundering) destroy the ribbon as well.
 </dd> 
 
-	<dt id="SilverRaven">		<i>Silver Raven Figurine of Wondrous Power</i></dt>
-	<dd>				This silver figurine turns into a raven on command (but it retains its metallic consistency, which gives it hardness 10). Another command sends it off into the air, bearing a message just like a creature affected by an <a href="Spellbook.htm#Animal Messenger"><i>animal messenger</i></a> spell. If not commanded to carry a message, the raven obeys the commands of its owner, although it has no special powers or telepathic abilities.  It can maintain its nonfigurine status for only 24 hours per week, but the duration need not be continuous.</dd>
-
 	<dt id="SonyasAmulet">		<i>Sonya&rsquo;s Amulet</i></dt>
 	<dd>				This amulet functions as an <i>amulet of natural armor +2</i> and provides a +2 enhancement bonus to the wearer&rsquo;s natural bonus to Armor Class.  Additionally, it functions as a <i>swarmbane clasp</i>.  The wearer&rsquo;s weapons, unarmed attacks, and natural attacks deal full damage to swarms, regardless of the swarm&rsquo;s immunity to weapon damage (if any, although damage reduction applies as normal). If the wearer is damaged by a swarm, she automatically succeeds on her saving throw against the swarm&rsquo;s distraction ability.</dd>
 
@@ -307,6 +310,8 @@ This sword&rsquo;s grip has been wrapped with <i>effortless lace</i>, reducing t
 <h1>Notes</h1>
 <hr class="big">
 
+Vital Strike
+Evasion
 
 </body>
 </html>
