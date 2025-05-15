@@ -1,9 +1,9 @@
-body		{background-color:#000000; color:#dfdfdf;}
-table, th, td	{border-color:#404040;}
-.which		{color:#ccffff;}
-.class		{border-color:#ccffff;}
-a		{color:#ff0000;}
-hr		{color:#404040; background-color:#404040;}
+body			{background-color:#000000; color:#dfdfdf;}
+table, th, td, caption	{border-color:#404040;}
+.which			{color:#ccffff;}
+.class			{border-color:#ccffff;}
+a			{color:#ff0000;}
+hr			{color:#404040; background-color:#404040;}
 
 
-*:target 	{padding-left: 15px !important;	background:url(GreyArrow.png) no-repeat left center;}
+*:target 		{padding-left: 15px !important;	background:url(GreyArrow.png) no-repeat left center;}

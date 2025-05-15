@@ -1,35 +1,65 @@
-table			{margin-bottom:10px; font-family:"Palatino Linotype"; font-size:10pt;}
-th			{text-align:left; padding-left:10px; padding-right:10px; white-space:nowrap; vertical-align:top;}
-td			{vertical-align:top}
-caption			{text-align:left; margin:0; padding:0; font-weight:bold; white-space:nowrap; font-size:125%}
+/* These are the basics.  I set the html to be 10pt and that scales 1rem to be */
+html			{font-size:10pt}
+hr			{width:80%; height:3px; margin:2.25rem auto;}
+body			{font-family:"Palatino Linotype"; font-size:10pt; margin:0; padding:1rem; margin-left:0.5rem}
+a			{text-decoration:none; font-style:italic}
+p			{margin-bottom:1rem}
 
-table.Options		{margin:0px 20px}
-table.Options th	{font-weight:normal; font-style:italic;}
 
-table.Other		{margin:5px auto; border-collapse:collapse}
-table.Other td		{text-align:center; padding:0px 10px;}
-table.Other th		{padding:0px 10px;}
-table.Other thead th	{text-align:center; font-size:120%; border-bottom-width:2px; border-bottom-style:solid; vertical-align:bottom}
-table.Other tfoot td	{text-align:left; border-top-width:1px; border-top-style:solid; font-size:80%}
-table.Other caption	{text-align:center}
+/* Mythic stuff uses h4 for the mythic or haunt entry.  It has no bottom margin.  We use span.note for the subsidiary; it is inline. */
+h4			{margin-bottom:0; padding-bottom:0; font-weight:bold; text-align:left;}
+h4+p			{margin-top:0}
+p+ol			{margin-top:-1rem}
+p+ul			{margin-top:-1rem}
+p+dl.Indent		{margin-top:-1rem}
+span.Note		{font-weight:bold;}
 
-table.Left tbody td	{text-align:left}
-table.Left thead th	{text-align:left}
-table.VSpace tbody td	{padding-bottom:5pt}
 
-table.Scrying		{margin:5px auto; border-collapse:collapse;}
-table.Scrying td	{text-align:center}
-table.Scrying th	{font-weight:normal; text-align:left}
-table.Scrying thead th	{font-weight:bold; border-bottom-width:2px; border-bottom-style:solid}
-table.Scrying tfoot td	{text-align:left; border-top-width:1px; border-top-style:solid; font-size:80%}
 
-table.Summons td	{text-align:left}
-table.Summons th	{text-align:left; padding-top:10pt; border-bottom-width:2px; border-bottom-style:solid}
-table.Summons caption	{margin-bottom:0; padding-bottom:0}
-
-hr			{width:80%; height:3px; margin:30px auto;}
-body			{font-family:"Palatino Linotype"; font-size:10pt; margin:0; padding:10px; margin-left:5px;}
-a			{text-decoration:none}
+/* I need ul and ol for options in certain cases.  Give them no top separation. */
 ul			{margin-top:0; padding-top:0; border-top:0}
 ol			{margin-top:0; padding-top:0; border-top:0}
-dt			{margin-top:10px}
+
+
+/* My basic thing is a table.  I am giving spells a class SpellbookEntry which, however, I am not using. */
+table			{margin-bottom:1rem; font-family:"Palatino Linotype"; font-size:10pt;}
+th			{vertical-align:top; text-align:left; padding-left:1rem; padding-right:1rem; white-space:nowrap;}
+td			{vertical-align:top; text-align:left;}
+caption			{text-align:left; margin:0; padding:0; font-weight:bold; white-space:nowrap; font-size:125%}
+
+
+/* For hiding various options, I am using a dl.  This is set up to have the dt and dd display on the same line, with the dt having a top margin except on the first one.
+   If they wrap over multiple lines, the dd is not indented, but I think that's okay. */
+dl.Options			{margin-left:1rem; display:grid; grid-template-columns:max-content auto; row-gap:1rem; column-gap:0.5rem}
+dl.Options.Condensed		{row-gap:0.25rem}
+dl.Options dt			{font-style:italic; grid-column:1; margin:0; padding:0}
+dl.Options dd			{grid-column:2; margin:0; padding:0}
+dl.Options dd > p		{margin-bottom:0pt}
+
+
+/* Some things need a table in the description.  That for now is table.Other.  We'll left-align everything. I want, say, a 5rem left-margin.*/
+/*table.Other			{margin-left:auto; margin-right:auto; border-collapse:collapse}*/
+table.Other			{margin-left:5rem; border-collapse:collapse}
+table.Other caption		{text-align:center; border-bottom-style:solid; border-bottom-width:1px}
+table.Other th			{padding:0px 1rem;}
+table.Other td			{padding:0px 1rem;}
+table.Other thead th		{font-size:120%; border-bottom-width:2px; border-bottom-style:solid; vertical-align:bottom}
+table.Other tfoot td		{border-top-width:1px; border-top-style:solid; font-size:80%}
+table.Other td:first-of-type	{white-space:nowrap}
+table.Other th.center		{text-align:center}
+table.Other + table.Other	{margin-top:2rem}
+
+
+/* I also have something special for summoning. Specifically, I have th in the middle of the table.  These have a padding atop, which is missing from the thead.  I could also put it all into tbody and then I need to get th in the first tr */
+table.Summons th			{padding-top:1.5rem; border-bottom-width:2px; border-bottom-style:solid; font-size:120%}
+table.Summons tr:first-of-type th	{padding-top:0}
+
+
+
+
+/* Table.Options and Table.VSpace I should ideally never need. */
+table.Options		{margin:0px 20px}
+table.Options th	{font-weight:normal; font-style:italic;}
+table.VSpace tbody td	{padding-bottom:5pt}
+
+
