@@ -28,6 +28,9 @@ dl.spells dd	{display:inline; float:left; padding:0; margin:0; padding-left:5pt;
 dl.options	{margin-left:15pt}
 dl.options dt	{font-size:10pt; font-style:italic}
 dl.options dd:last-child	{padding-bottom:0}
+dl.inline	{display:grid; column-gap:1ex; margin:0; grid-template-columns: auto 1fr; margin-left:15pt}
+dl.inline dt	{grid-column: 1;}
+dl.inline dd	{grid-column: 2; padding-bottom:0}
 
 
 table.Options th	{border:0; border-bottom:1px solid; padding-bottom:0}
